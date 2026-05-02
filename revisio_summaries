@@ -1,0 +1,259 @@
+This was For the hydrology 2026 revisions I talk with my fellow students 
+
+https://drive.google.com/file/d/1rMMEcDW7II5pkW4pqfpGPfns-XAAXpJs/view?usp=drive_link
+
+***full compilation***
+
+## Overview
+The call was a revision session on hydrology, focused on precipitation concepts, rainfall measurement instruments, methods for estimating missing rainfall data, and techniques for checking rainfall consistency. MAPALO walked Edwin through how to identify common exam questions, interpret formulas, and choose the correct method based on the wording of the problem.
+
+## Precipitation fundamentals
+- Edwin was first asked to define precipitation, and the discussion clarified that precipitation is water falling from the atmosphere to the earth in different forms due to gravity overcoming resistance in the atmosphere.
+- The forms of precipitation covered were rain, drizzle, snow, and hail.
+- A key classification point mentioned was size:
+  - Drizzle drops are less than 0.5 mm.
+  - Hailstones are about 0.5 to 5 cm.
+- The purpose of studying precipitation was linked to practical hydrology applications such as planning, irrigation system design, dams, safety, flood prediction, and drainage design.
+
+## Types of precipitation explained
+- Three main types were discussed:
+  - Convective precipitation: air near the surface heats up, becomes lighter, rises, condenses around nuclei, and falls as rain.
+  - Orographic precipitation: moist air is forced to rise over elevated terrain such as mountains, cools, condenses, and produces rain.
+  - Cyclonic precipitation: different air masses do not mix easily; the heavier air sinks while lighter air rises, leading to rainfall.
+- The discussion emphasized recognizing these types by their physical cause rather than memorizing long definitions.
+
+## Rainfall measurement instruments
+- MAPALO explained that the standard gauge is the non-recording rain gauge, specifically the ordinary rainfall gauge.
+- Recording gauges were then reviewed in detail:
+  - Tipping bucket rain gauge: rain fills a bucket until it reaches a set amount, then it tips and empties; the number of tips is used to determine rainfall depth, and depth divided by time gives rainfall intensity.
+  - Float-type gauge: rainfall raises a float that moves a marker on a chart, creating a continuous record.
+  - Weighing-type gauge: rainfall is collected and converted to mass/volume to determine depth and intensity.
+  - Self-recording gauges were noted as useful for automatically recording intensity over time.
+  - A laser-based gauge was also mentioned as another recording approach in the notes.
+- A practical tip given was that exam questions may ask how each instrument operates, so the operation steps matter more than exact memorized phrasing.
+
+## Rain gauge spacing and number of gauges
+- The discussion covered how many rain gauges are needed in a catchment area.
+- The formula introduced was:
+  - Number of gauges = CV² / allowable error²
+- CV was explained as the coefficient of variation:
+  - CV = standard deviation / mean precipitation × 100%
+- The allowable error was stated as 10% in most exam questions unless otherwise specified.
+- Standard deviation was described as being based on the rainfall values across stations, using the mean rainfall first, then computing squared deviations, summing them, dividing by n - 1, and taking the square root.
+- MAPALO emphasized that exam questions typically give the catchment area and ask how many gauges should be installed, so the WMO standard and the 10% allowable error should be remembered.
+
+## Estimating missing rainfall data
+Three methods for filling missing rainfall data were discussed:
+
+### 1) Normal ratio method
+- Used when station normals differ significantly.
+- The missing rainfall at station X, PX, is estimated using nearby stations, their normals, and their recorded rainfalls.
+- Edwin was encouraged to understand the meaning of each variable rather than memorize only the formula.
+
+### 2) Arithmetic mean method
+- The rainfall values from neighbouring stations are added and divided by the number of stations.
+- This was presented as the simplest missing-data method.
+
+### 3) Inverse distance method
+- The method uses the distance from the missing station to surrounding stations.
+- It was referenced as appearing in the lecture notes and in an example on slide/page 55.
+- The idea is that closer stations have a greater influence on the estimate.
+
+## Consistency checking with the double mass curve
+- MAPALO explained the double mass curve as a way of checking whether rainfall data from a station is consistent when compared with the average of other stations.
+- The method helps identify errors or changes in recording patterns at a station.
+- The formula and idea discussed involved comparing the questionable station’s cumulative rainfall against the cumulative rainfall of surrounding stations, with a correction factor based on slope.
+- Edwin confirmed that he had managed to use the method in class or in practice.
+
+## Mean areal precipitation
+- The session then moved to estimating average rainfall over a catchment area.
+- The main method emphasized was the Thiessen polygon method.
+- The process described was:
+  - Plot gauge positions on the catchment map.
+  - Connect neighboring gauges with straight lines.
+  - Draw perpendicular bisectors.
+  - Form polygons around each gauge.
+  - Assign each gauge an influence area.
+  - Multiply each station’s rainfall by its polygon area and divide by the total catchment area.
+- A point of clarification was made about the area ratio in the formula: the area used for each station should correspond to the station’s influence area relative to the whole catchment area.
+- The isohyetal method was also mentioned as similar in purpose.
+  - Isohyets are lines connecting points of equal rainfall.
+  - Mean rainfall between isohyets is estimated by averaging adjacent rainfall bands.
+- For a rectangular basin question, MAPALO noted that the mean rainfall can be calculated by averaging station values and applying area weighting where needed.
+
+## Exam-oriented clarification and examples
+- Edwin asked several times for clarification on how to interpret diagrams and formulas in exam questions.
+- MAPALO stressed reading the question carefully to determine:
+  - Whether the task is to define precipitation,
+  - classify rainfall type,
+  - calculate gauge number,
+  - estimate missing data,
+  - check consistency, or
+  - compute mean areal rainfall.
+- A sample question was discussed involving a station with missing rainfall and surrounding stations A, B, and C, where the normal ratio method would be applied.
+- Another example involved four gauges in a rectangular basin and calculating mean precipitation using the Thiessen polygon method.
+
+## Key takeaways
+- Precipitation concepts, rainfall forms, and rainfall types should be understood conceptually.
+- The standard non-recording gauge, tipping bucket gauge, float gauge, and weighing gauge were the main instruments reviewed.
+- The most important calculation topics were gauge number estimation, missing data estimation, double mass consistency checking, and mean areal precipitation.
+- MAPALO repeatedly advised Edwin to focus on keywords, formulas, and the meaning of each variable, since these are likely to appear in exam questions.
+rev 2
+## Overview
+The call focused on a tutoring-style review of soil infiltration concepts for Edwin, with emphasis on definitions, factors affecting infiltration, and how to handle common exam questions. MAPALO also walked through the Horton infiltration equation, time of concentration, and measurement methods, including how to interpret and calculate values from tabulated data.
+
+## Key Concepts Reviewed
+
+### Definitions
+- **Infiltration**: the movement of water into the soil.
+- **Percolation**: the movement of water downward through the soil after infiltration.
+- **Infiltration capacity**: the maximum rate at which soil can absorb water under a given condition.
+- **Infiltrability**: closely related to infiltration capacity, but framed around the soil’s ability to absorb water when conditions are considered.
+- **Infiltration rate**: the actual rate at which water enters the soil at a given time.
+- **Cumulative infiltration**: the total amount of water infiltrated over time.
+- **Steady-state infiltration**: infiltration after the soil has adjusted and the rate becomes relatively constant.
+
+### Why Infiltration Matters
+MAPALO explained that infiltration is important in:
+- flood mapping and flood prediction,
+- groundwater recharge and aquifer replenishment,
+- agricultural planning and irrigation needs,
+- domestic water supply from boreholes,
+- soil erosion control,
+- drainage infrastructure design,
+- economic planning in agriculture.
+
+## Factors Affecting Infiltration
+
+### Soil Type
+- Clay soil was described as more compact, so it allows **lower infiltration**.
+- Sandy soil was described as less compact, so it allows **higher infiltration**.
+- MAPALO advised Edwin to always explain the property of the soil and link it directly to infiltration behavior.
+
+### Vegetation and Organic Matter
+- Vegetation can increase infiltration because roots create channels for water movement into the soil.
+- Organic matter improves infiltration because it tends to be less compact and contains more pore spaces.
+- MAPALO corrected Edwin’s initial confusion with transpiration/photosynthesis and emphasized the hydraulic role of roots and soil structure.
+
+### Initial Moisture Condition
+- Dry soil was described as having **higher initial infiltration** because it can absorb more water at the start.
+- Saturated soil has **lower infiltration capacity** because it cannot take in much more water.
+- This was highlighted as a common reason infiltration is high at the beginning of a rainfall event.
+
+### Rainfall Intensity
+- High rainfall intensity can produce higher infiltration demand, but the discussion emphasized linking the condition to how much water is available to infiltrate.
+
+### Temperature
+- Temperature affects viscosity: higher temperatures reduce viscosity, making water flow more easily.
+
+### Slope
+- Steeper slopes reduce infiltration because water moves away faster, leaving less time for infiltration.
+
+## Measuring Methods
+MAPALO noted several methods used to measure infiltration, including:
+- single-ring infiltrometer,
+- double-ring infiltrometer,
+- simulation-based methods,
+- hydrograph analysis.
+
+### Infiltrometers
+- The **double-ring infiltrometer** was explained as having an outer ring that acts like a jacket, helping reduce edge effects.
+- A disadvantage discussed was that driving the rings into the soil can disturb soil structure and create cracks or macropores.
+- Another limitation is that measurements can vary with ring size, which affects accuracy.
+
+### Hydrograph Analysis
+- MAPALO explained that hydrograph-based work uses rainfall–discharge relationships and water balance ideas.
+- Edwin was reminded that the key is understanding the concept and being able to plot or interpret graphs when asked.
+
+## Horton Infiltration Equation and Related Calculation
+MAPALO spent a large portion of the call explaining the Horton infiltration equation and how it is used in calculations.
+
+### Equation Components
+- **f\_b** or **f(t)**: infiltration rate at time t.
+- **f0**: initial infiltration capacity.
+- **fc**: steady-state infiltration capacity.
+- **k**: coefficient related to the decay of infiltration capacity.
+- **t**: time, including time of concentration in some contexts.
+
+MAPALO stressed that students should know the definitions of the parameters, not just the formula.
+
+### Time of Concentration
+- Defined as the time taken for a drop of water from the farthest point in the catchment to reach the outlet or relevant point.
+
+### Using the Equation in a Table/Graph Question
+MAPALO described a method for solving exam questions where students are given infiltration data over time:
+- compute time intervals between readings,
+- compute changes in depth or infiltration values,
+- convert units properly, especially minutes to hours,
+- use the relationship between infiltration capacity and time,
+- identify the steady-state value, which may be estimated from the tail end of the data.
+
+### Log Transformation and Straight-Line Plot
+- For some questions, the equation must be transformed using logarithms to create a straight-line form.
+- MAPALO explained that students may need to apply log base 10 or natural log, depending on the formulation.
+- The purpose is to obtain a line from which **f0** and **fc** can be estimated.
+
+## Exam Technique Advice
+MAPALO repeatedly advised Edwin to:
+- focus on one topic at a time instead of jumping across many courses,
+- attempt practice questions after each concept,
+- memorize the exact wording of definitions,
+- always include important qualifiers such as “under a given condition” in definitions,
+- relate theory to real soil behavior when explaining answers,
+- understand graphs and equations rather than memorizing them mechanically.
+
+## Specific Correction Points
+- In defining infiltration capacity, Edwin’s answer was corrected because he left out the phrase **“under a given condition.”**
+- In explaining vegetation effects, MAPALO clarified that roots and organic matter improve infiltration through soil structure and channels, not because plants absorb rainfall directly in the way Edwin initially suggested.
+- MAPALO emphasized that the beginning infiltration rate is high in dry soil because of available pore space.
+
+## Main Takeaway
+The session was a targeted revision on infiltration theory, practical implications, and exam-style calculations. The strongest emphasis was on understanding definitions accurately, explaining factors with soil-based reasoning, and being able to work through Horton equation problems using data tables and logarithmic plotting.
+## Overview
+This meeting focused on soil and hydrology infiltration concepts, especially how to compute infiltration capacity, cumulative infiltration, and infiltration index from graphs and equations. The discussion also covered how to linearize infiltration models, interpret slope and intercept terms, and practice quiz-style questions using the same relationships.
+
+## Detailed Summary
+### Infiltration capacity and graph interpretation
+- The discussion began with how to obtain **infiltration capacity at time t** and how to determine the **steady-state infiltration value**.
+- It was explained that after enough time, infiltration reaches a **steady state** value, which is the constant final infiltration rate.
+- The method described involved calculating the difference between the starting infiltration and the steady-state value, then plotting that difference against **time in hours**.
+- The x-values were treated as time, while the y-values represented the infiltration-related differences.
+
+### Linearization using best-fit lines
+- A major part of the session explained that the plotted points should form a trend that can be approximated by a **straight line of best fit**.
+- The purpose of drawing the best-fit line is to estimate parameters from the line rather than relying on scattered points.
+- The **gradient (slope)** of the line was identified as an important quantity, and the **y-intercept** was also highlighted as meaningful in the final equation.
+- It was clarified that the line should touch or pass through most of the points, even if the points do not lie perfectly on the line.
+
+### Relationship between cumulative infiltration and infiltration rate
+- The session then moved to the relationship between **cumulative infiltration** and **infiltration rate/capacity**.
+- The equation discussed was of the form:
+  - **F(t) = S·t^1/2 + Kt**
+- From this, the infiltration rate was obtained by differentiating with respect to time.
+- The instructor emphasized that the derivation comes directly from the cumulative infiltration relationship.
+- This was presented as a standard method for moving between infiltration accumulation and infiltration capacity.
+
+### Other infiltration equations and assumptions
+- Another formula discussed was related to **bonding time** and included a relationship of the form involving **I² − kt**.
+- It was noted that some versions of the formula may appear in simplified or rearranged forms in lecture notes and quizzes.
+- The session also referenced **Kostiakov’s infiltration equation** and similar models, explaining that the same basic logic can be used to derive infiltration rate from cumulative infiltration.
+- A logarithmic transformation was mentioned as a way to linearize some infiltration equations so that a straight-line plot can be used to estimate parameters.
+
+### Horton infiltration concept and infiltration index
+- The discussion introduced the concept of the **infiltration index**, described as a constant rate used to make total rainfall excess equal to measured runoff.
+- It was explained that the infiltration index is found from a rainfall intensity graph by comparing rainfall intensity with infiltration and runoff behavior.
+- The conversation noted that when rainfall intensity exceeds infiltration capacity, the excess contributes to **surface runoff**.
+- A procedure was described for estimating the index by using the graph and the relationship between rainfall intensity and infiltration.
+
+### Effective rainfall and practical use in questions
+- The instructor stressed that the same formulas and graphs can be used to answer quiz or test questions.
+- The student was advised to take screenshots of the equations and practice applying them to the provided questions.
+- Several formulas were mentioned as worth memorizing because they often appear in slightly different forms in assessments.
+- The session ended with guidance to review the notes, compare them with the lecture material, and practice the example problems independently.
+
+## Key Takeaways
+- Steady-state infiltration is the constant value reached after infiltration stabilizes over time.
+- Graphing infiltration-related differences against time can help determine key parameters using a best-fit line.
+- The slope and intercept of the fitted line are used to extract constants such as **K** and initial terms.
+- Cumulative infiltration and infiltration rate are linked mathematically and can be converted by differentiation.
+- The **infiltration index** is used to represent a constant loss rate that makes rainfall excess match runoff.
