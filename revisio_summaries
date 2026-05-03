@@ -255,5 +255,106 @@ This meeting focused on soil and hydrology infiltration concepts, especially how
 - Steady-state infiltration is the constant value reached after infiltration stabilizes over time.
 - Graphing infiltration-related differences against time can help determine key parameters using a best-fit line.
 - The slope and intercept of the fitted line are used to extract constants such as **K** and initial terms.
+## Overview
+The session focused on hydrometry and streamflow measurement, with Mapalo walking through core definitions, hydrometric network design considerations, gauging station types, stage measurement, and discharge measurement methods. The discussion also worked through a dilution-method example and reviewed velocity-area and hydraulic-structure formulas likely relevant for an upcoming assignment or exam revision.
+
+## Key Topics Covered
+
+### 1) Introduction to hydrometry and streamflow
+- Mapalo introduced **hydrometry** as the measurement and analysis of water in streams, rivers, and lakes.
+- **Streamflow** was described as the movement/flow of water in a stream or related water body.
+- The purpose of streamflow measurement was linked to:
+  - controlling and supplying water,
+  - designing structures such as drainage works,
+  - navigation,
+  - hydrological analysis,
+  - estimating water availability for uses such as water supply and irrigation.
+
+### 2) Hydrometric network design
+- A **hydrometric network** was discussed as a system of observation points used to collect hydrological data.
+- The main design considerations highlighted were:
+  - what hydrological variables need to be observed,
+  - where observations should be made,
+  - how often observations should occur,
+  - the duration of the observation program,
+  - how accurate the measurements need to be.
+- Mapalo explained that such networks may be needed for engineering projects such as **dam design** or flood-frequency analysis.
+
+### 3) Gauging stations and site selection
+- The meeting covered **gauging stations**, including:
+  - **primary stations**,
+  - **secondary stations**,
+  - **special stations** for research,
+  - **recording** and **non-recording** stations.
+- Suitable site selection criteria included:
+  - having a suitable cross-section where measurements can be made,
+  - the possibility of installing **artificial controls** such as a **weir** or **flume**,
+  - local competence/availability of observers,
+  - accessibility of the site.
+- **Station control** was defined as the physical features of the stream or channel that affect the **stage-discharge relationship**.
+- The desired control properties emphasized were:
+  - **stability**,
+  - **consistency**,
+  - **sensitivity**,
+  - freedom from variable backwater effects.
+- Mapalo noted that the goal of hydrometry is to establish the **stage-discharge relationship**, also called the **rating curve**.
+
+### 4) Stage and water-level measurement
+- **Stage** was explained as the height of water relative to a reference datum.
+- A **staff gauge** was described as a standard gauge used to show the level of water in a reservoir, stream, or channel.
+- Other stage-measurement instruments mentioned included:
+  - **electric contact gauges**,
+  - **bubble gauges**,
+  - **acoustic level gauges**.
+- The bubble gauge was explained as using pressure/bubbles sent to the stream bed, with pressure converted into water level.
+- The acoustic method was described as sending sound down and measuring return time/distance to infer water level.
+
+### 5) Discharge measurement and the dilution method
+- Discharge was repeatedly defined in relation to **volume over time** and also linked to velocity and area.
+- A **dilution method** example was discussed in detail.
+- The general approach explained was:
+  - inject a tracer at an upstream point,
+  - measure concentration downstream,
+  - use the tracer equation with background concentration.
+- The example values mentioned included:
+  - upstream tracer concentration around **500 mg/L**,
+  - downstream concentration around **25 mg/L**,
+  - background concentration around **2 mg/L**,
+  - an input discharge value of **20 mL/s** used in the explanation.
+- The worked conversion concluded with a discharge estimate of approximately **0.000413 m³/s** after unit conversion from litres to cubic metres.
+- Mapalo emphasized understanding the **general formula** and being careful with units.
+
+### 6) Velocity-area method for streamflow measurement
+- The two main methods under velocity-area discharge measurement were discussed:
+  - **mini-section method**,
+  - **mid-section method**.
+- The basic discharge relation was given as:
+  - **Q = velocity × area**.
+- For **mean velocity**, different formulas were described depending on depth:
+  - if depth is **less than 0.6 m**, use the velocity at **0.6D**,
+  - if depth is **between 0.6 m and 2 m**, use the average of velocities at **0.2D** and **0.8D**,
+  - if depth is **greater than 2 m**, use a three-point method involving velocities at **0.2D**, **0.6D**, and **0.8D**.
+- For the **mid-section method**, the explanation focused on how to derive representative widths between verticals by averaging adjacent station distances.
+- Example spacing logic was illustrated using distances such as **4, 6, 8, 10** to show how widths are computed between measurement points.
+
+### 7) Hydraulic structures and discharge formulas
+- The last section discussed **hydraulic structures** used to measure discharge, especially **weirs**.
+- General formula structure was reviewed, including the role of:
+  - the discharge coefficient,
+  - gravity,
+  - head/height.
+- Mapalo noted that the exam or assignment may provide formulas, and students should know how to apply them correctly.
+- The hydraulic radius was also introduced as:
+  - **area / wetted perimeter**.
+- For a rectangular channel, the wetted perimeter concept and the trapezoidal-channel case were mentioned, including the geometry-based perimeter formula with side slope terms.
+
+## Practical emphasis
+- The conversation repeatedly shifted from theory to exam-style application.
+- Mapalo stressed memorizing the major definitions and knowing how to solve problems using:
+  - dilution/tracer formulas,
+  - velocity-area calculations,
+  - stage-discharge concepts,
+  - hydraulic-structure formulas.
+- The discussion ended with a reminder to continue revising related topics such as **sediment transport**, but the main focus of the session remained hydrometry and streamflow measurement.
 - Cumulative infiltration and infiltration rate are linked mathematically and can be converted by differentiation.
 - The **infiltration index** is used to represent a constant loss rate that makes rainfall excess match runoff.
