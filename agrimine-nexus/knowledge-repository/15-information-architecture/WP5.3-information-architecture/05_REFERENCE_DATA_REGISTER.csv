@@ -1,0 +1,26 @@
+ref_id,name,description,example_values,owner_domain,governance,evidence
+REF-001,Currency,Currencies used in transactions,ZMW;USD;EUR;ZAR,DOM-FIN,Central-managed,F-0079
+REF-002,Unit of Measure,Measurement units,kg;tonne;litre;ha;m;km,DOM-CFG,Standards-aligned (SI),F-0016
+REF-003,Administrative Area,Zambia administrative geography,Province;District;Constituency;Ward,DOM-CFG,GRZ official list,F-0016
+REF-004,Crop Type,Recognised crops,Maize;Soya;Groundnut;Cotton;Wheat,DOM-AGRI,MoA-aligned,F-0053
+REF-005,Livestock Species,Recognised livestock,Cattle;Goat;Poultry;Pig;Fish,DOM-AGRI,MoA-aligned,F-0053
+REF-006,Mineral Commodity,Mined commodities,Copper;Cobalt;Gold;Manganese;Emerald,DOM-MINE,Mines-aligned,F-0056
+REF-007,Permit/Licence Type,Types of authorisations,Mining Right;Exploration;EIA;Water;Trading,DOM-CMP,Regulator-defined,F-0073
+REF-008,Status Codes,Generic lifecycle statuses,Draft;Active;Suspended;Closed;Revoked,DOM-CFG,Central-managed,F-0079
+REF-009,Language,Supported languages,English;Bemba;Nyanja;Tonga;Lozi,DOM-CFG,National languages,F-0078
+REF-010,Vehicle Type,Transport vehicle categories,Truck;Trailer;Pickup;Motorcycle,DOM-LOG,RTSA-aligned,F-0068
+REF-011,Commodity Type (trade),Traded commodity classes,Grain;Legume;Oilseed;Mineral,DOM-TRADE,ZAMACE-aligned,F-0054
+REF-012,Risk Category,Risk severity classes,Low;Medium;High;Critical,DOM-CMP,Central-managed,F-0058
+REF-013,Inspection Type,Types of inspection,Safety;Quality;Environmental;Regulatory,DOM-CMP,Regulator-aligned,F-0060
+REF-014,Incident Type,Types of incident,Injury;Spill;Equipment;Environmental,DOM-CMP,Regulator-aligned,F-0058
+REF-015,Payment Method,Payment channels,MobileMoney;BankTransfer;Card;Cash,DOM-FIN,BoZ-aligned,F-0086
+REF-016,Document Type,Document categories,Permit;Report;Contract;Certificate;Drawing,DOM-DOC,Central-managed,F-0079
+REF-017,Environmental Parameter,Monitored parameters,PM10;pH;TSS;Noise;CO2,DOM-ENV,EMA-aligned,F-0059
+REF-018,Land Tenure Type,Tenure classifications,Customary;Leasehold;Statutory,DOM-GEO,Lands-aligned,F-0016
+REF-019,Organisation Type,Legal entity types,Company;Cooperative;Sole trader;NGO;Government,DOM-IAM,PACRA-aligned,F-0079
+REF-020,Role Type,Access role categories,Admin;Officer;Farmer;Auditor;Regulator,DOM-IAM,RBAC policy,F-0077
+REF-021,Season,Cropping seasons,Rainy;Dry;2026A;2026B,DOM-AGRI,MoA calendar,F-0053
+REF-022,Corridor/Route,Transport corridors,Nacala;North-South;Dar;Lobito,DOM-LOG,Corridor authorities,F-0069
+REF-023,Tax Type,Statutory tax categories,VAT;PAYE;Royalty;WHT,DOM-FIN,ZRA-defined,F-0073
+REF-024,Confidentiality Level,Data classification levels,Public;Internal;Confidential;Restricted;HighlyRestricted,DOM-CFG,Governance policy,F-0077
+REF-025,Grade/Quality Class,Produce/ore grades,GradeA;GradeB;Reject,DOM-TRADE,Standards-aligned,F-0016

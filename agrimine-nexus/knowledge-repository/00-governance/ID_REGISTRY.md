@@ -5,7 +5,13 @@
 | Prefix | Object | Next | Notes |
 |--------|--------|------|-------|
 | `SRC-` | Evidence/source | 0122 | ...0114-117 WP4 products; 0118-121 WP4.3 integrations |
-| `F-` | Finding | 0094 | ...0090-0091 WP5 requirements; 0092-0093 WP5 business architecture |
+| `F-` | Finding | 0097 | ...0092-0093 WP5 business arch; 0094-0096 WP5.3 information arch |
+| `INFO-` | Information object | 048 | 001-047 allocated (Enterprise Information Catalogue, WP5.3) |
+| `DENT-` | Business/data entity | 033 | 001-032 allocated (Master Data Entity Catalogue, WP5.3) |
+| `ATR-` | Business attribute | 057 | 001-056 allocated (Attribute Catalogue, WP5.3) |
+| `IREL-` | Business relationship | 039 | 001-038 allocated (Relationship Catalogue, WP5.3) |
+| `REF-` | Reference-data set | 026 | 001-025 allocated (Reference Data Register, WP5.3) |
+| `GAP-IN` | Information gap | IN-09 | IN-01..08 allocated (WP5.3) |
 | `DOM-` | Business domain | (mnemonic) | 24 domains allocated (Enterprise Domain Catalogue, WP5); mnemonic IDs |
 | `BO-` | Business object | 031 | 001-030 allocated (Business Object Catalogue, WP5) |
 | `EVT-` | Business event | 036 | 001-035 allocated (Business Event Catalogue, WP5) |

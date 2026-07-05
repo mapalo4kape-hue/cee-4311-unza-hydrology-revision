@@ -211,3 +211,11 @@ E-0209,BO-SET,DOM-CORE-SET,OWNED_BY,F-0092,70,business objects owned by domains
 E-0210,EVT-SET,DOM-CORE-SET,EMITTED_BY,F-0092,70,business events emitted by domains
 E-0211,F-0092,F-0090,SYNTHESISES,F-0090,72,business architecture synthesises requirements
 E-0212,DOM-CORE-SET,REG-0024,GOVERNED_BY,F-0077,70,domains governed by data protection where personal data
+E-0213,INFO-SET,BO-SET,DERIVED_FROM,F-0094,72,information objects derived from business objects
+E-0214,DENT-SET,INFO-SET,REALISES,F-0094,72,business entities underpin information objects
+E-0215,IREL-SET,DENT-SET,CONNECTS,F-0094,72,relationships connect business entities
+E-0216,INFO-SET,DOM-CORE-SET,OWNED_BY,F-0094,72,information objects owned by domains
+E-0217,INFO-SET,SRC-0001,TRACES_TO,F-0094,72,every information object traces to evidence
+E-0218,INFO-SET,REG-0024,GOVERNED_BY,F-0096,72,restricted information governed by data protection
+E-0219,REF-SET,DENT-SET,VALIDATES,F-0079,70,reference data validates entity attributes
+E-0220,F-0094,F-0092,SYNTHESISES,F-0092,72,information model synthesises business architecture

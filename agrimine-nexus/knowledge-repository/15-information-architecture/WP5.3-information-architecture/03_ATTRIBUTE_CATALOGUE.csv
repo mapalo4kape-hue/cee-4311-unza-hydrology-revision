@@ -1,0 +1,57 @@
+attr_id,entity_id,attribute_name,meaning,mandatory,business_rule,sensitivity,validation_rule
+ATR-001,DENT-001,Farmer Name,Full name of farmer,Yes,identity data,Confidential,non-empty
+ATR-002,DENT-001,Identity Reference,National/registered ID reference,Yes,unique per person,Restricted,valid ID format;consent required
+ATR-003,DENT-001,Contact Number,Mobile contact,Yes,used for notifications/payments,Confidential,valid MSISDN
+ATR-004,DENT-001,Location/Ward,Administrative location,Yes,for services/targeting,Internal,valid admin area (REF)
+ATR-005,DENT-001,Household Size,Number in household,No,programme targeting,Internal,positive integer
+ATR-006,DENT-002,Farm Name,Name of holding,Yes,identification,Internal,non-empty
+ATR-007,DENT-002,Owner Reference,Link to Farmer,Yes,one primary owner,Confidential,must reference Farmer
+ATR-008,DENT-002,Total Area,Size of holding,No,planning,Internal,positive number
+ATR-009,DENT-003,Boundary,Field polygon,Yes,mapping basis,Internal,valid polygon+CRS
+ATR-010,DENT-003,Area,Computed plot area,Yes,planning/yield,Internal,derived positive
+ATR-011,DENT-003,Current Crop,Crop grown,No,production tracking,Internal,valid crop type (REF)
+ATR-012,DENT-004,Crop Type,Type of crop,Yes,classification,Internal,valid crop type (REF)
+ATR-013,DENT-004,Variety,Crop variety,No,agronomy,Internal,valid variety
+ATR-014,DENT-004,Season,Cropping season,Yes,cycle grouping,Internal,valid season (REF)
+ATR-015,DENT-007,Mine Name,Name of operation,Yes,identification,Internal,non-empty
+ATR-016,DENT-007,Commodity,Mineral commodity,Yes,classification,Internal,valid commodity (REF)
+ATR-017,DENT-007,Licence Reference,Governing licence,Yes,legal right,Confidential,valid licence (DENT-016)
+ATR-018,DENT-016,Permit Type,Type of authorisation,Yes,classification,Confidential,valid permit type (REF)
+ATR-019,DENT-016,Issuing Authority,Regulator that issued,Yes,provenance,Confidential,valid authority (DENT-017)
+ATR-020,DENT-016,Validity Period,Start and end of validity,Yes,compliance,Confidential,end>=start
+ATR-021,DENT-016,Status,Current permit status,Yes,lifecycle,Confidential,valid status (REF)
+ATR-022,DENT-018,Commodity,Stored commodity,Yes,subject of receipt,Confidential,valid commodity (REF)
+ATR-023,DENT-018,Quantity,Quantity stored,Yes,title amount,Confidential,quantity<=verified stock (BR-009)
+ATR-024,DENT-018,Depositor,Holder of receipt,Yes,ownership,Restricted,valid party
+ATR-025,DENT-021,Amount,Invoice amount,Yes,payable/receivable,Confidential,positive;currency (REF)
+ATR-026,DENT-021,Currency,Currency of invoice,Yes,valuation,Internal,valid currency (REF)
+ATR-027,DENT-021,Parties,Buyer and seller,Yes,transaction,Confidential,valid parties
+ATR-028,DENT-022,Amount,Payment amount,Yes,settlement,Restricted,matches Invoice/portion
+ATR-029,DENT-022,Method,Payment channel,Yes,rail selection,Confidential,valid method (REF: MoMo/bank/cash)
+ATR-030,DENT-022,Recipient Detail,Payee account/number,Yes,routing,Restricted,verified (BR-019)
+ATR-031,DENT-026,Parameter,Measured parameter,Yes,what is measured,Confidential,valid parameter (REF)
+ATR-032,DENT-026,Value,Measured value,Yes,the reading,Confidential,numeric;within plausibility
+ATR-033,DENT-026,Unit,Unit of measure,Yes,interpretation,Internal,valid unit (REF)
+ATR-034,DENT-026,Limit Reference,Applicable regulatory limit,No,exceedance check,Confidential,valid limit
+ATR-035,DENT-013,Person Name,Full name,Yes,identity,Restricted,non-empty
+ATR-036,DENT-013,Identity Reference,National ID reference,Yes,unique,Restricted,valid;consent (BR-001)
+ATR-037,DENT-013,Consent Status,Data-subject consent state,Yes,lawful basis,Restricted,recorded (REQ-F-105)
+ATR-038,DENT-020,Origin,Shipment origin,Yes,routing,Internal,valid location (REF)
+ATR-039,DENT-020,Destination,Shipment destination,Yes,routing,Internal,valid location (REF)
+ATR-040,DENT-020,Status,Transit status,Yes,tracking,Internal,valid status (REF)
+ATR-041,DENT-009,Project Name,Name of project,Yes,identification,Internal,non-empty
+ATR-042,DENT-009,Client,Project client,Yes,accountability,Confidential,valid party
+ATR-043,DENT-009,Contract Value,Value of project,No,cost control,Confidential,positive;currency (REF)
+ATR-044,DENT-011,Asset Identifier,Unique asset reference,Yes,tracking,Internal,unique
+ATR-045,DENT-011,Asset Type,Category of asset,Yes,classification,Internal,valid type (REF)
+ATR-046,DENT-011,Status,Lifecycle status,Yes,availability,Internal,valid status (REF)
+ATR-047,DENT-015,Roles,Assigned access roles,Yes,authorisation,Restricted,valid roles (RBAC)
+ATR-048,DENT-015,Credential Reference,Auth credential handle,Yes,authentication,Highly Restricted,secured;never plaintext
+ATR-049,DENT-024,Inspection Type,Type of inspection,Yes,classification,Internal,valid type (REF)
+ATR-050,DENT-024,Result,Inspection outcome,Yes,assurance,Confidential,valid result (REF)
+ATR-051,DENT-025,Severity,Incident severity,Yes,risk grading,Confidential,valid category (REF)
+ATR-052,DENT-025,Incident Type,Type of incident,Yes,classification,Confidential,valid type (REF)
+ATR-053,DENT-028,Report Type,Type of report/return,Yes,classification,Confidential,valid type (REF)
+ATR-054,DENT-028,Reporting Period,Period covered,Yes,scheduling,Internal,valid period
+ATR-055,DENT-029,Document Type,Type of document,Yes,classification,Internal,valid type (REF)
+ATR-056,DENT-029,Retention Class,Retention category,Yes,retention (BR-002),Confidential,valid retention class

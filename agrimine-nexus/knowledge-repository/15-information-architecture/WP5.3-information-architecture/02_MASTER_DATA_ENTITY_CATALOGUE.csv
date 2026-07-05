@@ -1,0 +1,33 @@
+entity_id,business_name,definition,business_meaning,owner_domain,lifecycle,key_relationships,business_rules,source_evidence
+DENT-001,Farmer,A person who farms,Primary agriculture actor,DOM-AGRI,Registered-active-inactive,owns Farm;member of Cooperative,BR-001;unique identity,F-0053
+DENT-002,Farm,A farming holding/enterprise,Unit of agricultural production,DOM-AGRI,Created-active-closed,belongs to Farmer;contains Field,one primary owner,F-0053
+DENT-003,Field/Plot,A cultivated land parcel,Spatial production unit,DOM-GEO,Mapped-active-retired,part of Farm;has Crop,valid boundary/CRS,F-0075
+DENT-004,Crop,A crop under cultivation,Production subject,DOM-AGRI,Planned-grown-harvested,grown on Field;yields Harvest,valid crop type (REF),F-0053
+DENT-005,Livestock,Animal or herd,Livestock production subject,DOM-AGRI,Registered-active-disposed,belongs to Farmer,valid species (REF),F-0053
+DENT-006,Cooperative,Farmer association,Aggregation entity,DOM-AGRI,Registered-active,has Members;aggregates Produce,registered per Coop Act,F-0053
+DENT-007,Mine,A mining operation,Mining production entity,DOM-MINE,Licensed-operating-closed,owns Licence;has Site,valid licence,F-0056
+DENT-008,Deposit/Resource,A mineral resource,Basis of mining value,DOM-MINE,Explored-estimated,belongs to Mine,estimation standard,F-0056
+DENT-009,Project,A construction project,Delivery entity,DOM-CONS,Initiated-executing-closed,for Client;has Site;has BOQ,valid contract,F-0060
+DENT-010,Site,A physical work/operation site,Location of operations,DOM-CONS,Established-active-closed,part of Project or Mine,geolocated,F-0060
+DENT-011,Asset/Equipment,A physical asset or machine,Operational resource,DOM-INV,Acquired-in-service-retired,owned by Organisation;has Maintenance,unique asset ID,F-0057
+DENT-012,Vehicle,A transport vehicle,Logistics resource,DOM-LOG,Registered-active-retired,part of Fleet;carries Shipment,valid registration (REG-0022),F-0068
+DENT-013,Person,A natural person,Identity subject,DOM-IAM,Registered-verified-deactivated,may be Farmer/Worker/User,unique identity;consent (BR-001),F-0077
+DENT-014,Organisation,A legal entity,Party in transactions,DOM-IAM,Registered-active,employs Person;owns Asset,valid registration (PACRA),F-0079
+DENT-015,User Account,A system access account,Access principal,DOM-IAM,Provisioned-active-disabled,belongs to Person;has Roles,unique credential,F-0077
+DENT-016,Permit/Licence,A regulatory authorisation,Right to operate,DOM-CMP,Applied-granted-renewed-revoked,issued by Authority;held by Organisation,validity dates,F-0073
+DENT-017,Authority/Regulator,A regulating body,Compliance counterparty,DOM-CMP,Reference,issues Permit;receives Report,reference entity,F-0073
+DENT-018,Warehouse Receipt,Title to stored commodity,Tradable/financeable instrument,DOM-TRADE,Issued-pledged-redeemed,for Commodity;held by Depositor,quantity<=stock (BR-009),F-0067
+DENT-019,Order,Purchase/sales/transport order,Commercial instruction,DOM-TRADE,Created-fulfilled-closed,between Buyer and Seller,valid parties,F-0054
+DENT-020,Shipment,Goods in transit,Movement unit,DOM-LOG,Planned-dispatched-delivered,fulfils Order;uses Vehicle,valid route,F-0069
+DENT-021,Invoice,A billing document,Revenue/payable record,DOM-FIN,Issued-paid-reconciled,for Order;settled by Payment,balances (BR-016),F-0079
+DENT-022,Payment,A movement of funds,Settlement record,DOM-FIN,Initiated-settled-reconciled,settles Invoice;via Channel,verified recipient (BR-019),F-0086
+DENT-023,Inventory Item,Held stock/spares,Stock unit,DOM-INV,Received-moved-issued,stored at Site;counted in Stock,non-negative balance,F-0067
+DENT-024,Inspection,A quality/safety/regulatory check,Assurance record,DOM-CMP,Scheduled-conducted-closed,of Site/Asset;produces Report,valid checklist,F-0060
+DENT-025,Incident,A safety/environmental event,Risk record,DOM-CMP,Reported-investigated-closed,at Site;may trigger Report,severity classified,F-0058
+DENT-026,Monitoring Reading,An environmental measurement,Compliance datum,DOM-ENV,Captured-validated-flagged,for Site;against Limit,valid parameter/unit (REF),F-0059
+DENT-027,Sample,A laboratory sample,Analytical subject,DOM-ENV,Collected-analysed-reported,from Site;yields Result,chain-of-custody,F-0056
+DENT-028,Report/Return,A generated report,Reporting artefact,DOM-ANALYTICS,Generated-submitted-archived,submitted to Authority,prescribed format (BR-014),F-0079
+DENT-029,Document,A managed document/record,Evidence artefact,DOM-DOC,Created-versioned-retained,attached to any Entity,retention (BR-002),F-0079
+DENT-030,Contract,A contractual agreement,Obligation record,DOM-PROC,Drafted-signed-executed-closed,between Parties,approved (BR-008),F-0079
+DENT-031,BOQ,A bill of quantities,Cost basis,DOM-CONS,Prepared-priced-revised,part of Project,valid items,F-0060
+DENT-032,Mine Plan,A mine design/schedule,Production plan,DOM-MINE,Drafted-approved-revised,for Mine,approved,F-0056

@@ -5,7 +5,7 @@ Tracks execution of every MREP work package and its progress through the 8 QA ga
 **Legend:** ☐ not started · ◐ in progress · ☑ passed · — n/a
 **QA Gates:** G1 Scope · G2 Source validation · G3 Evidence quality · G4 Cross-reference · G5 Requirement extraction · G6 Architecture relevance · G7 Business impact · G8 Executive/final review.
 
-_Last updated: 2026-07-05 (WP5 enterprise business architecture — ACT-019; 24 DDD domains + 30 business objects + 35 business events + matrices/risks; 121 total evidence sources; awaiting review before ACT-020 information & data architecture)_
+_Last updated: 2026-07-05 (WP5.3 enterprise information & data architecture — ACT-020; 47 information objects + 32 entities + 56 attributes + 38 relationships + 25 reference sets; business-level only; 121 total evidence sources; awaiting review)_
 
 ---
 
