@@ -29,16 +29,16 @@
 3.
 
 ## 4. Evidence collected
-*List each source used. Every row must be scored per ROM §11 (Evidence Scoring).*
+*List each source used. Every row must be scored per ROM §11 and carry the four mandatory fields from the [Citation & Evidence-Traceability Standard](../CITATION_STANDARD.md): source organization, publication date, retrieval date, confidence.*
 
-| # | Source | Tier (1–4) | Publication date | Confidence (0–100) | Verification status | Notes |
-|---|--------|-----------|------------------|--------------------|---------------------|-------|
-| 1 | | | | | | |
+| Evidence ID | Source organization | Title / locator | Tier (1–4) | Publication date | Retrieval date | Confidence (0–100) | Verification status | Contradicts |
+|-------------|--------------------|-----------------|-----------|------------------|----------------|--------------------|---------------------|-------------|
+| SRC-01 | | | | | | | | |
 
 ## 5. Findings
-*What was learned. Each finding should tie back to a research objective (ROM §3).*
+*What was learned. Each finding gets an ID (F-01, F-02, …), ties back to a research objective (ROM §3), and every factual claim carries an inline citation: `<claim> [SRC-NN] (Org, pub. YYYY-MM-DD; confidence NN/100; retrieved YYYY-MM-DD)`.*
 
--
+- **F-01:**
 
 ## 6. Contradictions & uncertainties
 *Conflicting evidence, gaps, outdated information, regional differences, and open questions.*
@@ -60,12 +60,21 @@
 
 -
 
-## 10. Next actions
+## 10. Recommendations (with evidence traceability)
+*Every recommendation must trace back to evidence per the Citation Standard. If a link is missing, downgrade to `[ASSUMPTION]` or `[OPEN QUESTION]`.*
+
+```
+REC-01: <recommendation>
+  ├─ Supported by findings: F-xx
+  └─ Evidence: [SRC-aa]  (net confidence NN/100)
+```
+
+## 11. Next actions
 *What follows from this activity.*
 
 -
 
-## 11. References
-*Full citations for every source (ROM Research Bibliography standard).*
+## 12. References
+*Full citations for every source (ROM Research Bibliography standard), keyed to the Evidence IDs above.*
 
 -

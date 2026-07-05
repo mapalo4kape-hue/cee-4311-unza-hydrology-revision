@@ -1,0 +1,12 @@
+log_id,work_package,artifact_id,gate,gate_name,result,reviewer,review_date,notes
+QA-0001,WP1.1,WP1.1-PIP,1,Scope completeness,in-review,pending,2026-07-05,"Project Initiation Package submitted; ~250 research questions; no data collection until Gate 1 approval."
+QA-0002,WP1.1,WP1.1-P1,1,Scope completeness,pass,self,2026-07-05,"ACT-006 Phase 1 scope (5 collection priorities) covered; economic/demographic/sector correctly excluded."
+QA-0003,WP1.1,WP1.1-P1,2,Source validation,in-progress,self,2026-07-05,"20 sources registered; primary/government preferred; integrity/checksum pending (files not yet downloaded) - GAP-019."
+QA-0004,WP1.1,WP1.1-P1,3,Evidence quality review,in-progress,self,2026-07-05,"Confidence scored per claim; provisional items (chiefdoms, cyber Acts 2025) flagged <70."
+QA-0005,WP1.1,WP1.1-P1,4,Cross-reference verification,in-progress,self,2026-07-05,"Source Cross-Reference Matrix completed; 1 contradiction logged (ward count 1858 vs 1853)."
+QA-0006,WP1.1,WP1.1-P2,2,Source validation,in-progress,self,2026-07-05,"ACT-007: 22 new sources (SRC-0023..0044); government/primary preferred; integrity/checksum pending."
+QA-0007,WP1.1,WP1.1-P2,3,Evidence quality review,in-progress,self,2026-07-05,"Confidence scored; provisional (<75) items flagged (sector shares, internet penetration, insurance, agri/commodities)."
+QA-0008,WP1.1,WP1.1-P2,4,Cross-reference verification,in-progress,self,2026-07-05,"Contradictions logged: population de facto/de jure (E-0058); internet penetration ZICTA vs DataReportal (E-0049); electricity access 2023 vs 2020."
+QA-0009,WP2.1,WP2.1-P1,1,Scope completeness,pass,self,2026-07-05,"ACT-008: 41 workflows + 20 stakeholders cover the requested operational scope; crops/software/features/competitors/AI correctly excluded."
+QA-0010,WP2.1,WP2.1-P1,2,Source validation,in-progress,self,2026-07-05,"13 sources (SRC-0045..0057); government/authoritative preferred (MoA, SZI, World Bank, PARM, J-PAL)."
+QA-0011,WP2.1,WP2.1-P1,3,Evidence quality review,in-progress,self,2026-07-05,"Zambia-specific mechanisms cited; generic operational structure flagged as consultant synthesis; field-interview gaps recorded."
