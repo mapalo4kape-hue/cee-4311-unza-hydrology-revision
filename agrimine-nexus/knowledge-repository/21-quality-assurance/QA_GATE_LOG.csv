@@ -1,2 +1,6 @@
 log_id,work_package,artifact_id,gate,gate_name,result,reviewer,review_date,notes
-QA-0001,WP1.1,WP1.1-PIP,1,Scope completeness,in-review,pending,2026-07-05,"Project Initiation Package submitted; defines objectives, scope, ~250 research questions, deliverables, sources, stakeholders, outputs, risks, acceptance criteria, and activity plan. No data collection until Gate 1 approval."
+QA-0001,WP1.1,WP1.1-PIP,1,Scope completeness,in-review,pending,2026-07-05,"Project Initiation Package submitted; ~250 research questions; no data collection until Gate 1 approval."
+QA-0002,WP1.1,WP1.1-P1,1,Scope completeness,pass,self,2026-07-05,"ACT-006 Phase 1 scope (5 collection priorities) covered; economic/demographic/sector correctly excluded."
+QA-0003,WP1.1,WP1.1-P1,2,Source validation,in-progress,self,2026-07-05,"20 sources registered; primary/government preferred; integrity/checksum pending (files not yet downloaded) - GAP-019."
+QA-0004,WP1.1,WP1.1-P1,3,Evidence quality review,in-progress,self,2026-07-05,"Confidence scored per claim; provisional items (chiefdoms, cyber Acts 2025) flagged <70."
+QA-0005,WP1.1,WP1.1-P1,4,Cross-reference verification,in-progress,self,2026-07-05,"Source Cross-Reference Matrix completed; 1 contradiction logged (ward count 1858 vs 1853)."

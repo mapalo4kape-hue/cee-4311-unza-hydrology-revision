@@ -4,8 +4,9 @@
 
 | Prefix | Object | Next | Notes |
 |--------|--------|------|-------|
-| `SRC-` | Evidence/source | 0003 | 0001=ROM, 0002=MREP allocated |
-| `F-` | Finding | 0001 | |
+| `SRC-` | Evidence/source | 0023 | 0001-0002 governance; 0003-0022 WP1.1 Phase 1 |
+| `F-` | Finding | 0022 | 0001-0021 allocated (WP1.1 Phase 1) |
+| `LOC-` | Location instance | ZM + ZM01-ZM10 used | Zambia + 10 provinces in graph |
 | `ENT-` | Knowledge entity | see Master Entity Catalogue | uses mnemonic ids (e.g. ENT-FARM) |
 | `TAX-` | Taxonomy node | per facet | see Master Taxonomy |
 | `BR-` | Business requirement | 001 | |
@@ -29,7 +30,6 @@
 | `BO-` | Business objective | 001 | |
 | `STK-` | Stakeholder | 001 | |
 | `ORG-` | Organization | 001 | |
-| `LOC-` | Location | 001 | |
 | `CMP-` | Competitor profile | 0001 | |
 | `INT-` | Interview record | 0001 | |
 | `SRV-` | Survey | 0001 | |

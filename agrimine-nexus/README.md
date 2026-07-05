@@ -37,7 +37,8 @@ The project follows a strict order: **Governance → Research Engine → Researc
 | [ACT-002](activity-log/2026-07-05_ACT-002_internalise-mrep-and-add-citation-standard.md) | 2026-07-05 | Internalise the MREP, scaffold knowledge repo, add Citation Standard | Planning (governance intake) | Complete |
 | [ACT-003](activity-log/2026-07-05_ACT-003_build-research-engine.md) | 2026-07-05 | Build the Research Engine (REIS v1.0) — 10 components, 12 deliverables | Engine build (pre-Stage 1) | Complete |
 | [ACT-004](activity-log/2026-07-05_ACT-004_wp1.1-project-initiation-package.md) | 2026-07-05 | Open WP1.1 & produce the Project Initiation Package (PIP) | Stage 1 · initiation | Complete |
-| [ACT-005](activity-log/2026-07-05_ACT-005_repository-migration-and-evidence-acquisition-prep.md) | 2026-07-05 | Repository migration prep + WP1.1 evidence-acquisition system | Stage 1 · execution prep | Complete (awaiting review) |
+| [ACT-005](activity-log/2026-07-05_ACT-005_repository-migration-and-evidence-acquisition-prep.md) | 2026-07-05 | Repository migration prep + WP1.1 evidence-acquisition system | Stage 1 · execution prep | Complete |
+| [ACT-006](activity-log/2026-07-05_ACT-006_wp1.1-phase1-authoritative-evidence-acquisition.md) | 2026-07-05 | WP1.1 Phase 1 authoritative evidence acquisition (Zambia national baseline) | Stage 1 · collection | Complete (awaiting review) |
 
 ## Evidence-acquisition system (ACT-005, WP1.1)
 
@@ -52,7 +53,7 @@ The project follows a strict order: **Governance → Research Engine → Researc
 
 ## Current position
 
-WP1.1 evidence-acquisition system is **prepared and 100% cross-mapped** (every research question maps to ≥1 source; every source maps to ≥1 question). **This is still preparation — no evidence collected, no analysis, no conclusions.** Awaiting review before collection (ACT-006). Repository migration to `agrimine-nexus-research` is prepared and validated; the final create-repo/push step needs GitHub write access (see [`MIGRATION_REPORT.md`](MIGRATION_REPORT.md)). Status tracked in [`knowledge-repository/WORK_PACKAGE_TRACKER.md`](knowledge-repository/WORK_PACKAGE_TRACKER.md).
+**WP1.1 Phase 1 (Authoritative Evidence Acquisition) is complete** (ACT-006): the Zambia national baseline — administrative geography, reference systems, government structure, legal/standards framework, and spatial data infrastructure — is collected with **20 cited authoritative sources** and full traceability. Outputs: [`knowledge-repository/01-research/WP1.1-phase1-national-baseline/`](knowledge-repository/01-research/WP1.1-phase1-national-baseline/). No interpretation, recommendations, or design — pure evidence acquisition. **Awaiting review before economic/demographic/infrastructure/sector intelligence.** Repository migration to `agrimine-nexus-research` remains prepared/validated; the final create-repo/rename/push step needs GitHub write access (see [`MIGRATION_REPORT.md`](MIGRATION_REPORT.md)). Status: [`knowledge-repository/WORK_PACKAGE_TRACKER.md`](knowledge-repository/WORK_PACKAGE_TRACKER.md).
 
 ## How to add a new activity record
 
