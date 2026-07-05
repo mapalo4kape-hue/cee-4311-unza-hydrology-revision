@@ -145,3 +145,8 @@ WF-C13,Handover & close-out,Workflow,TAX-PRC,Complete & certify,SRC-0068,78,2,co
 WF-E02,Scoping & ESIA study,Workflow,TAX-PRC,Assess impacts,SRC-0069,84,1,environmental,WP2.4,reviewed,v01,consultant,2026-07-05,2026-07-05,,,,
 WF-E04,ZEMA review & decision,Workflow,TAX-PRC,Authorise/refuse,SRC-0069,86,1,environmental,WP2.4,reviewed,v01,consultant,2026-07-05,2026-07-05,,,,
 WF-E10,Environmental monitoring,Workflow,TAX-PRC,Track conditions,SRC-0070,78,2,environmental,WP2.4,reviewed,v01,consultant,2026-07-05,2026-07-05,,,,
+F-0062,African/Zambian agritech landscape (bundled, USSD/mobile, siloed)),Finding,,Competitor landscape agri,SRC-0071;SRC-0074;SRC-0075,78,3,cross-industry,WP4.1,reviewed,v01,consultant,2026-07-05,2026-07-05,,,,
+F-0063,Mining software domain-siloed (planning vs FMS); interoperability trend,Finding,,Competitor landscape mining,SRC-0076;SRC-0077,80,3,mining,WP4.1,reviewed,v01,consultant,2026-07-05,2026-07-05,,,,
+F-0064,Construction/EHS/GIS leaders high-cost, online-first, domain-specific,Finding,,Competitor landscape construction/EHS/GIS,SRC-0078;SRC-0079;SRC-0080;SRC-0081,78,3,cross-industry,WP4.1,reviewed,v01,consultant,2026-07-05,2026-07-05,,,,
+F-0065,Fintech/commodity/mobile-money rails fragmented but integrable (APIs),Finding,,Competitor landscape fintech,SRC-0082;SRC-0084;SRC-0085,78,3,cross-industry,WP4.1,reviewed,v01,consultant,2026-07-05,2026-07-05,,,,
+F-0066,Market gaps: cross-industry unified/offline-first/local-integration/affordable-mid-market,Finding,,Market gaps,SRC-0079;SRC-0080,74,3,cross-industry,WP4.1,reviewed,v01,consultant,2026-07-05,2026-07-05,,,,
