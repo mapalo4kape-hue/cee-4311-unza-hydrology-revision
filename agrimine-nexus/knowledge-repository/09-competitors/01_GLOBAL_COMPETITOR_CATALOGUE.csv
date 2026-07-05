@@ -1,0 +1,154 @@
+product_id,product,company,country,region,category,founded,deployment,pricing_model,mobile,offline,gis,ai,iot,drone,api,positioning,verification,evidence
+CMP-0001,AgriPredict,AgriPredict,Zambia,Southern Africa,Precision Agriculture / Advisory,2017,Cloud+USSD,Freemium,Y,P,P,Y,N,N,P,Smallholder disease/weather/market advisory (USSD *404#),V,SRC-0071
+CMP-0002,FarmHouse (eMsika),eMsika,Zambia,Southern Africa,Farm Management / Marketplace,2016,Cloud/Mobile,Subscription,Y,N,N,Y,N,N,P,Input marketplace + AI chatbot advice,V,SRC-0072
+CMP-0003,Lima Links,Lima Links,Zambia,Southern Africa,Market Information,2017,USSD,Free,Y,Y,N,N,N,N,N,Feature-phone smallholder market prices (*789#),V,SRC-0073
+CMP-0004,Good Nature Agro,Good Nature Agro,Zambia,Southern Africa,Outgrower / Input finance,2014,Cloud/field,Service,Y,P,N,N,N,N,?,Legume seed + financing + training outgrower,K,SRC-0075
+CMP-0005,VITALITE,VITALITE Zambia,Zambia,Southern Africa,Rural distribution / PAYGO,2013,Mobile,PAYGO,Y,P,N,N,Y,N,?,PAYGO solar + agri inputs rural distribution,K,SRC-0073
+CMP-0006,Shamba Data,Shamba Data,Zambia,Southern Africa,Farm data,?,Cloud,?,Y,?,P,P,N,N,?,Farm data services (Zambia),K,SRC-0071
+CMP-0007,Zoona (Tilt),Zoona,Zambia,Southern Africa,Mobile money / agent finance,2009,Mobile,Transaction,Y,N,N,N,N,N,Y,Pioneer mobile-money agent network,K,SRC-0073
+CMP-0008,Musanga Logistics,Musanga,Zambia,Southern Africa,Logistics marketplace,2018,Mobile,Commission,Y,N,P,P,N,N,Y,On-demand logistics (Zambia),K,SRC-0073
+CMP-0009,Apollo Agriculture,Apollo Agriculture,Kenya,Africa,Agri-fintech (inputs+credit),2016,Mobile,Credit/margin,Y,P,P,Y,N,N,Y,Bundled inputs+credit+insurance via satellite ML (KE+ZM),V,SRC-0074
+CMP-0010,Twiga Foods,Twiga,Kenya,Africa,B2B agri marketplace/logistics,2014,Mobile/Cloud,Marketplace,Y,N,P,Y,N,N,Y,B2B produce marketplace & logistics,V,SRC-0075
+CMP-0011,Hello Tractor,Hello Tractor,Nigeria,Africa,Mechanisation / IoT,2014,Mobile+IoT,Booking/commission,Y,P,P,Y,Y,N,Y,IoT tractor-sharing (Uber for tractors), 15+ countries,V,SRC-0075
+CMP-0012,ThriveAgric,ThriveAgric,Nigeria,Africa,Agri-fintech / grain trade,2017,Cloud/Mobile,Finance/trade,Y,P,P,Y,N,N,Y,Farmer financing + grain trade (AOS), 500k+ farmers,V,SRC-0075
+CMP-0013,Aerobotics,Aerobotics,South Africa,Africa,Precision Agriculture (drone+AI),2014,Cloud,Subscription,Y,N,Y,Y,N,Y,Y,AI orchard/tree health from drone+satellite,V,SRC-0075
+CMP-0014,Esoko,Esoko,Ghana,Africa,Market information,2005,Mobile/SMS,Subscription,Y,Y,N,P,N,N,Y,SMS market info & farmer surveys,K,SRC-0075
+CMP-0015,DigiFarm,Safaricom,Kenya,Africa,Agri super-app,2017,Mobile,Platform,Y,N,N,P,N,N,Y,M-Pesa-integrated input loans+advisory,K,SRC-0075
+CMP-0016,Pula Advisors,Pula,Kenya,Africa,Agri insurance,2015,Cloud/Mobile,Insurance,Y,N,P,Y,N,N,Y,Index insurance, 20M+ farmers,V,SRC-0075
+CMP-0017,Farmerline (Mergdata),Farmerline,Ghana,Africa,Farm management / supply chain,2013,Cloud/Mobile,SaaS,Y,Y,P,P,N,N,Y,Mergdata farmer engagement platform,K,SRC-0075
+CMP-0018,Cropin,Cropin,India,Asia,Farm management platform,2010,Cloud/Mobile,SaaS,Y,Y,Y,Y,P,N,Y,Digital farming + agri intelligence (global/Africa),K,SRC-0075
+CMP-0019,SunCulture,SunCulture,Kenya,Africa,Solar irrigation / IoT,2013,IoT/Mobile,PAYGO,Y,P,N,P,Y,N,Y,Solar irrigation with IoT + PAYGO,K,SRC-0075
+CMP-0020,iProcure,iProcure,Kenya,Africa,Agri supply-chain distribution,2012,Cloud,B2B,Y,Y,N,P,N,N,Y,Agri input distribution/inventory,K,SRC-0075
+CMP-0021,Khula,Khula,South Africa,Africa,Agri marketplace,2016,Mobile,Marketplace,Y,N,N,P,N,N,Y,Produce marketplace aggregation,K,SRC-0075
+CMP-0022,FarmDrive,FarmDrive,Kenya,Africa,Agri credit scoring,2014,Cloud,Data/credit,Y,N,P,Y,N,N,Y,Alternative credit scoring for farmers,K,SRC-0075
+CMP-0023,AGRIVI,AGRIVI,Croatia,Europe,Farm Management System,2013,Cloud/Mobile,SaaS,Y,Y,Y,Y,P,N,Y,Farm management + advisory (global),K,SRC-0075
+CMP-0024,John Deere Operations Center,John Deere,USA,North America,Precision Agriculture,2013,Cloud/Machine,Bundled w/ equipment,Y,Y,Y,Y,Y,N,Y,OEM precision-ag telematics ecosystem,K,SRC-0081
+CMP-0025,Climate FieldView,Bayer,USA,North America,Precision Agriculture,2015,Cloud/Mobile,Subscription,Y,Y,Y,Y,Y,N,Y,Data-driven field analytics,K,SRC-0081
+CMP-0026,Trimble Ag,Trimble,USA,North America,Precision Agriculture,?,Cloud/Hardware,License,Y,Y,Y,Y,Y,N,Y,Guidance + FMS + hardware,K,SRC-0081
+CMP-0027,Granular,Corteva,USA,North America,Farm Management / Business,2014,Cloud,Subscription,Y,N,Y,Y,N,N,Y,Farm business & agronomy management,K,SRC-0075
+CMP-0028,Farmers Edge,Farmers Edge,Canada,North America,Precision Agriculture,2005,Cloud/IoT,Subscription,Y,Y,Y,Y,Y,N,Y,Digital agronomy + weather + imagery,K,SRC-0081
+CMP-0029,Conservis,Conservis,USA,North America,Farm ERP,2009,Cloud,Subscription,Y,Y,P,P,P,N,Y,Farm operations & financial management,K,SRC-0075
+CMP-0030,Agworld,Agworld,Australia,Australia,Farm Management,2009,Cloud/Mobile,Subscription,Y,Y,Y,P,N,N,Y,Collaborative farm data,K,SRC-0075
+CMP-0031,CropX,CropX,Israel/USA,Asia,Soil sensing / IoT,2013,IoT/Cloud,Hardware+SaaS,Y,N,P,Y,Y,N,Y,Soil-sensor agronomy,K,SRC-0081
+CMP-0032,Taranis,Taranis,Israel,Asia,Precision scouting (AI imagery),2015,Cloud,Subscription,Y,N,Y,Y,N,Y,Y,AI crop scouting from aerial imagery,K,SRC-0081
+CMP-0033,xarvio,BASF Digital Farming,Germany,Europe,Precision Agriculture,2017,Cloud/Mobile,Subscription,Y,P,Y,Y,N,N,Y,Field manager & spray timing,K,SRC-0081
+CMP-0034,FarmERP,Shivrai Technologies,India,Asia,Agriculture ERP,2001,Cloud,SaaS,Y,Y,Y,Y,P,N,Y,Agribusiness ERP (global/Africa),K,SRC-0075
+CMP-0035,AgUnity,AgUnity,Australia,Australia,Cooperative platform,2016,Mobile,SaaS,Y,Y,N,N,N,N,Y,Blockchain cooperative record-keeping,K,SRC-0075
+CMP-0036,Allflex/SenseHub,MSD Animal Health,Global,Global,Livestock Management,?,IoT/Cloud,Hardware+SaaS,Y,P,N,Y,Y,N,Y,Animal monitoring/identification,K,SRC-0081
+CMP-0037,Afimilk,Afimilk,Israel,Asia,Livestock (dairy) Management,1977,On-prem/Cloud,License,Y,P,N,Y,Y,N,Y,Dairy herd management,K,SRC-0081
+CMP-0038,Breedr,Breedr,UK,Europe,Livestock Management,2017,Mobile,Freemium,Y,Y,N,Y,N,N,Y,Livestock productivity + trading,K,SRC-0075
+CMP-0039,Deswik,Deswik (Sandvik),Australia,Australia,Mine Planning,2008,Desktop/Cloud,License,N,Y,Y,P,N,N,Y,Underground+surface mine planning/scheduling,V,SRC-0077
+CMP-0040,Vulcan,Maptek,Australia,Australia,Mine Planning / Geology,1981,Desktop,License,N,Y,Y,P,N,N,Y,3D modelling, block modelling, grade control,V,SRC-0077
+CMP-0041,Datamine,Datamine,UK,Europe,Mine Planning / MRM,1981,Desktop/Cloud,License,N,Y,Y,P,N,N,Y,Resource modelling & mine management,K,SRC-0077
+CMP-0042,Micromine / Pitram,Micromine,Australia,Australia,Mine Planning / MES,1986,Desktop/Cloud,License,P,Y,Y,P,Y,N,Y,Exploration/planning + Pitram fleet/MES,K,SRC-0076
+CMP-0043,Hexagon Mining,Hexagon,Sweden/USA,Europe,Mining (planning+FMS+safety),?,Cloud/Hardware,License,Y,Y,Y,Y,Y,N,Y,Integrated planning, FMS, collision avoidance,V,SRC-0076
+CMP-0044,DISPATCH,Modular Mining (Komatsu),USA,North America,Fleet Management System,1979,On-prem/Cloud,License,Y,P,Y,Y,Y,N,Y,Haulage fleet dispatch/optimisation,V,SRC-0076
+CMP-0045,Wenco FMS,Wenco (Hitachi),Canada,North America,Fleet Management System,1993,On-prem/Cloud,License,Y,P,Y,Y,Y,N,Y,Open-architecture fleet management,V,SRC-0076
+CMP-0046,Epiroc PLAN Suite,Epiroc,Sweden,Europe,Mine Planning + execution,?,Cloud,License,Y,P,Y,Y,Y,N,Y,Planning+execution, mixed-fleet interoperability,V,SRC-0077
+CMP-0047,Minemax,Minemax,Australia,Australia,Strategic mine scheduling,1996,Desktop/Cloud,License,N,Y,Y,Y,N,N,Y,Strategic/long-term scheduling & optimisation,K,SRC-0077
+CMP-0048,MineOne,Reactore,India,Asia,Integrated mine management,?,Cloud,SaaS,Y,P,Y,Y,Y,N,Y,Unified mine value-chain platform,V,SRC-0086
+CMP-0049,K2fly,K2fly,Australia,Australia,Resource governance/land,2016,Cloud,SaaS,Y,N,Y,P,N,N,Y,Mining land/resource governance,K,SRC-0076
+CMP-0050,OptiMine,Sandvik,Sweden,Europe,Underground mine optimisation,?,Cloud,License,Y,P,Y,Y,Y,N,Y,Underground analytics & scheduling,K,SRC-0076
+CMP-0051,Procore,Procore,USA,North America,Construction PM,2002,Cloud,Volume-based (unlimited users),Y,Y,P,Y,N,N,Y,Leading construction management (GC),V,SRC-0078
+CMP-0052,Autodesk Construction Cloud / Forma,Autodesk,USA,North America,Construction PM + BIM,2018,Cloud,Per-user,Y,Y,P,Y,N,Y,Y,Design-to-field, Revit ecosystem, 400+ integrations,V,SRC-0079
+CMP-0053,Primavera P6,Oracle,USA,North America,Project scheduling,1983,On-prem/Cloud,License,P,N,N,P,N,N,Y,Enterprise scheduling standard,V,SRC-0079
+CMP-0054,Aconex,Oracle,Australia,Australia,Construction CDE / doc control,2000,Cloud,Project-based,Y,N,N,P,N,N,Y,Common data environment for capital projects,V,SRC-0079
+CMP-0055,Buildertrend,Buildertrend,USA,North America,Construction PM (residential),2006,Cloud,Flat-rate,Y,Y,N,P,N,N,Y,Residential builder management,V,SRC-0079
+CMP-0056,Fieldwire,Hilti,USA,North America,Field construction management,2013,Cloud/Mobile,Freemium/Sub,Y,Y,N,P,N,N,Y,Field-first task/plan management, 1M+ projects,V,SRC-0079
+CMP-0057,Viewpoint Vista,Trimble,USA,North America,Construction ERP,?,On-prem/Cloud,Module/user,P,N,N,P,N,N,Y,Construction accounting/job-cost ERP,V,SRC-0079
+CMP-0058,CMiC,CMiC,Canada,North America,Construction ERP+PM,1974,Cloud,Suite,Y,N,N,P,N,N,Y,Unified construction ERP,V,SRC-0079
+CMP-0059,Bentley Systems (iTwin),Bentley,USA,North America,Infrastructure BIM,1984,Cloud/Desktop,License,Y,P,Y,Y,Y,Y,Y,Infrastructure engineering & digital twins,K,SRC-0079
+CMP-0060,Bluebeam,Nemetschek,USA,North America,Construction docs/markup,2002,Desktop/Cloud,Subscription,Y,Y,N,P,N,N,Y,PDF markup & collaboration,K,SRC-0079
+CMP-0061,Sage Construction,Sage,UK,Europe,Construction accounting/ERP,?,Cloud/On-prem,License,P,N,N,P,N,N,Y,Job-cost accounting standard,K,SRC-0079
+CMP-0062,InEight,InEight,USA,North America,Capital project controls,?,Cloud,SaaS,Y,P,N,Y,N,N,Y,Capital project cost/schedule controls,K,SRC-0079
+CMP-0063,RIB / iTWO,RIB Software,Germany,Europe,Construction 5D BIM/ERP,1961,Cloud,License,Y,N,Y,Y,N,N,Y,5D BIM cost/schedule,K,SRC-0079
+CMP-0064,Cority,Cority,Canada,North America,EHS (occupational health),1985,Cloud,Custom quote,Y,P,P,Y,P,N,Y,Occupational health/IH/ergonomics EHSQ,V,SRC-0080
+CMP-0065,Enablon,Wolters Kluwer,France/USA,Europe,EHS + operational risk,1996,Cloud,Custom quote,Y,N,P,Y,Y,N,Y,Environmental compliance + operational risk,V,SRC-0080
+CMP-0066,Intelex,Intelex (Fortive),Canada,North America,EHSQ,1992,Cloud,Custom quote,Y,P,P,Y,P,N,Y,Broad QES management suite,V,SRC-0080
+CMP-0067,Sphera,Sphera,USA,North America,Process safety / ESG,?,Cloud,Custom quote,Y,N,P,Y,Y,N,Y,Process safety & chemical stewardship,V,SRC-0080
+CMP-0068,VelocityEHS,VelocityEHS,USA,North America,EHS,1996,Cloud,Subscription,Y,P,P,Y,P,N,Y,Mid-market EHS + chemical management,K,SRC-0080
+CMP-0069,EcoOnline,EcoOnline,Norway,Europe,EHS / chemical safety,2000,Cloud,Subscription,Y,P,N,P,P,N,Y,Chemical & EHS management,K,SRC-0080
+CMP-0070,Quentic,Quentic,Germany,Europe,EHS/ESG,2007,Cloud,Subscription,Y,P,P,P,P,N,Y,EHSQ + ESG (Europe),K,SRC-0080
+CMP-0071,SAP EHS,SAP,Germany,Europe,EHS (ERP module),?,Cloud/On-prem,License,P,N,P,Y,Y,N,Y,EHS within SAP ERP,K,SRC-0080
+CMP-0072,IBM Maximo,IBM,USA,North America,Asset/Maintenance (EAM),?,Cloud/On-prem,License,Y,Y,P,Y,Y,N,Y,Enterprise asset management leader,K,SRC-0086
+CMP-0073,SAP EAM/PM,SAP,Germany,Europe,Asset/Maintenance,?,Cloud/On-prem,License,Y,P,P,Y,Y,N,Y,Plant maintenance within SAP,K,SRC-0086
+CMP-0074,Infor EAM,Infor,USA,North America,Asset/Maintenance,?,Cloud,SaaS,Y,Y,P,Y,Y,N,Y,EAM (Hexagon-adjacent),K,SRC-0086
+CMP-0075,Fiix,Fiix (Rockwell),Canada,North America,Maintenance (CMMS),2008,Cloud,Subscription,Y,Y,N,Y,Y,N,Y,Cloud CMMS,K,SRC-0086
+CMP-0076,UpKeep,UpKeep,USA,North America,Maintenance (CMMS),2014,Cloud/Mobile,Subscription,Y,Y,N,P,Y,N,Y,Mobile-first CMMS,K,SRC-0086
+CMP-0077,MaintainX,MaintainX,USA,North America,Maintenance / operations,2018,Mobile/Cloud,Freemium,Y,Y,N,Y,Y,N,Y,Mobile maintenance & procedures,K,SRC-0086
+CMP-0078,SAP EWM,SAP,Germany,Europe,Warehouse Management,?,Cloud/On-prem,License,Y,P,N,Y,Y,N,Y,Extended warehouse management,K,SRC-0086
+CMP-0079,Manhattan Associates,Manhattan,USA,North America,Warehouse / SCM,1990,Cloud,License,Y,P,N,Y,Y,N,Y,WMS/TMS supply-chain leader,K,SRC-0086
+CMP-0080,Blue Yonder,Blue Yonder (Panasonic),USA,North America,Supply chain planning,1985,Cloud,SaaS,Y,N,N,Y,Y,N,Y,SCM planning & fulfilment,K,SRC-0086
+CMP-0081,Korber Supply Chain,Korber,Germany,Europe,Warehouse / SCM,?,Cloud,License,Y,P,N,Y,Y,N,Y,WMS & supply chain software,K,SRC-0086
+CMP-0082,SAP Ariba,SAP,Germany,Europe,Procurement,1996,Cloud,SaaS,Y,N,N,Y,N,N,Y,Procurement & supplier network,K,SRC-0086
+CMP-0083,Coupa,Coupa,USA,North America,Procurement / spend,2006,Cloud,SaaS,Y,N,N,Y,N,N,Y,Business spend management,K,SRC-0086
+CMP-0084,Jaggaer,Jaggaer,USA,North America,Procurement,1995,Cloud,SaaS,Y,N,N,Y,N,N,Y,Source-to-pay,K,SRC-0086
+CMP-0085,Zycus,Zycus,India,Asia,Procurement,1998,Cloud,SaaS,Y,N,N,Y,N,N,Y,Source-to-pay (AI),K,SRC-0086
+CMP-0086,ZPPA e-GP,Zambia Public Procurement Authority,Zambia,Southern Africa,Public procurement,?,Cloud,Government,Y,N,N,N,N,N,P,Zambia e-Government Procurement,K,SRC-0068
+CMP-0087,ArcGIS,Esri,USA,North America,GIS Platform,1969,Cloud/On-prem,License,Y,Y,Y,Y,Y,Y,Y,Leading enterprise GIS + imagery + Velocity IoT,V,SRC-0081
+CMP-0088,QGIS,QGIS.org,Open-source,Global,GIS Platform,2002,Desktop,Free (OSS),P,Y,Y,P,N,P,Y,Open-source GIS,V,SRC-0081
+CMP-0089,ERDAS/Octave Imagine,Hexagon/Octave,Sweden/USA,Europe,Remote Sensing,1978,Desktop,License,N,Y,Y,Y,N,Y,Y,Image processing & photogrammetry,V,SRC-0081
+CMP-0090,Mapbox,Mapbox,USA,North America,Mapping platform,2010,Cloud,Usage-based,Y,P,Y,Y,N,N,Y,Developer mapping/location APIs,K,SRC-0081
+CMP-0091,Google Earth Engine,Google,USA,North America,Remote sensing/analysis,2010,Cloud,Usage/free-tier,P,N,Y,Y,N,N,Y,Planetary-scale geospatial analysis,K,SRC-0081
+CMP-0092,DroneDeploy,DroneDeploy,USA,North America,Drone Platform,2013,Cloud,Subscription,Y,P,Y,Y,Y,Y,Y,Automated drone mapping + site AI,V,SRC-0081
+CMP-0093,Pix4D,Pix4D,Switzerland,Europe,Drone/Photogrammetry,2011,Desktop/Cloud,License,Y,P,Y,Y,N,Y,Y,High-precision photogrammetry,V,SRC-0081
+CMP-0094,DJI Terra,DJI,China,Asia,Drone mapping,2019,Desktop,License,N,Y,Y,P,N,Y,P,Hardware-integrated reconstruction,V,SRC-0081
+CMP-0095,Propeller Aero,Propeller,Australia,Australia,Drone survey (earthworks),2014,Cloud,Subscription,Y,N,Y,Y,N,Y,Y,Earthworks/site survey analytics,K,SRC-0081
+CMP-0096,Planet,Planet Labs,USA,North America,Remote Sensing (satellite),2010,Cloud,Subscription,P,N,Y,Y,N,N,Y,Daily satellite imagery + analytics,V,SRC-0081
+CMP-0097,Sentinel Hub,Sinergise/Planet,Slovenia,Europe,Remote Sensing API,2016,Cloud,Usage-based,P,N,Y,Y,N,N,Y,Satellite data processing API,V,SRC-0081
+CMP-0098,Descartes Labs,Descartes Labs,USA,North America,Remote sensing analytics,2014,Cloud,SaaS,P,N,Y,Y,N,N,Y,Geospatial AI/analytics,K,SRC-0081
+CMP-0099,Maxar,Maxar,USA,North America,Satellite imagery,?,Cloud,License,N,N,Y,Y,N,N,Y,High-resolution EO imagery,K,SRC-0081
+CMP-0100,ThingsBoard,ThingsBoard,Open-source,Global,IoT Platform,2016,Cloud/On-prem,Free/Sub,Y,P,Y,P,Y,N,Y,Open-source IoT device management,V,SRC-0081
+CMP-0101,AWS IoT,Amazon,USA,North America,IoT Platform,2015,Cloud,Usage-based,Y,P,P,Y,Y,N,Y,Cloud IoT connectivity/analytics,K,SRC-0081
+CMP-0102,Azure IoT,Microsoft,USA,North America,IoT Platform,2015,Cloud,Usage-based,Y,P,P,Y,Y,N,Y,Cloud IoT hub + digital twins,K,SRC-0081
+CMP-0103,Losant,Losant,USA,North America,IoT Platform,2015,Cloud,Subscription,Y,N,P,Y,Y,N,Y,Enterprise IoT application platform,K,SRC-0081
+CMP-0104,Tomorrow.io,Tomorrow.io,USA,North America,Weather Platform,2016,Cloud,Subscription,Y,N,Y,Y,Y,N,Y,Weather intelligence + API,V,SRC-0081
+CMP-0105,The Weather Company,IBM,USA,North America,Weather Platform,?,Cloud,Subscription,Y,N,Y,Y,N,N,Y,Enterprise weather data/API,K,SRC-0081
+CMP-0106,Ignitia (iska),Ignitia,Sweden,Europe,Weather (tropical Africa),2010,SMS/Mobile,Subscription,Y,Y,N,Y,N,N,Y,Tropical/African smallholder weather SMS,K,SRC-0081
+CMP-0107,SAP S/4HANA,SAP,Germany,Europe,Enterprise ERP,2015,Cloud/On-prem,License,Y,N,P,Y,Y,N,Y,Enterprise ERP leader,K,SRC-0086
+CMP-0108,Oracle NetSuite,Oracle,USA,North America,Cloud ERP,1998,Cloud,SaaS,Y,N,N,Y,N,N,Y,Cloud ERP for mid-market,K,SRC-0086
+CMP-0109,Microsoft Dynamics 365,Microsoft,USA,North America,Enterprise ERP/CRM,2016,Cloud,SaaS,Y,P,P,Y,Y,N,Y,Modular ERP/CRM + partner extensions,K,SRC-0079
+CMP-0110,Odoo,Odoo,Belgium,Europe,ERP (open-core),2005,Cloud/On-prem,Freemium/Sub,Y,P,N,Y,N,N,Y,Modular open-core ERP (Africa-popular),K,SRC-0084
+CMP-0111,Sage,Sage,UK,Europe,ERP/Accounting,1981,Cloud/On-prem,Subscription,Y,N,N,P,N,N,Y,SME accounting/ERP,K,SRC-0079
+CMP-0112,Infor,Infor,USA,North America,Industry ERP,2002,Cloud,SaaS,Y,N,P,Y,Y,N,Y,Industry-specific cloud ERP,K,SRC-0086
+CMP-0113,SYSPRO,SYSPRO,South Africa,Africa,Manufacturing ERP,1978,Cloud/On-prem,License,Y,N,N,P,P,N,Y,Manufacturing/distribution ERP (African roots),K,SRC-0086
+CMP-0114,ZAMACE,Zambian Commodities Exchange,Zambia,Southern Africa,Commodity Trading,2007,Cloud,Exchange fees,Y,N,N,N,N,N,P,Zambia commodity exchange + WRS (SI 59),V,SRC-0082
+CMP-0115,AFEX,AFEX,Nigeria,Africa,Commodity Trading,2014,Cloud/Mobile,Exchange/finance,Y,P,N,P,N,N,Y,Pan-African commodity exchange + warehouse receipts,V,SRC-0083
+CMP-0116,Ethiopia Commodity Exchange (ECX),ECX,Ethiopia,Africa,Commodity Trading,2008,Cloud,Exchange fees,Y,N,N,N,N,N,P,National commodity exchange,K,SRC-0082
+CMP-0117,ACE Africa,Agricultural Commodity Exchange,Malawi,Africa,Commodity Trading,2006,Cloud,Exchange fees,Y,N,N,N,N,N,P,Malawi commodity exchange (WRS),K,SRC-0082
+CMP-0118,ZMX,Zimbabwe Mercantile Exchange,Zimbabwe,Southern Africa,Commodity Trading,2019,Cloud,Exchange fees,Y,N,N,N,N,N,P,Zimbabwe commodity exchange,K,SRC-0082
+CMP-0119,Copia,Copia Global,Kenya,Africa,Rural e-commerce,2013,Mobile/Agent,Marketplace,Y,N,N,P,N,N,Y,Agent-based rural commerce,K,SRC-0075
+CMP-0120,Wasoko (Sokowatch),Wasoko,Kenya,Africa,B2B retail marketplace,2016,Mobile,Marketplace/credit,Y,N,N,P,N,N,Y,Informal-retail B2B supply + credit,K,SRC-0075
+CMP-0121,TradeDepot,TradeDepot,Nigeria,Africa,B2B distribution,2016,Mobile,Marketplace/credit,Y,N,N,P,N,N,Y,FMCG distribution + embedded finance,K,SRC-0075
+CMP-0122,M-Pesa,Safaricom/Vodacom,Kenya,Africa,Mobile Money,2007,Mobile/USSD,Transaction,Y,Y,N,N,N,N,Y,Dominant mobile money (~96% Kenya flow),V,SRC-0084
+CMP-0123,MTN MoMo,MTN,South Africa,Africa,Mobile Money,2009,Mobile/USSD,Transaction,Y,Y,N,N,N,N,Y,Pan-African mobile money,V,SRC-0084
+CMP-0124,Airtel Money,Airtel,India/Africa,Africa,Mobile Money,2011,Mobile/USSD,Transaction,Y,Y,N,N,N,N,Y,Leader in Zambia; unified pan-African API,V,SRC-0084
+CMP-0125,Zamtel Kwacha,Zamtel,Zambia,Southern Africa,Mobile Money,?,Mobile/USSD,Transaction,Y,Y,N,N,N,N,P,Zambia state-telco mobile money,K,SRC-0085
+CMP-0126,Flutterwave,Flutterwave,Nigeria,Africa,Payments / fintech,2016,Cloud/API,Transaction,Y,N,N,P,N,N,Y,Pan-African payments (licensed in Zambia),V,SRC-0085
+CMP-0127,Cellulant (Tingg),Cellulant,Kenya,Africa,Payments aggregator,2004,Cloud/API,Transaction,Y,N,N,P,N,N,Y,Pan-African payments aggregation,K,SRC-0084
+CMP-0128,MFS Africa (Onafriq),Onafriq,Mauritius,Africa,Payments network,2009,Cloud/API,Transaction,Y,N,N,N,N,N,Y,Cross-border mobile-money hub,K,SRC-0084
+CMP-0129,Paystack,Paystack (Stripe),Nigeria,Africa,Payments,2015,Cloud/API,Transaction,Y,N,N,P,N,N,Y,Online payments (West Africa),K,SRC-0084
+CMP-0130,Chipper Cash,Chipper Cash,USA/Africa,Africa,Payments / P2P,2018,Mobile,Transaction,Y,N,N,P,N,N,Y,Cross-border P2P payments,K,SRC-0084
+CMP-0131,MOSIP,MOSIP (IIIT-B),India,Asia,Digital Identity (open-source),2018,Cloud/On-prem,Open-source,Y,P,N,P,N,N,Y,Open-source foundational ID platform,K,SRC-0084
+CMP-0132,Smart Zambia / National ID,GRZ (Smart Zambia Institute),Zambia,Southern Africa,Digital Identity / e-Gov,2016,Cloud,Government,Y,N,N,N,N,N,P,Zambia e-government + national ID,K,SRC-0068
+CMP-0133,Agrivi Engage,AGRIVI,Croatia,Europe,Agri supply-chain,2013,Cloud,SaaS,Y,Y,Y,Y,P,N,Y,Food/agri supply-chain traceability,K,SRC-0075
+CMP-0134,Semios,Semios,Canada,North America,Precision Agriculture (IoT),2010,IoT/Cloud,Subscription,Y,N,Y,Y,Y,N,Y,Orchard IoT pest/climate monitoring,K,SRC-0081
+CMP-0135,Prospera,Prospera (Valmont),Israel,Asia,Precision Agriculture (AI),2014,Cloud,Subscription,Y,N,Y,Y,Y,N,Y,AI crop analytics + irrigation,K,SRC-0081
+CMP-0136,Gro Intelligence,Gro Intelligence,USA,North America,Ag data/analytics,2014,Cloud,Subscription,Y,N,Y,Y,N,N,Y,Agricultural & climate data analytics,K,SRC-0075
+CMP-0137,Releaf,Releaf,Nigeria,Africa,Agri-processing / sourcing,2017,Cloud/Mobile,B2B,Y,N,P,P,N,N,Y,Food-processing sourcing tech,K,SRC-0075
+CMP-0138,Tulaa,Tulaa,Kenya,Africa,Agri-fintech marketplace,2017,Mobile,Credit/marketplace,Y,N,N,P,N,N,Y,Inputs on credit + market linkage,K,SRC-0075
+CMP-0139,SmartMoney/others,various,Zambia,Southern Africa,Rural fintech,?,Mobile,Transaction,Y,Y,N,N,N,N,P,Rural savings/payments (to verify),K,SRC-0073
+CMP-0140,eLEAF / satellite agri,eLEAF,Netherlands,Europe,Remote sensing (agri water),1990s,Cloud,Subscription,P,N,Y,Y,N,N,Y,Crop water/productivity from satellite (Africa projects),K,SRC-0081
+CMP-0141,aWhere / aClimate,aWhere,USA,North America,Ag weather,1999,Cloud,API,Y,N,Y,Y,N,N,Y,Agricultural weather intelligence,K,SRC-0081
+CMP-0142,Agrofy / marketplaces LatAm,various,Argentina,South America,Agri marketplace,?,Cloud,Marketplace,Y,N,N,P,N,N,Y,LatAm agri inputs marketplace,K,SRC-0075
+CMP-0143,Solinftec,Solinftec,Brazil,South America,Precision Agriculture (IoT/AI),2007,IoT/Cloud,Subscription,Y,P,Y,Y,Y,N,Y,Real-time farm operations AI/IoT,K,SRC-0081
+CMP-0144,Strider (Syngenta),Strider,Brazil,South America,Farm management,2013,Cloud/Mobile,Subscription,Y,Y,Y,Y,N,N,Y,Digital farm management (LatAm),K,SRC-0075
+CMP-0145,Bushel,Bushel,USA,North America,Grain/commodity platform,2011,Cloud/Mobile,SaaS,Y,N,N,P,N,N,Y,Grain-elevator/farmer connectivity,K,SRC-0075
+CMP-0146,K2 Agri / GrainMate,various,Ghana/Africa,Africa,Grain storage IoT,?,IoT,Hardware,Y,Y,N,P,Y,N,P,Grain-storage moisture IoT,K,SRC-0075
+CMP-0147,SAP for Mining,SAP,Germany,Europe,Mining ERP,?,Cloud/On-prem,License,Y,N,P,Y,Y,N,Y,ERP for mining operations,K,SRC-0086
+CMP-0148,ABB Ability (mining),ABB,Switzerland,Europe,Mining automation/electrification,?,Cloud/OT,License,Y,P,Y,Y,Y,N,Y,Mine electrification & automation,K,SRC-0076
+CMP-0149,Sphera/Enablon ESG (dup-domain ESG),Sphera,USA,North America,ESG / sustainability,?,Cloud,SaaS,Y,N,P,Y,Y,N,Y,ESG & sustainability reporting,K,SRC-0080
+CMP-0150,Locus Technologies,Locus,USA,North America,Environmental data management,1997,Cloud,SaaS,Y,N,Y,Y,Y,N,Y,Environmental/water quality data (EIM),K,SRC-0080
+CMP-0151,GrainMate / AgriEdge,various,Africa,Africa,Farm advisory,?,Mobile,Freemium,Y,Y,N,P,N,N,P,Farmer advisory apps (to verify),K,SRC-0075
+CMP-0152,Kobo360,Kobo360,Nigeria,Africa,Logistics marketplace,2017,Mobile,Commission,Y,N,P,P,N,N,Y,Freight/logistics marketplace,K,SRC-0075
+CMP-0153,Lori Systems,Lori,Kenya,Africa,Logistics marketplace,2016,Mobile,Commission,Y,N,P,P,N,N,Y,Haulage marketplace,K,SRC-0075
