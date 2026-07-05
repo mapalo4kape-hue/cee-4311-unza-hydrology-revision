@@ -1,1 +1,2 @@
 log_id,work_package,artifact_id,gate,gate_name,result,reviewer,review_date,notes
+QA-0001,WP1.1,WP1.1-PIP,1,Scope completeness,in-review,pending,2026-07-05,"Project Initiation Package submitted; defines objectives, scope, ~250 research questions, deliverables, sources, stakeholders, outputs, risks, acceptance criteria, and activity plan. No data collection until Gate 1 approval."
