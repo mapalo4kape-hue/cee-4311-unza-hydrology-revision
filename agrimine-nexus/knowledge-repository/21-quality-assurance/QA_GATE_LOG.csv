@@ -13,3 +13,7 @@ QA-0011,WP2.1,WP2.1-P1,3,Evidence quality review,in-progress,self,2026-07-05,"Za
 QA-0012,WP2.1,WP2.1-P2,1,Scope completeness,pass,self,2026-07-05,"ACT-009: master data/transactions/documents/measurements/events/relationships + lifecycle/ownership/exchange cover the information ecosystem; schemas/APIs/UML/crops/software excluded."
 QA-0013,WP2.1,WP2.1-P2,2,Source validation,in-progress,self,2026-07-05,"6 sources (SRC-0058..0063); ZIAMIS/warehouse-receipt content from authoritative/legal sources."
 QA-0014,WP2.1,WP2.1-P2,4,Cross-reference verification,in-progress,self,2026-07-05,"Every relationship (REL-01..30) cited or tied to an evidenced workflow; graph edges E-0072..E-0090 added."
+QA-0015,WP2.2,WP2.2-P1,1,Scope completeness,pass,self,2026-07-05,"ACT-010 breadth-first: mining handbook covers all 9 outputs; deep-dive/software/AI excluded."
+QA-0016,WP2.3,WP2.3-P1,1,Scope completeness,pass,self,2026-07-05,"ACT-010 breadth-first: construction handbook covers all 9 outputs."
+QA-0017,WP2.4,WP2.4-P1,1,Scope completeness,pass,self,2026-07-05,"ACT-010 breadth-first: environmental handbook covers all 9 outputs."
+QA-0018,WP2.2-2.4,XIND,2,Source validation,in-progress,self,2026-07-05,"7 sources (SRC-0064..0070); regulators/laws from authoritative/legal sources; recent-law implementation flagged."

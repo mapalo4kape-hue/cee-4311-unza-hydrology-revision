@@ -5,7 +5,7 @@ Tracks execution of every MREP work package and its progress through the 8 QA ga
 **Legend:** ☐ not started · ◐ in progress · ☑ passed · — n/a
 **QA Gates:** G1 Scope · G2 Source validation · G3 Evidence quality · G4 Cross-reference · G5 Requirement extraction · G6 Architecture relevance · G7 Business impact · G8 Executive/final review.
 
-_Last updated: 2026-07-05 (WP2.1 Phase 2 agricultural information intelligence — ACT-009; 63 total sources; awaiting review)_
+_Last updated: 2026-07-05 (Cross-industry breadth-first sprint WP2.2/2.3/2.4 + comparative — ACT-010; 70 total sources; awaiting review)_
 
 ---
 
@@ -22,9 +22,9 @@ _Last updated: 2026-07-05 (WP2.1 Phase 2 agricultural information intelligence �
 | WP | Name | Key deliverables | Status | G1 | G2 | G3 | G4 | G5 | G6 | G7 | G8 |
 |----|------|------------------|--------|----|----|----|----|----|----|----|----|
 | 2.1 | Agriculture | Agriculture Encyclopedia · Crop Value Chain Maps · Farm Workflow Models · Pain Point Matrix · Feature Requirement Catalogue | Phase 1 operations + Phase 2 information intelligence done (41 workflows, full information ecosystem; 19 sources); awaiting review | ◐ | ◐ | ◐ | ◐ | ☐ | ☐ | ☐ | ☐ |
-| 2.2 | Mining | Mining Operations Handbook · Mining Workflow Library · Procurement Analysis · Compliance Matrix · AI Opportunity Report | Not started | ☐ | ☐ | ☐ | ☐ | ☐ | ☐ | ☐ | ☐ |
-| 2.3 | Construction | Construction Process Library · BOQ Knowledge Base · Site Workflow Models · Digital Construction Opportunity Report | Not started | ☐ | ☐ | ☐ | ☐ | ☐ | ☐ | ☐ | ☐ |
-| 2.4 | Environmental Engineering | Environmental Operations Guide · Compliance Matrix · Monitoring Framework | Not started | ☐ | ☐ | ☐ | ☐ | ☐ | ☐ | ☐ | ☐ |
+| 2.2 | Mining | Mining Operations Handbook · Mining Workflow Library · Procurement Analysis · Compliance Matrix · AI Opportunity Report | Phase 1 (breadth-first) ops intelligence done — ACT-010; awaiting review | ◐ | ◐ | ◐ | ☐ | ☐ | ☐ | ☐ | ☐ |
+| 2.3 | Construction | Construction Process Library · BOQ Knowledge Base · Site Workflow Models · Digital Construction Opportunity Report | Phase 1 (breadth-first) ops intelligence done — ACT-010; awaiting review | ◐ | ◐ | ◐ | ☐ | ☐ | ☐ | ☐ | ☐ |
+| 2.4 | Environmental Engineering | Environmental Operations Guide · Compliance Matrix · Monitoring Framework | Phase 1 (breadth-first) ops intelligence done — ACT-010; awaiting review | ◐ | ◐ | ◐ | ☐ | ☐ | ☐ | ☐ | ☐ |
 | 2.5 | Logistics & Supply Chains | Supply Chain Blueprint · Logistics Workflow Models | Not started | ☐ | ☐ | ☐ | ☐ | ☐ | ☐ | ☐ | ☐ |
 
 ## Stage 3 — Technology Research

@@ -41,7 +41,8 @@ The project follows a strict order: **Governance → Research Engine → Researc
 | [ACT-006](activity-log/2026-07-05_ACT-006_wp1.1-phase1-authoritative-evidence-acquisition.md) | 2026-07-05 | WP1.1 Phase 1 authoritative evidence acquisition (Zambia national baseline) | Stage 1 · collection | Complete |
 | [ACT-007](activity-log/2026-07-05_ACT-007_wp1.1-phase2-economic-digital-infrastructure-baseline.md) | 2026-07-05 | WP1.1 Phase 2 economic/population/infrastructure/financial/digital/logistics/climate baseline | Stage 1 · collection | Complete |
 | [ACT-008](activity-log/2026-07-05_ACT-008_wp2.1-phase1-agricultural-operations-intelligence.md) | 2026-07-05 | WP2.1 Phase 1 agricultural operations intelligence (41 workflows, 20 stakeholders) | Stage 2 · operations | Complete |
-| [ACT-009](activity-log/2026-07-05_ACT-009_wp2.1-phase2-agricultural-information-intelligence.md) | 2026-07-05 | WP2.1 Phase 2 agricultural information/data/document intelligence | Stage 2 · information | Complete (awaiting review) |
+| [ACT-009](activity-log/2026-07-05_ACT-009_wp2.1-phase2-agricultural-information-intelligence.md) | 2026-07-05 | WP2.1 Phase 2 agricultural information/data/document intelligence | Stage 2 · information | Complete |
+| [ACT-010](activity-log/2026-07-05_ACT-010_cross-industry-research-sprint.md) | 2026-07-05 | Cross-industry breadth-first sprint: Mining, Construction, Environmental + Comparative Analysis | Stage 2 · breadth-first | Complete (awaiting review) |
 
 ## Evidence-acquisition system (ACT-005, WP1.1)
 
@@ -56,7 +57,7 @@ The project follows a strict order: **Governance → Research Engine → Researc
 
 ## Current position
 
-**WP1.1 complete** (ACT-006/007) and **WP2.1 Phase 1 (operations, ACT-008) + Phase 2 (information ecosystem, ACT-009) complete** — **63 cited authoritative sources** total. WP2.1 Phase 2 catalogued the full agricultural information ecosystem (master data, transactions, documents, measurements, events, relationships) with data lifecycle, ownership, and exchange matrices: [`knowledge-repository/06-industries/agriculture/WP2.1-phase2-information/`](knowledge-repository/06-industries/agriculture/WP2.1-phase2-information/). Information intelligence only — no crops, software, schemas, APIs, UML, features, or competitors. **STOP condition active: awaiting review.** Repository migration to `agrimine-nexus-research` remains prepared/validated; the final create-repo/rename/push needs GitHub write access ([`MIGRATION_REPORT.md`](MIGRATION_REPORT.md)). Status: [`knowledge-repository/WORK_PACKAGE_TRACKER.md`](knowledge-repository/WORK_PACKAGE_TRACKER.md).
+**WP1.1 complete** (ACT-006/007); **WP2.1 Agriculture** Phases 1 & 2 complete (ACT-008/009); and a **breadth-first cross-industry sprint (ACT-010)** covering **WP2.2 Mining, WP2.3 Construction, WP2.4 Environmental Engineering** plus a **Cross-Industry Comparative Analysis** — **70 cited authoritative sources** total. Industry handbooks: [`knowledge-repository/06-industries/`](knowledge-repository/06-industries/) (`mining/`, `construction/`, `environmental/`) + [`CROSS_INDUSTRY_COMPARATIVE_ANALYSIS.md`](knowledge-repository/06-industries/CROSS_INDUSTRY_COMPARATIVE_ANALYSIS.md). Operational/information intelligence only — no software, schemas, APIs, UML, features, competitors, or AI. **STOP condition active: awaiting review.** Repository migration to `agrimine-nexus-research` remains prepared/validated ([`MIGRATION_REPORT.md`](MIGRATION_REPORT.md)). Status: [`knowledge-repository/WORK_PACKAGE_TRACKER.md`](knowledge-repository/WORK_PACKAGE_TRACKER.md).
 
 > Note: this work lives on branch `cursor/agrimine-rom-internalisation-9a65` and is under review in **PR #5** (PR #4 was merged early with only ACT-001).
 
