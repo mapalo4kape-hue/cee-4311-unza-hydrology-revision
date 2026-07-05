@@ -4,12 +4,20 @@ This folder holds the research-governance materials for the **AgriMine Nexus** p
 
 The working rule (from the project directive): **read and internalise the ROM, and each time an activity is carried out, produce a record of *how* it was done and save it to GitHub.**
 
-## Contents
+## Governance documents (all binding)
 
 | Path | What it is |
 |------|-----------|
-| [`ROM_Internalisation.md`](ROM_Internalisation.md) | Faithful working restatement of the ROM — evidence it has been read and internalised. |
-| [`templates/ACTIVITY_RECORD_TEMPLATE.md`](templates/ACTIVITY_RECORD_TEMPLATE.md) | Reusable template for documenting how each research activity was carried out (built from the ROM's quality, evidence-scoring, and requirement-extraction standards). |
+| [`ROM_Internalisation.md`](ROM_Internalisation.md) | The **ROM** — *how* research must be done (method, quality, evidence, deliverables). |
+| [`MREP_Internalisation.md`](MREP_Internalisation.md) | The **MREP** — *what* gets researched, *in what order*, and *what each work package produces* (5 stages, 19 work packages, 8 QA gates, 28 deliverables). |
+| [`CITATION_STANDARD.md`](CITATION_STANDARD.md) | Mandatory **Citation & Evidence-Traceability Standard** — every factual claim is cited (org, publication date, confidence, retrieval date) and every recommendation traces back to evidence. |
+
+## Working materials
+
+| Path | What it is |
+|------|-----------|
+| [`knowledge-repository/`](knowledge-repository/) | Version-controlled knowledge base (MREP §6): 18 document categories + work-package/QA-gate tracker. |
+| [`templates/ACTIVITY_RECORD_TEMPLATE.md`](templates/ACTIVITY_RECORD_TEMPLATE.md) | Reusable template for documenting how each research activity was carried out (enforces the Citation Standard). |
 | [`activity-log/`](activity-log/) | Dated records of every research activity performed. |
 | [`source/`](source/) | Primary source documents, kept in-repo for traceability (Evidence First). |
 
@@ -18,6 +26,11 @@ The working rule (from the project directive): **read and internalise the ROM, a
 | ID | Date | Activity | ROM phase | Status |
 |----|------|----------|-----------|--------|
 | [ACT-001](activity-log/2026-07-05_ACT-001_read-and-internalise-rom.md) | 2026-07-05 | Read & internalise the ROM | Planning (governance intake) | Complete |
+| [ACT-002](activity-log/2026-07-05_ACT-002_internalise-mrep-and-add-citation-standard.md) | 2026-07-05 | Internalise the MREP, scaffold knowledge repo, add Citation Standard | Planning (governance intake) | Complete |
+
+## Current position
+
+Governance intake complete (ROM + MREP + Citation Standard). **Next:** Stage 1 · WP 1.1 National Intelligence (ACT-003). Execution status is tracked in [`knowledge-repository/WORK_PACKAGE_TRACKER.md`](knowledge-repository/WORK_PACKAGE_TRACKER.md).
 
 ## How to add a new activity record
 
