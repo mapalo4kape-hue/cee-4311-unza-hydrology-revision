@@ -1,0 +1,15 @@
+persistent_id,title,publisher,publication_date,retrieval_date,url,theme,document_type,coverage,update_frequency,format,license,confidence,validation_status
+SRC-0094,Plant Variety and Seeds Act Cap 236,GRZ (ARIPO copy),1995,2026-07-05,https://www.aripo.org/storage/resources-member-state-laws/1674821137_phpy9mTEA.pdf,Agriculture-seed,Act,National,rare,PDF,Public,84,verified
+SRC-0095,Agriculture (Fertilisers and Feed) Act Cap 226,Parliament of Zambia,1994,2026-07-05,https://www.parliament.gov.zm/sites/default/files/documents/acts/Agriculture%20%28Fertilisers%20and%20Feed%29%20Act.pdf,Agriculture-fertilizer,Act,National,rare,PDF,Public,84,verified
+SRC-0096,Food and Nutrition Act No.3 of 2020,FAOLEX,2020,2026-07-05,https://faolex.fao.org/docs/pdf/zam203446.pdf,Food-nutrition,Act,National,rare,PDF,Public,84,verified
+SRC-0097,Forestry Act No.4 of 2015,FAOLEX,2015,2026-07-05,https://faolex.fao.org/docs/pdf/zam183104.pdf,Forestry,Act,National,rare,PDF,Public,80,verified
+SRC-0098,Fisheries Act No.22 of 2011,FAOLEX,2011,2026-07-05,https://faolex.fao.org/docs/pdf/zam183104.pdf,Fisheries,Act,National,rare,PDF,Public,82,verified
+SRC-0099,Cooperative Societies Act No.20 of 1998,FAOLEX,1998,2026-07-05,https://faolex.fao.org/docs/pdf/zam183104.pdf,Cooperatives,Act,National,rare,PDF,Public,82,verified
+SRC-0100,MoA legislation list (Animal Health/Food Reserve/Tobacco/etc.),Ministry of Agriculture,2018,2026-07-05,https://faolex.fao.org/docs/pdf/zam183104.pdf,Agriculture-legislation,Compilation,National,periodic,PDF,Public,80,verified
+SRC-0101,Employment Code Act No.3 of 2019,Parliament of Zambia,2019,2026-07-05,https://www.parliament.gov.zm/sites/default/files/documents/acts/The%20Employment%20Code%20Act%20No.%203%20of%202019.pdf,Labour,Act,National,rare,PDF,Public,86,verified
+SRC-0102,Public Procurement Act No.8 of 2020,ZambiaLII,2020,2026-07-05,https://zambialii.org/akn/zm/act/2020/8,Procurement,Act,National,rare,HTML/PDF,Public,86,verified
+SRC-0103,Competition and Consumer Protection Act No.24 of 2010,CCPC,2010,2026-07-05,https://ccpc.org.zm/aboutUs,Competition/consumer,Act/authority,National,rare,HTML,Public,84,verified
+SRC-0104,Financial Intelligence Centre Act No.46 of 2010,FIC,2010,2026-07-05,https://fic.gov.zm/adfjjvshop/page/76/,AML/CFT,Act/authority,National,rare,HTML,Public,86,verified
+SRC-0105,PACRA Act No.15 of 2010,ZambiaLII,2010,2026-07-05,https://zambialii.org/akn/zm/act/2010/15/eng@2010-04-16/source,IP/company,Act,National,rare,PDF,Public,86,verified
+SRC-0106,Income Tax Act Cap 323 & VAT,zambialaws.com / ZRA,2024,2026-07-05,https://www.zambialaws.com/i/144-chapter-323income-tax-act,Taxation,Act,National,annual,HTML,Public,80,corroborated
+SRC-0107,Occupational Health and Safety Act No.36 of 2010,ZambiaLII,2010,2026-07-05,https://zambialii.org/,OHS,Act,National,rare,HTML,Public,74,corroborated
