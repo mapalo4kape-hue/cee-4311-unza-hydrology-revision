@@ -4,8 +4,8 @@
 
 | Prefix | Object | Next | Notes |
 |--------|--------|------|-------|
-| `SRC-` | Evidence/source | 0023 | 0001-0002 governance; 0003-0022 WP1.1 Phase 1 |
-| `F-` | Finding | 0022 | 0001-0021 allocated (WP1.1 Phase 1) |
+| `SRC-` | Evidence/source | 0045 | 0001-0002 governance; 0003-0022 Phase 1; 0023-0044 Phase 2 |
+| `F-` | Finding | 0047 | 0001-0021 Phase 1; 0022-0046 Phase 2 |
 | `LOC-` | Location instance | ZM + ZM01-ZM10 used | Zambia + 10 provinces in graph |
 | `ENT-` | Knowledge entity | see Master Entity Catalogue | uses mnemonic ids (e.g. ENT-FARM) |
 | `TAX-` | Taxonomy node | per facet | see Master Taxonomy |

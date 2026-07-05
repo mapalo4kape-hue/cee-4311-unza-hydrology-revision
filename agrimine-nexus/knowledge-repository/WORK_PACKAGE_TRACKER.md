@@ -5,7 +5,7 @@ Tracks execution of every MREP work package and its progress through the 8 QA ga
 **Legend:** ☐ not started · ◐ in progress · ☑ passed · — n/a
 **QA Gates:** G1 Scope · G2 Source validation · G3 Evidence quality · G4 Cross-reference · G5 Requirement extraction · G6 Architecture relevance · G7 Business impact · G8 Executive/final review.
 
-_Last updated: 2026-07-05 (WP1.1 Phase 1 authoritative evidence acquired — ACT-006; Gate 1 passed, Gates 2-4 in progress; awaiting review)_
+_Last updated: 2026-07-05 (WP1.1 Phase 2 operational baseline acquired — ACT-007; 44 total sources; awaiting review before WP2.1)_
 
 ---
 
@@ -13,7 +13,7 @@ _Last updated: 2026-07-05 (WP1.1 Phase 1 authoritative evidence acquired — ACT
 
 | WP | Name | Key deliverables | Status | G1 | G2 | G3 | G4 | G5 | G6 | G7 | G8 |
 |----|------|------------------|--------|----|----|----|----|----|----|----|----|
-| 1.1 | National Intelligence | Zambia Country Profile · Economic Analysis · Infrastructure Map · Digital Readiness Report | Phase 1 evidence acquisition done (national baseline, 20 sources); awaiting review | ☑ | ◐ | ◐ | ◐ | ☐ | ☐ | ☐ | ☐ |
+| 1.1 | National Intelligence | Zambia Country Profile · Economic Analysis · Infrastructure Map · Digital Readiness Report | Phase 1 (baseline) + Phase 2 (economy/pop/infra/finance/digital/logistics/climate) done — 44 sources; awaiting review | ☑ | ◐ | ◐ | ◐ | ☐ | ☐ | ☐ | ☐ |
 | 1.2 | Policy & Regulatory Landscape | Regulatory Matrix · Compliance Handbook · Legal Requirement Catalogue | Not started | ☐ | ☐ | ☐ | ☐ | ☐ | ☐ | ☐ | ☐ |
 | 1.3 | Stakeholder Mapping | Stakeholder Register · Influence Map · Decision-Maker Matrix | Not started | ☐ | ☐ | ☐ | ☐ | ☐ | ☐ | ☐ | ☐ |
 

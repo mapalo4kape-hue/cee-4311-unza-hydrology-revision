@@ -38,7 +38,8 @@ The project follows a strict order: **Governance → Research Engine → Researc
 | [ACT-003](activity-log/2026-07-05_ACT-003_build-research-engine.md) | 2026-07-05 | Build the Research Engine (REIS v1.0) — 10 components, 12 deliverables | Engine build (pre-Stage 1) | Complete |
 | [ACT-004](activity-log/2026-07-05_ACT-004_wp1.1-project-initiation-package.md) | 2026-07-05 | Open WP1.1 & produce the Project Initiation Package (PIP) | Stage 1 · initiation | Complete |
 | [ACT-005](activity-log/2026-07-05_ACT-005_repository-migration-and-evidence-acquisition-prep.md) | 2026-07-05 | Repository migration prep + WP1.1 evidence-acquisition system | Stage 1 · execution prep | Complete |
-| [ACT-006](activity-log/2026-07-05_ACT-006_wp1.1-phase1-authoritative-evidence-acquisition.md) | 2026-07-05 | WP1.1 Phase 1 authoritative evidence acquisition (Zambia national baseline) | Stage 1 · collection | Complete (awaiting review) |
+| [ACT-006](activity-log/2026-07-05_ACT-006_wp1.1-phase1-authoritative-evidence-acquisition.md) | 2026-07-05 | WP1.1 Phase 1 authoritative evidence acquisition (Zambia national baseline) | Stage 1 · collection | Complete |
+| [ACT-007](activity-log/2026-07-05_ACT-007_wp1.1-phase2-economic-digital-infrastructure-baseline.md) | 2026-07-05 | WP1.1 Phase 2 economic/population/infrastructure/financial/digital/logistics/climate baseline | Stage 1 · collection | Complete (awaiting review) |
 
 ## Evidence-acquisition system (ACT-005, WP1.1)
 
@@ -53,7 +54,7 @@ The project follows a strict order: **Governance → Research Engine → Researc
 
 ## Current position
 
-**WP1.1 Phase 1 (Authoritative Evidence Acquisition) is complete** (ACT-006): the Zambia national baseline — administrative geography, reference systems, government structure, legal/standards framework, and spatial data infrastructure — is collected with **20 cited authoritative sources** and full traceability. Outputs: [`knowledge-repository/01-research/WP1.1-phase1-national-baseline/`](knowledge-repository/01-research/WP1.1-phase1-national-baseline/). No interpretation, recommendations, or design — pure evidence acquisition. **Awaiting review before economic/demographic/infrastructure/sector intelligence.** Repository migration to `agrimine-nexus-research` remains prepared/validated; the final create-repo/rename/push step needs GitHub write access (see [`MIGRATION_REPORT.md`](MIGRATION_REPORT.md)). Status: [`knowledge-repository/WORK_PACKAGE_TRACKER.md`](knowledge-repository/WORK_PACKAGE_TRACKER.md).
+**WP1.1 Phase 1 (national baseline, ACT-006) and Phase 2 (operational baseline, ACT-007) are complete** — **44 cited authoritative sources** in total, with findings and contradictions traced in the knowledge graph. Phase-2 outputs (economy, population, infrastructure, financial & digital ecosystems, logistics, climate): [`knowledge-repository/01-research/WP1.1-phase2-operational-baseline/`](knowledge-repository/01-research/WP1.1-phase2-operational-baseline/). Pure evidence acquisition — no analysis, recommendations, strategy, or design. **STOP condition active: awaiting review before opening WP2.1 (Agriculture).** Repository migration to `agrimine-nexus-research` remains prepared/validated; the final create-repo/rename/push step needs GitHub write access (see [`MIGRATION_REPORT.md`](MIGRATION_REPORT.md)). Status: [`knowledge-repository/WORK_PACKAGE_TRACKER.md`](knowledge-repository/WORK_PACKAGE_TRACKER.md).
 
 ## How to add a new activity record
 
