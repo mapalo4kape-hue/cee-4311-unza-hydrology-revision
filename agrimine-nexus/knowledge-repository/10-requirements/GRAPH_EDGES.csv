@@ -188,3 +188,12 @@ E-0186,INT-MOMO,WF-032,SUPPORTS,SRC-0084,72,mobile money APIs support payment wo
 E-0187,INT-EO,WF-025,SUPPORTS,SRC-0081,72,open EO APIs support crop monitoring workflow
 E-0188,INT-ZAMPASS,TECH-IAM,IMPLEMENTED_BY,SRC-0118,70,ZamPass is an identity/IAM integration
 E-0189,INT-CADASTRE,REG-0009,ADDRESSES,SRC-0119,72,cadastre addresses mining licensing regulation
+E-0190,CAP-DOM-AGRI,WF-001,DERIVED_FROM,F-0053,70,agriculture capabilities derived from ag workflows
+E-0191,CAP-DOM-MINE,WF-M03,DERIVED_FROM,F-0056,70,mining capabilities derived from mining workflows
+E-0192,CAP-DOM-CONS,WF-C03,DERIVED_FROM,F-0060,70,construction capabilities derived from construction workflows
+E-0193,CAP-DOM-ENV,WF-E10,DERIVED_FROM,F-0059,70,environmental capabilities derived from env workflows
+E-0194,CAP-DOM-LOG,WF-L08,DERIVED_FROM,F-0067,70,logistics capabilities derived from logistics workflows
+E-0195,CAP-DOM-ENT,WF-032,DERIVED_FROM,F-0079,72,enterprise capabilities derived from cross-cutting workflows
+E-0196,CAP-DOM-ENT,TECH-MMO,ENABLED_BY,F-0086,72,enterprise commons enabled by mobile-money/USSD rails
+E-0197,CAP-DOM-AGRI,CMP-CAT-SADC,SUPPORTED_BY,F-0084,68,agri capabilities supported by regional/African products
+E-0198,F-0088,F-0053,SYNTHESISES,F-0053;F-0079,72,capability model synthesises prior findings

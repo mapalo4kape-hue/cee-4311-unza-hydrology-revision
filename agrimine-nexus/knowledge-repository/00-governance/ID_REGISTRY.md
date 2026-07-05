@@ -5,9 +5,11 @@
 | Prefix | Object | Next | Notes |
 |--------|--------|------|-------|
 | `SRC-` | Evidence/source | 0122 | ...0114-117 WP4 products; 0118-121 WP4.3 integrations |
-| `F-` | Finding | 0088 | ...0079-0084 WP4 products; 0085-0087 WP4.3 integrations |
+| `F-` | Finding | 0090 | ...0085-0087 WP4.3 integrations; 0088-0089 WP4.2 capabilities |
 | `INT-` | Integration entry | 0151 | 001-150 allocated (Master Integration Catalogue, WP4.3) |
 | `GAP-I` | Integration gap | I11 | I01-I10 allocated (WP4.3) |
+| `CAP-` | Business capability | 0171 | 001-170 allocated (Master Enterprise Capability Catalogue, WP4.2) |
+| `GAP-C` | Capability gap | C09 | C01-C08 allocated (WP4.2) |
 | `TECH-` | Technology (catalogue) | 0151 | 001-150 allocated (Global Technology Catalogue, WP3) |
 | `GAP-T` | Technology gap | T10 | T01-T09 allocated (WP3) |
 | `GAP-M` | Market/product gap | M09 | M01-M08 allocated (WP4) |

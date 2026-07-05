@@ -1,0 +1,171 @@
+cap_id,name,l1_domain,l2_group,industry,description,workflows,stakeholders,regulations,technologies,competitors,integrations,findings,maturity,confidence
+CAP-001,Farmer registration & profiling,Agriculture,Farm Operations,agriculture,Register farmers with identity/plot/household data,WF-001;WF-002,STK-028;STK-001,REG-0024,TECH-130;TECH-150,CMP-0247;CMP-0002,INT-032;INT-115,F-0053,Established,72
+CAP-002,Land & plot mapping,Agriculture,Farm Operations,agriculture,Capture and map field boundaries/plots,WF-003,STK-028;STK-034,,TECH-047;TECH-059,CMP-0013;CMP-0135,INT-057;INT-062,F-0075,Established,72
+CAP-003,Soil management & testing,Agriculture,Crop Management,agriculture,Record soil tests and fertility management,WF-004;WF-011,STK-028;STK-034,,TECH-098;TECH-024,CMP-0134;CMP-0006,INT-085,F-0053,Established,66
+CAP-004,Crop planning & calendar,Agriculture,Crop Management,agriculture,Plan crops seasons and activities,WF-005,STK-028;STK-034,,TECH-026,CMP-0144;CMP-0002,,F-0053,Established,68
+CAP-005,Planting & activity records,Agriculture,Crop Management,agriculture,Log planting and field activities,WF-006,STK-028,,TECH-131;TECH-127,CMP-0144,INT-127,F-0033,Established,68
+CAP-006,Input management,Agriculture,Crop Management,agriculture,Track seed/fertiliser/agrochemical use,WF-007;WF-011,STK-028;STK-032,REG-0016,TECH-131,CMP-0002;CMP-0247,,F-0053,Established,68
+CAP-007,Pest & disease scouting,Agriculture,Crop Management,agriculture,Detect and record pests/diseases,WF-013;WF-015,STK-028;STK-034,,TECH-015;TECH-001,CMP-0001;CMP-0135,INT-091,F-0075,Growing,70
+CAP-008,Spraying & treatment records,Agriculture,Crop Management,agriculture,Record chemical applications and compliance,WF-016,STK-028,REG-0016,TECH-073;TECH-082,CMP-0143,,F-0053,Established,64
+CAP-009,Irrigation scheduling,Agriculture,Irrigation,agriculture,Schedule irrigation from soil/weather data,WF-012;WF-019,STK-028;STK-029,REG-0019,TECH-098;TECH-026,CMP-0135;CMP-0134,INT-046;INT-048,F-0076,Growing,66
+CAP-010,Irrigation control (automation),Agriculture,Irrigation,agriculture,Automate irrigation actuation,WF-012,STK-029,REG-0019,TECH-084;TECH-089,CMP-0143,INT-085,F-0076,Emerging,58
+CAP-011,Mechanisation & equipment booking,Agriculture,Mechanisation,agriculture,Book and manage farm machinery,WF-024,STK-028;STK-032,,TECH-101,CMP-0011,INT-104,F-0053,Growing,64
+CAP-012,Harvest recording,Agriculture,Farm Operations,agriculture,Record harvest quantities and dates,WF-025,STK-028,,TECH-131,CMP-0144,,F-0033,Established,66
+CAP-013,Yield estimation,Agriculture,Crop Management,agriculture,Estimate yields from records/remote sensing,WF-025,STK-028;STK-029,,TECH-060;TECH-070,CMP-0013;CMP-0136,INT-066,F-0075,Growing,64
+CAP-014,Post-harvest handling,Agriculture,Warehousing,agriculture,Manage drying/grading/handling,WF-026,STK-028;STK-031,REG-0016,TECH-103,CMP-0146,,F-0033,Established,60
+CAP-015,Storage & warehousing,Agriculture,Warehousing,agriculture,Track stored commodities and conditions,WF-026;WF-027,STK-031;STK-055,,TECH-103;TECH-102,CMP-0221;CMP-0146,INT-085,F-0067,Established,64
+CAP-016,Warehouse receipt issuance,Agriculture,Warehousing,agriculture,Issue and manage warehouse receipts,WF-027,STK-031;STK-060,REG-0012,TECH-130,CMP-0034,INT-034,F-0067,Established,66
+CAP-017,Grading & quality assurance,Agriculture,Warehousing,agriculture,Grade produce to standards,WF-026,STK-031;STK-036,REG-0016,TECH-015,CMP-0034,,F-0033,Established,60
+CAP-018,Commodity listing & trading,Agriculture,Commodity Trading,agriculture,List and trade commodities/match buyers,WF-028;WF-029,STK-031;STK-030,REG-0012,TECH-130,CMP-0034;CMP-0010,INT-034,F-0054,Established,64
+CAP-019,Price discovery & market info,Agriculture,Marketplace,agriculture,Disseminate market prices,WF-029,STK-028;STK-030,,TECH-150;TECH-121,CMP-0003;CMP-0014,INT-091,F-0054,Established,68
+CAP-020,Produce marketplace ordering,Agriculture,Marketplace,agriculture,Order inputs/produce online,WF-029,STK-028;STK-032,,TECH-108,CMP-0002;CMP-0010,INT-006,F-0054,Established,66
+CAP-021,Cooperative membership management,Agriculture,Cooperatives,agriculture,Manage cooperative members,WF-030,STK-031;STK-028,REG-0013,TECH-130,CMP-0108,,F-0053,Established,62
+CAP-022,Cooperative aggregation & bulk input,Agriculture,Cooperatives,agriculture,Aggregate produce and bulk-buy inputs,WF-030,STK-031;STK-032,REG-0013,TECH-130,CMP-0012,INT-006,F-0054,Established,62
+CAP-023,Extension advisory delivery,Agriculture,Extension,agriculture,Deliver agronomic advice,WF-038;WF-039,STK-034;STK-028,,TECH-001;TECH-021,CMP-0001;CMP-0002,INT-091;INT-092,F-0055,Growing,68
+CAP-024,Weather advisory,Agriculture,Extension,agriculture,Provide weather-based advisories,WF-019;WF-038,STK-028;STK-034,,TECH-026,CMP-0141;CMP-0001,INT-047;INT-048,F-0076,Established,66
+CAP-025,Farmer credit scoring,Agriculture,Finance,agriculture,Score farmer creditworthiness,WF-037,STK-028;STK-060,REG-0031,TECH-024;TECH-025,CMP-0009;CMP-0138,INT-003,F-0054,Growing,62
+CAP-026,Input credit & financing,Agriculture,Finance,agriculture,Provide inputs on credit,WF-037,STK-028;STK-069,REG-0031,TECH-130,CMP-0009;CMP-0138,INT-003;INT-004,F-0054,Growing,64
+CAP-027,Produce/value-chain finance,Agriculture,Finance,agriculture,Finance against produce/receipts,WF-037,STK-060;STK-031,REG-0012;REG-0031,TECH-130,CMP-0012;CMP-0034,INT-034,F-0067,Growing,60
+CAP-028,Crop insurance enrolment,Agriculture,Insurance,agriculture,Enrol farmers in insurance,WF-040,STK-028;STK-061,REG-0032,TECH-060,CMP-0009,INT-003,F-0054,Emerging,56
+CAP-029,Insurance claims (index/weather),Agriculture,Insurance,agriculture,Process index/weather-based claims,WF-040,STK-061;STK-028,REG-0032,TECH-060;TECH-026,CMP-0009,INT-048,F-0076,Emerging,54
+CAP-030,Livestock registry & identification,Agriculture,Livestock,agriculture,Register and identify livestock,WF-041,STK-028;STK-035,REG-0016,TECH-102;TECH-131,CMP-0108,,F-0053,Established,58
+CAP-031,Livestock health & vaccination,Agriculture,Livestock,agriculture,Track animal health and vaccinations,WF-041,STK-035;STK-028,REG-0016,TECH-131,CMP-0108,,F-0053,Established,58
+CAP-032,Feed & nutrition management,Agriculture,Livestock,agriculture,Manage feed and nutrition,WF-041,STK-028,,TECH-131,CMP-0108,,F-0053,Established,54
+CAP-033,Breeding & reproduction records,Agriculture,Livestock,agriculture,Record breeding/reproduction,WF-041,STK-035;STK-028,,TECH-131,CMP-0108,,F-0053,Established,52
+CAP-034,Poultry batch management,Agriculture,Poultry,agriculture,Manage poultry batches/cycles,WF-041,STK-028,,TECH-131,CMP-0108,,F-0053,Established,54
+CAP-035,Dairy production recording,Agriculture,Livestock,agriculture,Record milk production/quality,WF-041,STK-028;STK-036,REG-0016,TECH-131,CMP-0108,,F-0053,Established,54
+CAP-036,Aquaculture pond management,Agriculture,Aquaculture,agriculture,Manage ponds/water/feeding,WF-041,STK-028,REG-0019,TECH-099,CMP-0108,INT-085,F-0053,Emerging,52
+CAP-037,Traceability & provenance,Agriculture,Marketplace,agriculture,Trace produce origin/chain,WF-028;WF-029,STK-031;STK-036,REG-0016,TECH-130;TECH-032,CMP-0133,INT-147,F-0054,Growing,58
+CAP-038,Subsidy / e-voucher management,Agriculture,Finance,agriculture,Administer input subsidies,WF-007,STK-001;STK-028,REG-0013,TECH-150,CMP-0247,INT-032;INT-027,F-0053,Established,66
+CAP-039,Farmer payments & disbursement,Agriculture,Finance,agriculture,Pay farmers via mobile money,WF-032;WF-037,STK-028;STK-062,REG-0031,TECH-150,CMP-0007;CMP-0245,INT-003;INT-006,F-0054,Established,68
+CAP-040,Training & capacity records,Agriculture,Extension,agriculture,Track training/attendance,WF-039,STK-034;STK-028,,TECH-131,CMP-0004,,F-0055,Established,56
+CAP-041,Exploration data management,Mining,Exploration,mining,Manage exploration/drillhole data,WF-M01,STK-039;STK-047,REG-0009,TECH-047,CMP-0161;CMP-0157,INT-030,F-0056,Established,66
+CAP-042,Geological modelling,Mining,Exploration,mining,Build 3D geological/resource models,WF-M02,STK-047;STK-039,,TECH-047,CMP-0155;CMP-0161,,F-0056,Established,68
+CAP-043,Drillhole & assay management,Mining,Laboratory,mining,Manage assays and sample results,WF-M01,STK-039;STK-047,,TECH-121,CMP-0156;CMP-0177,,F-0056,Established,62
+CAP-044,Resource & reserve estimation,Mining,Mine Planning,mining,Estimate resources/reserves,WF-M02,STK-047;STK-039,REG-0009,TECH-029,CMP-0156;CMP-0155,,F-0056,Established,64
+CAP-045,Survey & geodetic control,Mining,Survey,mining,Survey pit/underground and control,WF-M03,STK-047;STK-039,,TECH-047;TECH-081,CMP-0155,INT-056,F-0056,Established,62
+CAP-046,Mine planning & design,Mining,Mine Planning,mining,Design pits/stopes and plans,WF-M03,STK-047;STK-039,REG-0009,TECH-047,CMP-0154;CMP-0158,,F-0056,Established,68
+CAP-047,Production scheduling,Mining,Mine Planning,mining,Schedule mining production,WF-M04,STK-039;STK-047,,TECH-029,CMP-0154;CMP-0160,,F-0056,Established,66
+CAP-048,Grade control,Mining,Mine Planning,mining,Control ore/waste at production,WF-M04,STK-047,,TECH-047,CMP-0155,,F-0056,Established,60
+CAP-049,Drill & blast management,Mining,Survey,mining,Plan and record drill/blast,WF-M04,STK-039;STK-041,REG-0011,TECH-047,CMP-0155,,F-0056,Established,58
+CAP-050,Fleet dispatch & haulage optimisation,Mining,Fleet,mining,Dispatch and optimise haulage,WF-M05,STK-039;STK-041,,TECH-101;TECH-029,CMP-0164;CMP-0165,INT-101,F-0057,Established,66
+CAP-051,Equipment telemetry & monitoring,Mining,Equipment,mining,Monitor equipment condition,WF-M05,STK-039;STK-041,,TECH-104;TECH-084,CMP-0166;CMP-0211,INT-083,F-0057,Growing,64
+CAP-052,Equipment maintenance (CMMS),Mining,Asset Management,mining,Plan and record maintenance,WF-M06,STK-039;STK-041,REG-0016,TECH-113,CMP-0167;CMP-0168,,F-0057,Established,66
+CAP-053,Asset register & lifecycle,Mining,Asset Management,mining,Manage asset register/lifecycle,WF-M06,STK-039,,TECH-130,CMP-0167,,F-0057,Established,64
+CAP-054,Spares & inventory management,Mining,Inventory,mining,Manage spares/consumables,WF-M07,STK-039;STK-041,,TECH-130,CMP-0105;CMP-0219,INT-116,F-0057,Established,62
+CAP-055,Procurement & supplier management,Mining,Procurement,mining,Procure goods/services,WF-M07,STK-039;STK-042,REG-0029,TECH-113,CMP-0105,INT-041,F-0057,Established,62
+CAP-056,Contractor onboarding & compliance,Mining,Contractor Management,mining,Onboard and verify contractors,WF-M08,STK-039;STK-041,REG-0034,TECH-130,CMP-0176,,F-0057,Established,60
+CAP-057,Safety incident management,Mining,Safety,mining,Report and manage incidents,WF-M09,STK-039;STK-018,REG-0034,TECH-130,CMP-0172;CMP-0176,,F-0058,Established,66
+CAP-058,Safety inspections & audits,Mining,Safety,mining,Conduct inspections/audits,WF-M09,STK-039;STK-018,REG-0034,TECH-131,CMP-0176;CMP-0173,,F-0058,Established,64
+CAP-059,Permit-to-work management,Mining,Safety,mining,Manage work permits,WF-M09,STK-039;STK-041,REG-0034,TECH-113,CMP-0176,,F-0058,Established,58
+CAP-060,Environmental monitoring (mining),Mining,Environmental,mining,Monitor mine environmental parameters,WF-M10,STK-010;STK-039,REG-0017;REG-0018,TECH-099;TECH-100,CMP-0180;CMP-0181,INT-035,F-0059,Established,62
+CAP-061,Tailings & water discharge monitoring,Mining,Environmental,mining,Monitor tailings/discharge,WF-M10,STK-010;STK-039,REG-0017;REG-0019,TECH-099,CMP-0182,INT-036,F-0059,Growing,58
+CAP-062,Rehabilitation planning,Mining,Environmental,mining,Plan and track rehabilitation,WF-M10,STK-039;STK-010,REG-0017,TECH-047,CMP-0181,,F-0059,Established,56
+CAP-063,Laboratory sample management (LIMS),Mining,Laboratory,mining,Manage lab samples/results,WF-M01,STK-039;STK-047,,TECH-121,CMP-0177;CMP-0178,,F-0056,Established,60
+CAP-064,Metallurgical accounting,Mining,Mine Planning,mining,Reconcile metal production,WF-M04,STK-039,,TECH-024,CMP-0156,,F-0056,Established,56
+CAP-065,Production & statutory reporting,Mining,Environmental,mining,Report production/royalties/output,WF-M11,STK-009;STK-039,REG-0009;REG-0010,TECH-123,CMP-0147,INT-030;INT-016,F-0073,Established,64
+CAP-066,Mining licence & cadastre management,Mining,Contractor Management,mining,Manage licences/cadastre submissions,WF-M11,STK-009;STK-039,REG-0009,TECH-047,CMP-0132,INT-030,F-0085,Established,68
+CAP-067,Workforce & shift management,Mining,Contractor Management,mining,Manage shifts/workforce,WF-M08,STK-039;STK-041,REG-0034,TECH-130,CMP-0237,,F-0057,Established,58
+CAP-068,Project planning & WBS,Construction,Project Planning,construction,Set up projects/work breakdown,WF-C01,STK-048;STK-050,,TECH-113,CMP-0188;CMP-0193,,F-0060,Established,66
+CAP-069,BOQ preparation,Construction,BOQ,construction,Prepare bills of quantities,WF-C03,STK-050;STK-048,REG-0016,TECH-130,CMP-0196;CMP-0197,,F-0060,Established,66
+CAP-070,Estimating & costing,Construction,BOQ,construction,Estimate project costs,WF-C03,STK-050;STK-048,,TECH-130,CMP-0196;CMP-0197,,F-0060,Established,64
+CAP-071,Tender & bid management,Construction,Procurement,construction,Manage tenders/bids,WF-C04,STK-048;STK-052,REG-0029,TECH-117,CMP-0198,INT-041,F-0060,Established,60
+CAP-072,Scheduling (Gantt/CPM),Construction,Scheduling,construction,Schedule works/critical path,WF-C05,STK-048;STK-050,,TECH-113,CMP-0193;CMP-0201,,F-0060,Established,64
+CAP-073,Procurement & subcontracting,Construction,Procurement,construction,Procure materials/subcontractors,WF-C04,STK-048;STK-042,REG-0029,TECH-113,CMP-0198,INT-116,F-0060,Established,60
+CAP-074,Site diary & daily reporting,Construction,Site Operations,construction,Record daily site activity,WF-C07,STK-048;STK-050,,TECH-131,CMP-0199;CMP-0200,,F-0060,Established,64
+CAP-075,Progress tracking & monitoring,Construction,Site Operations,construction,Track construction progress,WF-C07,STK-048;STK-050,,TECH-073;TECH-076,CMP-0188;CMP-0189,INT-076,F-0060,Growing,62
+CAP-076,Quantity measurement & earthworks,Construction,Site Operations,construction,Measure quantities/volumes,WF-C07,STK-050,,TECH-081;TECH-076,CMP-0196;CMP-0075,INT-078,F-0060,Growing,58
+CAP-077,Valuation & interim payment certificates,Construction,BOQ,construction,Prepare valuations/IPCs,WF-C12,STK-050;STK-048,,TECH-130,CMP-0198;CMP-0197,,F-0060,Established,60
+CAP-078,Variation & change orders,Construction,Document Control,construction,Manage variations/claims,WF-C12,STK-048;STK-050,,TECH-113,CMP-0194,,F-0060,Established,56
+CAP-079,Cost control & budgeting,Construction,Project Planning,construction,Control project cost/budget,WF-C12,STK-048;STK-050,,TECH-124,CMP-0198,,F-0060,Established,60
+CAP-080,Equipment & plant management,Construction,Equipment,construction,Manage plant hire/equipment,WF-C09,STK-048;STK-041,,TECH-101,CMP-0211;CMP-0167,INT-101,F-0060,Established,58
+CAP-081,Workforce & timesheet management,Construction,Workforce,construction,Manage labour/timesheets,WF-C10,STK-048;STK-058,REG-0034,TECH-130,CMP-0237;CMP-0240,,F-0060,Established,58
+CAP-082,QA/QC inspections,Construction,QA/QC,construction,Conduct quality inspections,WF-C11,STK-048;STK-050,REG-0016,TECH-131,CMP-0176;CMP-0202,,F-0060,Established,60
+CAP-083,Snagging & punch list,Construction,QA/QC,construction,Track defects/snags,WF-C11,STK-048;STK-050,,TECH-131,CMP-0200,,F-0060,Established,58
+CAP-084,Materials testing,Construction,QA/QC,construction,Test materials to standards,WF-C11,STK-050;STK-036,REG-0016,TECH-121,CMP-0177,,F-0060,Established,54
+CAP-085,HSE incident & induction management,Construction,HSE,construction,Manage HSE incidents/inductions,WF-C13,STK-048;STK-018,REG-0034,TECH-131,CMP-0176;CMP-0172,,F-0060,Established,62
+CAP-086,Document & drawing control,Construction,Document Control,construction,Control drawings/RFIs/documents,WF-C14,STK-048;STK-050,,TECH-117,CMP-0194;CMP-0195,,F-0060,Established,64
+CAP-087,BIM coordination,Construction,Document Control,construction,Coordinate BIM models,WF-C14,STK-050;STK-048,,TECH-047,CMP-0189;CMP-0190,INT-140,F-0060,Growing,58
+CAP-088,Handover & O&M records,Construction,Document Control,construction,Manage handover/O&M,WF-C14,STK-048;STK-054,,TECH-117,CMP-0202,,F-0060,Established,52
+CAP-089,EIA screening & study management,Environmental,EIA,environmental,Manage EIA screening/studies,WF-E01,STK-010;STK-047,REG-0017;REG-0018,TECH-047,CMP-0180,INT-035,F-0059,Established,62
+CAP-090,ESMP management,Environmental,EIA,environmental,Manage environmental/social mgmt plans,WF-E02,STK-010;STK-047,REG-0017,TECH-131,CMP-0174,,F-0059,Established,56
+CAP-091,Air quality monitoring,Environmental,Monitoring,environmental,Monitor air/dust/emissions,WF-E10,STK-010;STK-039,REG-0018,TECH-100,CMP-0180,INT-035,F-0059,Established,58
+CAP-092,Water quality monitoring,Environmental,Water,environmental,Monitor water quality/discharge,WF-E10,STK-010;STK-021,REG-0019,TECH-099,CMP-0182;CMP-0180,INT-036,F-0059,Established,60
+CAP-093,Noise & vibration monitoring,Environmental,Monitoring,environmental,Monitor noise/vibration,WF-E10,STK-010,REG-0018,TECH-100,CMP-0180,,F-0059,Established,52
+CAP-094,Waste manifest & tracking,Environmental,Waste,environmental,Track waste/hazardous manifests,WF-E12,STK-010;STK-039,REG-0018,TECH-130,CMP-0174,,F-0059,Established,56
+CAP-095,Biodiversity & rehabilitation monitoring,Environmental,Monitoring,environmental,Monitor biodiversity/rehab,WF-E11,STK-010;STK-047,REG-0017,TECH-060;TECH-072,CMP-0181,INT-066,F-0059,Growing,54
+CAP-096,ESG data collection & reporting,Environmental,ESG,environmental,Collect and report ESG metrics,WF-E13,STK-039;STK-010,REG-0017,TECH-123,CMP-0174;CMP-0186,,F-0059,Growing,58
+CAP-097,Carbon accounting & GHG inventory,Environmental,Carbon,environmental,Account carbon/GHG footprint,WF-E13,STK-039;STK-010,,TECH-024,CMP-0184;CMP-0185,,F-0059,Emerging,54
+CAP-098,Environmental compliance reporting,Environmental,Reporting,environmental,Report to ZEMA/regulators,WF-E14,STK-010;STK-039,REG-0017;REG-0018,TECH-123,CMP-0180,INT-035,F-0073,Established,60
+CAP-099,Environmental permit & licence tracking,Environmental,Reporting,environmental,Track permits/licences,WF-E14,STK-010;STK-039,REG-0017;REG-0019,TECH-130,CMP-0174,INT-035;INT-036,F-0073,Established,58
+CAP-100,Environmental laboratory management,Environmental,Laboratory,environmental,Manage environmental lab samples,WF-E10,STK-036;STK-010,,TECH-121,CMP-0177;CMP-0179,,F-0059,Established,56
+CAP-101,Grievance & community engagement,Environmental,Reporting,environmental,Record grievances/engagement,WF-E02,STK-071;STK-010,REG-0017,TECH-130,CMP-0174,,F-0059,Growing,52
+CAP-102,Transport order management,Logistics,Transport,logistics,Create and manage transport orders,WF-L01;WF-L08,STK-055;STK-030,,TECH-130,CMP-0206;CMP-0208,,F-0067,Established,64
+CAP-103,Load & trip planning,Logistics,Route Planning,logistics,Plan loads and trips,WF-L08,STK-055,,TECH-029,CMP-0205;CMP-0217,,F-0068,Established,60
+CAP-104,Dispatch management,Logistics,Dispatch,logistics,Dispatch vehicles/loads,WF-L11,STK-055;STK-041,,TECH-101,CMP-0211;CMP-0217,INT-101,F-0068,Established,62
+CAP-105,Route planning & optimisation,Logistics,Route Planning,logistics,Optimise delivery routes,WF-L12,STK-055,,TECH-058;TECH-029,CMP-0217;CMP-0207,INT-058,F-0068,Growing,62
+CAP-106,Fleet management,Logistics,Fleet,logistics,Manage vehicles/fleet,WF-L11,STK-055,REG-0022,TECH-101,CMP-0212;CMP-0215,INT-101,F-0068,Established,66
+CAP-107,Vehicle telematics & tracking,Logistics,Fleet,logistics,Track vehicles/telematics,WF-L12,STK-055,,TECH-101;TECH-088,CMP-0215;CMP-0216,INT-101,F-0068,Established,66
+CAP-108,Driver management,Logistics,Fleet,logistics,Manage drivers/compliance,WF-L11,STK-055;STK-058,REG-0022,TECH-130,CMP-0213,,F-0068,Established,58
+CAP-109,Fuel management,Logistics,Fleet,logistics,Track and control fuel,WF-L11,STK-055,,TECH-104,CMP-0213;CMP-0212,,F-0068,Established,56
+CAP-110,Proof of delivery,Logistics,Transport,logistics,Capture delivery proof,WF-L08,STK-055;STK-030,,TECH-131,CMP-0152;CMP-0217,INT-102,F-0068,Established,60
+CAP-111,Freight matching & marketplace,Logistics,Transport,logistics,Match freight to carriers,WF-L01,STK-055;STK-030,,TECH-130,CMP-0152;CMP-0153,,F-0068,Growing,58
+CAP-112,Warehouse receiving & putaway,Logistics,Warehouse,logistics,Receive and put away stock,WF-L17,STK-055,,TECH-102,CMP-0204;CMP-0219,,F-0067,Established,62
+CAP-113,Inventory & stock control,Logistics,Inventory,logistics,Control warehouse inventory,WF-L18,STK-055;STK-030,,TECH-130;TECH-102,CMP-0204;CMP-0221,INT-119,F-0067,Established,64
+CAP-114,Picking packing & shipping,Logistics,Warehouse,logistics,Pick pack and ship orders,WF-L19,STK-055,,TECH-102,CMP-0204;CMP-0205,,F-0067,Established,60
+CAP-115,Cold-chain monitoring,Logistics,Cold Chain,logistics,Monitor temperature-sensitive cargo,WF-L20,STK-055;STK-036,REG-0016,TECH-103;TECH-088,CMP-0211;CMP-0146,INT-085,F-0068,Growing,56
+CAP-116,Cross-border & customs documentation,Logistics,Transport,logistics,Prepare customs/border docs,WF-L21,STK-055;STK-020,REG-0030,TECH-130,CMP-0208,INT-017,F-0069,Established,58
+CAP-117,Transit tracking & visibility,Logistics,Transport,logistics,Track shipments end-to-end,WF-L12,STK-055;STK-030,,TECH-101,CMP-0209;CMP-0210,INT-101,F-0069,Growing,58
+CAP-118,Demand forecasting,Logistics,Route Planning,logistics,Forecast transport/inventory demand,WF-L01,STK-055;STK-030,,TECH-026,CMP-0205,,F-0068,Growing,54
+CAP-119,Carrier & 3PL management,Logistics,Transport,logistics,Manage carriers/3PLs,WF-L01,STK-055;STK-030,,TECH-130,CMP-0208,,F-0068,Established,54
+CAP-120,Yard & gate management,Logistics,Warehouse,logistics,Manage yard/gate movements,WF-L17,STK-055,,TECH-102,CMP-0204,,F-0067,Established,50
+CAP-121,General ledger & accounting,Enterprise,Finance,cross-industry,Maintain GL and accounts,WF-006;WF-032,STK-029;STK-060,REG-0027;REG-0028,TECH-130,CMP-0108;CMP-0223,INT-019,F-0079,Commodity,72
+CAP-122,Accounts payable,Enterprise,Finance,cross-industry,Manage supplier invoices/payments,WF-032,STK-042,REG-0027,TECH-130,CMP-0108;CMP-0222,INT-116,F-0079,Commodity,68
+CAP-123,Accounts receivable & invoicing,Enterprise,Finance,cross-industry,Invoice and collect receivables,WF-032,STK-030;STK-060,REG-0027,TECH-130,CMP-0108;CMP-0226,INT-020,F-0079,Commodity,68
+CAP-124,Payments & disbursement,Enterprise,Finance,cross-industry,Disburse payments,WF-032,STK-060;STK-062,REG-0031,TECH-150,CMP-0007;CMP-0129,INT-003;INT-006,F-0054,Commodity,70
+CAP-125,Mobile money integration,Enterprise,Finance,cross-industry,Integrate mobile money rails,WF-032;WF-037,STK-062;STK-028,REG-0031,TECH-150,CMP-0007;CMP-0248,INT-003;INT-004,F-0086,Established,70
+CAP-126,Bank reconciliation,Enterprise,Finance,cross-industry,Reconcile bank statements,WF-032,STK-060,REG-0027,TECH-130,CMP-0108,INT-024,F-0079,Commodity,62
+CAP-127,Budgeting & cost centres,Enterprise,Finance,cross-industry,Budget and allocate costs,WF-006,STK-029,,TECH-124,CMP-0105;CMP-0108,,F-0079,Commodity,62
+CAP-128,Tax compliance (VAT/PAYE),Enterprise,Compliance,cross-industry,Compute and file taxes,WF-035,STK-002;STK-029,REG-0026;REG-0028,TECH-130,CMP-0223,INT-016,F-0073,Established,64
+CAP-129,Payroll management,Enterprise,HR,cross-industry,Process payroll and statutory,WF-034,STK-058;STK-029,REG-0027;REG-0035,TECH-130,CMP-0240;CMP-0238,INT-018;INT-023,F-0079,Commodity,64
+CAP-130,Expense management,Enterprise,Finance,cross-industry,Manage employee expenses,WF-032,STK-058,,TECH-130,CMP-0108,,F-0079,Commodity,58
+CAP-131,Procurement & purchase orders,Enterprise,Procurement,cross-industry,Manage procurement/POs,WF-032,STK-042,REG-0029,TECH-113,CMP-0105;CMP-0108,INT-041,F-0079,Commodity,64
+CAP-132,Vendor & supplier management,Enterprise,Procurement,cross-industry,Manage vendors/suppliers,WF-032,STK-042,REG-0029,TECH-130,CMP-0108,,F-0079,Commodity,62
+CAP-133,Contract management,Enterprise,Compliance,cross-industry,Manage contracts/obligations,WF-032,STK-042;STK-050,REG-0029,TECH-117,CMP-0236,,F-0079,Established,58
+CAP-134,Inventory & asset register,Enterprise,Inventory,cross-industry,Track inventory and assets,WF-M07;WF-L18,STK-039;STK-055,,TECH-130,CMP-0167;CMP-0219,INT-116,F-0057,Commodity,64
+CAP-135,CRM & contact management,Enterprise,CRM,cross-industry,Manage customers/contacts,WF-029,STK-030,,TECH-130,CMP-0111;CMP-0112,INT-124,F-0079,Commodity,64
+CAP-136,Lead & opportunity management,Enterprise,CRM,cross-industry,Manage sales pipeline,WF-029,STK-030,,TECH-130,CMP-0111,INT-124,F-0079,Established,58
+CAP-137,Customer support & ticketing,Enterprise,CRM,cross-industry,Handle support tickets,WF-039,STK-030,,TECH-130,CMP-0229,,F-0079,Established,58
+CAP-138,HR employee records,Enterprise,HR,cross-industry,Maintain employee records,WF-034,STK-058;STK-029,REG-0035,TECH-130,CMP-0237;CMP-0239,,F-0079,Commodity,62
+CAP-139,Recruitment & onboarding,Enterprise,HR,cross-industry,Recruit and onboard staff,WF-034,STK-029;STK-058,REG-0035,TECH-130,CMP-0239,,F-0079,Established,54
+CAP-140,Leave & attendance,Enterprise,HR,cross-industry,Manage leave/attendance,WF-034,STK-058,REG-0035,TECH-130,CMP-0239;CMP-0240,,F-0079,Commodity,58
+CAP-141,Performance management,Enterprise,HR,cross-industry,Manage performance reviews,WF-034,STK-029;STK-058,,TECH-130,CMP-0237,,F-0079,Established,52
+CAP-142,Training & competency records,Enterprise,HR,cross-industry,Track training/competency,WF-039,STK-058,REG-0034,TECH-130,CMP-0176,,F-0079,Established,54
+CAP-143,Document management (ECM),Enterprise,Document Management,cross-industry,Store and manage documents,WF-033;WF-C14,STK-029;STK-048,REG-0024,TECH-117,CMP-0235;CMP-0236,,F-0079,Commodity,64
+CAP-144,Records retention & archiving,Enterprise,Document Management,cross-industry,Retain and archive records,WF-033,STK-029,REG-0024,TECH-117,CMP-0236,,F-0079,Established,56
+CAP-145,E-signature,Enterprise,Document Management,cross-industry,Sign documents electronically,WF-032,STK-029;STK-048,REG-0025,TECH-141,CMP-0235,,F-0077,Established,54
+CAP-146,BI dashboards & analytics,Enterprise,Analytics,cross-industry,Visualise KPIs and analytics,WF-035,STK-029;STK-039,,TECH-123;TECH-124,CMP-0123;CMP-0124,,F-0079,Commodity,66
+CAP-147,Report building & distribution,Enterprise,Reporting,cross-industry,Build and distribute reports,WF-035,STK-029;STK-001,REG-0028,TECH-123,CMP-0123,,F-0079,Commodity,64
+CAP-148,Data import export & integration,Enterprise,Analytics,cross-industry,Import/export and integrate data,WF-033;WF-035,STK-070,,TECH-115,CMP-0119,INT-126;INT-134,F-0086,Commodity,64
+CAP-149,Notifications (SMS/email/push/USSD),Enterprise,Notifications,cross-industry,Send multichannel notifications,WF-038,STK-028;STK-030,,TECH-150,CMP-0248,INT-091;INT-102,F-0086,Commodity,70
+CAP-150,Workflow automation & BPM,Enterprise,Workflow Automation,cross-industry,Automate business processes,WF-032,STK-029,,TECH-113;TECH-116,CMP-0229;CMP-0230,,F-0079,Established,62
+CAP-151,Task & case management,Enterprise,Workflow Automation,cross-industry,Manage tasks/cases,WF-032,STK-029,,TECH-113,CMP-0229,,F-0079,Established,58
+CAP-152,Approvals & authorisation,Enterprise,Workflow Automation,cross-industry,Route approvals,WF-032,STK-029,REG-0029,TECH-113,CMP-0230,,F-0079,Commodity,60
+CAP-153,Audit logging & trail,Enterprise,Audit,cross-industry,Record immutable audit trail,WF-035,STK-022;STK-029,REG-0024,TECH-143,CMP-0174,INT-133,F-0077,Established,62
+CAP-154,Compliance & obligation register,Enterprise,Compliance,cross-industry,Track compliance obligations,WF-035,STK-022;STK-029,REG-0024;REG-0034,TECH-130,CMP-0174,,F-0073,Established,58
+CAP-155,Risk register & management,Enterprise,Compliance,cross-industry,Identify and manage risks,WF-035,STK-029;STK-018,,TECH-130,CMP-0174;CMP-0175,,F-0079,Established,54
+CAP-156,Identity & authentication,Enterprise,Identity,cross-industry,Authenticate users/entities,WF-033,STK-023;STK-029,REG-0024,TECH-136,CMP-0132,INT-105;INT-108,F-0077,Commodity,68
+CAP-157,Access control (RBAC/ABAC),Enterprise,Identity,cross-industry,Authorise access by role,WF-033,STK-029,REG-0024,TECH-139,CMP-0132,INT-108,F-0077,Commodity,66
+CAP-158,Multi-factor authentication,Enterprise,Identity,cross-industry,Enforce MFA,WF-033,STK-029,REG-0024,TECH-138,,INT-113,F-0077,Established,64
+CAP-159,User & organisation management,Enterprise,Identity,cross-industry,Manage users/orgs/tenants,WF-033,STK-029,,TECH-136,CMP-0132,INT-115,F-0077,Commodity,62
+CAP-160,Offline data capture,Enterprise,Workflow Automation,cross-industry,Capture data offline in field,WF-033,STK-028;STK-048,,TECH-131;TECH-127,CMP-0176;CMP-0200,,F-0078,Established,66
+CAP-161,Data synchronisation,Enterprise,Workflow Automation,cross-industry,Sync offline/online data,WF-033,STK-070,,TECH-127;TECH-129,CMP-0200,INT-133,F-0078,Growing,62
+CAP-162,Geospatial mapping & visualisation,Enterprise,Analytics,cross-industry,Map and visualise spatial data,WF-003;WF-M03,STK-039;STK-047,,TECH-047;TECH-052,CMP-0048;CMP-0049,INT-057;INT-058,F-0075,Commodity,66
+CAP-163,Master data management,Enterprise,Analytics,cross-industry,Govern master/reference data,WF-033,STK-070,,TECH-130,CMP-0119,,F-0079,Established,56
+CAP-164,Search & discovery,Enterprise,Analytics,cross-industry,Search across records,WF-035,STK-029,,TECH-121;TECH-122,CMP-0121,,F-0079,Established,58
+CAP-165,Scheduling & calendar,Enterprise,Workflow Automation,cross-industry,Schedule events/resources,WF-C05,STK-029,,TECH-113,CMP-0229,,F-0079,Commodity,56
+CAP-166,KPI monitoring & alerting,Enterprise,Analytics,cross-industry,Monitor KPIs and alert,WF-035,STK-029;STK-039,,TECH-123,CMP-0123,INT-149,F-0079,Established,58
+CAP-167,Incident & issue management,Enterprise,Audit,cross-industry,Manage incidents/issues,WF-M09;WF-C13,STK-018;STK-029,REG-0034,TECH-130,CMP-0173,,F-0058,Established,58
+CAP-168,Knowledge base & advisory,Enterprise,Analytics,cross-industry,Serve knowledge/advisory content,WF-038;WF-039,STK-034;STK-028,,TECH-033;TECH-001,CMP-0001,INT-091,F-0055,Growing,60
+CAP-169,Localisation & multi-language,Enterprise,Notifications,cross-industry,Support local languages,WF-038,STK-028,,TECH-021;TECH-023,CMP-0003,INT-092,F-0078,Growing,56
+CAP-170,Data protection & consent management,Enterprise,Compliance,cross-industry,Manage consent and data rights,WF-033,STK-022;STK-028,REG-0024,TECH-140,,INT-105,F-0077,Established,58

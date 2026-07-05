@@ -5,7 +5,7 @@ Tracks execution of every MREP work package and its progress through the 8 QA ga
 **Legend:** ☐ not started · ◐ in progress · ☑ passed · — n/a
 **QA Gates:** G1 Scope · G2 Source validation · G3 Evidence quality · G4 Cross-reference · G5 Requirement extraction · G6 Architecture relevance · G7 Business impact · G8 Executive/final review.
 
-_Last updated: 2026-07-05 (WP4.3 integration & digital ecosystem intelligence — ACT-016; 150 integration entries across 11 domains incl. Zambia e-gov backbone; 121 total evidence sources; awaiting review)_
+_Last updated: 2026-07-05 (WP4.2 enterprise capability synthesis — ACT-017; 170 traceable capabilities across 6 domains; 121 total evidence sources; awaiting review before ACT-018 requirements engineering)_
 
 ---
 
@@ -42,7 +42,7 @@ _Last updated: 2026-07-05 (WP4.3 integration & digital ecosystem intelligence �
 | WP | Name | Key deliverables | Status | G1 | G2 | G3 | G4 | G5 | G6 | G7 | G8 |
 |----|------|------------------|--------|----|----|----|----|----|----|----|----|
 | 4.1 | Competitor Analysis | Competitor Encyclopedia · Feature Comparison Matrix | ACT-011 (153 products) + ACT-015 (extended to 248 products, coverage matrices, Zambia/SADC market analysis); quantity floors partial; awaiting review | ◐ | ◐ | ◐ | ◐ | ☐ | ☐ | ☐ | ☐ |
-| 4.2 | Product Feature Library | Master Feature Catalogue · Functional Requirement Register | Not started | ☐ | ☐ | ☐ | ☐ | ☐ | ☐ | ☐ | ☐ |
+| 4.2 | Product Feature Library / Capability Synthesis | Master Capability Catalogue · Capability Matrices | Capability synthesis done — ACT-017 (170 traceable capabilities, taxonomy, matrices, gaps); no features/requirements; awaiting review | ◐ | ◐ | ◐ | ☑ | ☐ | ☐ | ☐ | ☐ |
 | 4.3 | Integration Research | Integration Catalogue · API Opportunity Register | Ecosystem inventory done — ACT-016 (150 integration entries, 11 domains, Zambia e-gov backbone); no integration/API design; awaiting review | ◐ | ◐ | ◐ | ◐ | ☐ | ☐ | ☐ | ☐ |
 
 ## Stage 5 — Business Strategy & Implementation
