@@ -14,7 +14,7 @@ _Last updated: 2026-07-05 (WP2.5 logistics & supply-chain intelligence — ACT-0
 | WP | Name | Key deliverables | Status | G1 | G2 | G3 | G4 | G5 | G6 | G7 | G8 |
 |----|------|------------------|--------|----|----|----|----|----|----|----|----|
 | 1.1 | National Intelligence | Zambia Country Profile · Economic Analysis · Infrastructure Map · Digital Readiness Report | Phase 1 (baseline) + Phase 2 (economy/pop/infra/finance/digital/logistics/climate) done — 44 sources; awaiting review | ☑ | ◐ | ◐ | ◐ | ☐ | ☐ | ☐ | ☐ |
-| 1.2 | Policy & Regulatory Landscape | Regulatory Matrix · Compliance Handbook · Legal Requirement Catalogue | Not started | ☐ | ☐ | ☐ | ☐ | ☐ | ☐ | ☐ | ☐ |
+| 1.2 | Policy & Regulatory Landscape | Regulatory Matrix · Compliance Handbook · Legal Requirement Catalogue | Done — ACT-012 (~37 instruments, ~21 authorities); awaiting review | ◐ | ◐ | ◐ | ◐ | ☐ | ☐ | ☐ | ☐ |
 | 1.3 | Stakeholder Mapping | Stakeholder Register · Influence Map · Decision-Maker Matrix | Not started | ☐ | ☐ | ☐ | ☐ | ☐ | ☐ | ☐ | ☐ |
 
 ## Stage 2 — Industry Research

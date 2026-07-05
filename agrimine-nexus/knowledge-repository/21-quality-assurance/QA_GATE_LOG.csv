@@ -23,3 +23,6 @@ QA-0021,WP4.1,WP4.1-P1,3,Evidence quality review,in-progress,self,2026-07-05,"Ve
 QA-0022,WP2.5,WP2.5-P1,1,Scope completeness,pass,self,2026-07-05,"ACT-011.1: 15 outputs; 26 logistics workflows linked to industry workflows; national network/fleet/warehouse/supply-chain/cross-border covered."
 QA-0023,WP2.5,WP2.5-P1,2,Source validation,partial,self,2026-07-05,"7 net-new sources (SRC-0087..0093, govt/regulator preferred: ZRA/ZDA/JICA/WB/LogCluster) + reuse of WP1.1/WP2.x; 100-net-new target NOT met (GAP-210) - flagged."
 QA-0024,WP2.5,WP2.5-P1,4,Cross-reference verification,in-progress,self,2026-07-05,"Every logistics workflow linked upstream/downstream to WF-*/WF-M*/WF-C*/WF-E*; graph edges E-0116..E-0131 added."
+QA-0025,WP1.2,WP1.2,1,Scope completeness,pass,self,2026-07-05,"ACT-012: 18 outputs; ~37 instruments across all sectors + cross-cutting; every documented workflow mapped to >=1 regulation."
+QA-0026,WP1.2,WP1.2,2,Source validation,partial,self,2026-07-05,"14 net-new primary legal sources (SRC-0094..0107, Parliament/ZambiaLII/FAOLEX/regulators) + reuse; 200-net-new target NOT met (GAP-R10)."
+QA-0027,WP1.2,WP1.2,4,Cross-reference verification,in-progress,self,2026-07-05,"Regulation->workflow/authority edges E-0132..E-0143; SIs/penalties/fees pending primary Gazette (GAP-R01/R02)."
