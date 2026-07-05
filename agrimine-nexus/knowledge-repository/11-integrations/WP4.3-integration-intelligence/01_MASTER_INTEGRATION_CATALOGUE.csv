@@ -1,0 +1,151 @@
+integ_id,name,domain,owner_org,purpose,api_available,protocol_style,auth_method,licensing,geographic_availability,zambia_applicability,doc_url,evidence,confidence
+INT-001,Bank of Zambia RTGS (ZIPSS),Financial,Bank of Zambia,National real-time gross settlement,Restricted,ISO 20022/proprietary,Bank credentials/PKI,Regulated,Zambia,High (banks only),https://www.boz.zm/,SRC-0084,60
+INT-002,National Financial Switch (NFS),Financial,Bank of Zambia,Interbank card/retail switch,Restricted,ISO 8583/20022,Member credentials,Regulated,Zambia,High,https://www.boz.zm/,SRC-0084,58
+INT-003,MTN MoMo API,Financial,MTN Zambia,Mobile money collections/disbursements,Yes,REST,OAuth2/API key,Commercial,Africa,High,https://momodeveloper.mtn.com/,SRC-0084,72
+INT-004,Airtel Money API,Financial,Airtel Zambia,Mobile money collections/disbursements,Yes,REST,OAuth2/API key,Commercial,Africa,High,https://developers.airtel.africa/,SRC-0084,70
+INT-005,Zamtel Kwacha,Financial,Zamtel,Mobile money,Partial,REST,API key,Commercial,Zambia,Medium,https://www.zamtel.zm/,SRC-0084,58
+INT-006,Africa's Talking Payments,Financial,Africa's Talking,Mobile money + card aggregation (300M+ accounts),Yes,REST,API key,Commercial,Africa,High,https://africastalking.com/payments,SRC-0120,74
+INT-007,Flutterwave,Financial,Flutterwave,Pan-African payment gateway,Yes,REST,API key/OAuth2,Commercial,Africa/Global,Medium,https://developer.flutterwave.com/,SRC-0084,68
+INT-008,Paystack,Financial,Paystack (Stripe),Payment gateway,Yes,REST,API key,Commercial,Africa,Medium,https://paystack.com/docs/,SRC-0084,66
+INT-009,DPO Group,Financial,DPO/Network Intl,Pan-African payment gateway,Yes,REST/XML,API key,Commercial,Africa,Medium,https://dpogroup.com/,SRC-0084,60
+INT-010,Cellulant Tingg,Financial,Cellulant,Payments aggregation,Yes,REST,API key,Commercial,Africa,Medium,https://tingg.africa/,SRC-0084,58
+INT-011,Stripe,Financial,Stripe,Global online payments,Yes,REST,API key,Commercial,Global,Low-Medium,https://stripe.com/docs/api,SRC-0084,66
+INT-012,PayPal,Financial,PayPal,Global online payments,Yes,REST,OAuth2,Commercial,Global,Low,https://developer.paypal.com/,SRC-0084,62
+INT-013,Mastercard APIs,Financial,Mastercard,Card network services,Yes,REST,OAuth2/mTLS,Commercial,Global,Low-Medium,https://developer.mastercard.com/,SRC-0084,58
+INT-014,Visa Developer,Financial,Visa,Card network services,Yes,REST,mTLS/API key,Commercial,Global,Low-Medium,https://developer.visa.com/,SRC-0084,58
+INT-015,M-Pesa Daraja API,Financial,Safaricom/Vodacom,Mobile money (regional),Yes,REST,OAuth2,Commercial,East/Southern Africa,Low,https://developer.safaricom.co.ke/,SRC-0084,60
+INT-016,ZRA TaxOnline II,Financial,Zambia Revenue Authority,Tax filing/clearance,Portal (API restricted),Web/portal,ZamPass/credentials,Government,Zambia,High,https://www.zra.org.zm/,SRC-0118,66
+INT-017,ASYCUDAWorld,Financial,ZRA/UNCTAD,Customs declarations,Restricted,XML/web,Trader credentials,Government,Zambia,High (trade),https://asycuda.org/,SRC-0118,64
+INT-018,NAPSA e-services,Financial,NAPSA,Pension contributions,Portal,Web/portal,Credentials,Government,Zambia,High (payroll),https://www.napsa.co.zm/,SRC-0079,58
+INT-019,QuickBooks Online API,Financial,Intuit,Accounting integration,Yes,REST,OAuth2,Commercial,Global,Medium,https://developer.intuit.com/,SRC-0079,64
+INT-020,Xero API,Financial,Xero,Accounting integration,Yes,REST,OAuth2,Commercial,Global,Medium,https://developer.xero.com/,SRC-0079,64
+INT-021,Sage Accounting API,Financial,Sage,Accounting integration,Yes,REST,OAuth2,Commercial,Global/SADC,Medium,https://developer.sage.com/,SRC-0079,60
+INT-022,SWIFT,Financial,SWIFT,Cross-border bank messaging,Restricted,ISO 20022/MT,PKI,Regulated,Global,Medium (banks),https://www.swift.com/,SRC-0084,56
+INT-023,PaySpace API,Financial,PaySpace,Payroll (multi-country African tax),Yes,REST,OAuth2/API key,Commercial,Africa,Medium,https://www.payspace.com/,SRC-0079,58
+INT-024,Zanaco / Stanbic / Absa / FNB Zambia host-to-host,Financial,Commercial banks (Zambia),Corporate banking/payments,Restricted,Host-to-host/API,Bank credentials,Commercial,Zambia,Medium,https://www.zanaco.co.zm/,SRC-0084,54
+INT-025,ZamPortal / ZamServices,Government,Smart Zambia Institute,One-stop e-services directory,Portal (GSB backend),Web/GSB,ZamPass,Government,Zambia,High,https://zamportal.gov.zm/,SRC-0118,80
+INT-026,ZamPass,Government,Smart Zambia Institute,National e-gov authentication/SSO,Portal/SSO,OIDC-like,ZamPass credentials,Government,Zambia,High,https://zamportal.gov.zm/,SRC-0118,76
+INT-027,ZamPay,Government,Smart Zambia Institute,Government payment gateway,Gateway,Web/redirect,ZamPass,Government,Zambia,High,https://zamportal.gov.zm/,SRC-0118,74
+INT-028,Government Service Bus (GSB),Government,Smart Zambia Institute,Inter-agency integration backbone,Restricted,ESB/SOAP/REST,Agency credentials,Government,Zambia,High (gov),https://zamportal.gov.zm/,SRC-0118,72
+INT-029,PACRA e-services,Government,PACRA,Business/company registration,Portal,Web/portal,ZamPass/credentials,Government,Zambia,High,https://www.pacra.org.zm/,SRC-0118,70
+INT-030,Mining Cadastre Portal (FlexiCadastre/Landfolio),Government,Ministry of Mines,Mining licence applications/renewals/transfers,Portal (on GSB),Web/portal,ZamPass,Government,Zambia,High (mining),https://portal.miningcadastre.com/,SRC-0119,76
+INT-031,NGDR Public GIS Data Portal,Government,Geological Survey (GSB),Public spatial mining/geoscience data,Portal,Web/GIS,Public,Government,Zambia,High,https://ngdr.gsb.gov.zm/,SRC-0119,72
+INT-032,ZIAMIS,Government,Ministry of Agriculture,FISP e-voucher & farmer registry,Restricted,Web,Credentials,Government,Zambia,High (agri),https://www.agriculture.gov.zm/,SRC-0045,66
+INT-033,FRA systems,Government,Food Reserve Agency,Crop purchase/warehouse receipts,Restricted,Web,Credentials,Government,Zambia,High (agri),https://www.fra.org.zm/,SRC-0045,58
+INT-034,ZAMACE,Government,Zambian Commodity Exchange,Commodity trading/WRS,Portal,Web,Member credentials,Private/regulated,Zambia,High (commodities),https://www.zamace.co.zm/,SRC-0062,60
+INT-035,ZEMA systems,Government,ZEMA,EIA/environmental licensing & reporting,Portal,Web,Credentials,Government,Zambia,High (environmental),https://www.zema.org.zm/,SRC-0017,60
+INT-036,WARMA e-services,Government,Water Resources Mgmt Authority,Water rights/permits,Portal,Web,Credentials,Government,Zambia,Medium,https://www.warma.org.zm/,SRC-0019,54
+INT-037,NWASCO reporting,Government,NWASCO,Water utility regulation reporting,Portal,Web,Credentials,Government,Zambia,Medium,https://www.nwasco.org.zm/,SRC-0019,52
+INT-038,ZICTA systems,Government,ZICTA,ICT/telecom regulation & licensing,Portal,Web,Credentials,Government,Zambia,Medium,https://www.zicta.zm/,SRC-0068,56
+INT-039,RTSA services (via ZamPortal),Government,Road Transport & Safety Agency,Road tax/licences/vehicle data,Portal (GSB),Web,ZamPass,Government,Zambia,Medium,https://zamportal.gov.zm/,SRC-0118,66
+INT-040,Road Development Agency,Government,RDA,Road network/works data,Portal,Web,Credentials,Government,Zambia,Low-Medium,https://www.rda.org.zm/,SRC-0068,50
+INT-041,ZPPA e-GP,Government,Zambia Public Procurement Authority,e-Government procurement,Portal,Web,Credentials,Government,Zambia,Medium,https://www.zppa.org.zm/,SRC-0029,56
+INT-042,ZDA / CEEC,Government,ZDA/CEEC,Investment/enterprise support,Portal,Web,Credentials,Government,Zambia,Low,https://www.zda.org.zm/,SRC-0068,48
+INT-043,ZamStats data,Government,Zambia Statistics Agency,National statistics/open data,Portal,Web/CSV,Public,Government,Zambia,Medium,https://www.zamstats.gov.zm/,SRC-0068,58
+INT-044,National ID / DNRPC,Government,Dept National Registration,National ID verification,Restricted,Web/GSB,ZamPass,Government,Zambia,High,https://zamportal.gov.zm/,SRC-0118,60
+INT-045,ZESCO / Smart Meter,Government,ZESCO,Utility/energy data & billing,Portal,Web/API,Credentials,Government,Zambia,Low-Medium,https://www.zesco.co.zm/,SRC-0068,48
+INT-046,Zambia Meteorological Department (ZMD),Weather,ZMD,National weather/forecast/warnings,Limited,Web,Credentials,Government,Zambia,High,https://www.meteozambia.gov.zm/,SRC-0043,58
+INT-047,OpenWeather API,Weather,OpenWeather,Current/forecast/historical weather,Yes,REST,API key,Freemium/Commercial,Global,High,https://openweathermap.org/api,SRC-0121,72
+INT-048,NASA POWER API,Weather,NASA,Agroclimatology/solar/meteorology,Yes,REST,None (open),Open,Global,High,https://power.larc.nasa.gov/,SRC-0121,74
+INT-049,NOAA / NWS API,Weather,NOAA,Weather data/models,Yes,REST,None/user-agent,Open (US-centric),Global,Medium,https://www.weather.gov/documentation/services-web-api,SRC-0121,64
+INT-050,ECMWF / Copernicus CDS,Weather,ECMWF,Global forecasts/reanalysis (ERA5),Yes,REST/CDS API,Registration key,Open (licence),Global,Medium,https://cds.climate.copernicus.eu/,SRC-0121,66
+INT-051,Meteostat API,Weather,Meteostat,Historical station/gridded weather,Yes,REST,API key,Free/attribution,Global,Medium,https://dev.meteostat.net/,SRC-0121,66
+INT-052,Tomorrow.io API,Weather,Tomorrow.io,Hyperlocal forecast/weather intelligence,Yes,REST,API key,Commercial,Global,Medium,https://docs.tomorrow.io/,SRC-0121,64
+INT-053,Visual Crossing / WeatherAPI,Weather,various,Weather/history APIs,Yes,REST,API key,Freemium,Global,Medium,https://www.visualcrossing.com/weather-api,SRC-0121,58
+INT-054,TAHMO,Weather,TAHMO,African weather station network,Yes,REST,API key,Restricted/partnership,Africa,Medium,https://tahmo.org/,SRC-0121,56
+INT-055,Meteomatics,Weather,Meteomatics,Weather API (multi-model),Yes,REST,Basic auth,Commercial,Global,Low,https://www.meteomatics.com/,SRC-0121,54
+INT-056,Esri ArcGIS REST / Online,GIS,Esri,Mapping/geoprocessing/hosted layers,Yes,REST,API key/OAuth2,Commercial,Global,Medium,https://developers.arcgis.com/,SRC-0081,72
+INT-057,QGIS,GIS,QGIS.org,Desktop GIS + processing,SDK/plugins,Python/C++,None,OSS,Global,High,https://qgis.org/,SRC-0081,74
+INT-058,GeoServer (OGC),GIS,OSGeo,Web map/feature server,Yes,WMS/WFS/WCS/REST,Basic/token,OSS,Global,High,https://geoserver.org/,SRC-0081,74
+INT-059,PostGIS,GIS,PostgreSQL,Spatial database,SQL,SQL,DB auth,OSS,Global,High,https://postgis.net/,SRC-0081,76
+INT-060,Google Maps Platform,GIS,Google,Maps/routing/places/geocoding,Yes,REST,API key,Commercial,Global,Medium,https://developers.google.com/maps,SRC-0081,68
+INT-061,Mapbox,GIS,Mapbox,Maps/routing/tiling,Yes,REST,API token,Commercial,Global,Medium,https://docs.mapbox.com/,SRC-0081,66
+INT-062,OpenStreetMap (Overpass/Nominatim),GIS,OSM Foundation,Open map data/geocoding,Yes,REST,None,ODbL (open),Global,High,https://www.openstreetmap.org/,SRC-0081,70
+INT-063,Cesium ion,GIS,Cesium,3D geospatial/terrain tiling,Yes,REST,API token,Freemium,Global,Low-Medium,https://cesium.com/learn/,SRC-0081,56
+INT-064,Leaflet,GIS,Leaflet,Web map client library,Library,JS,None,OSS,Global,High,https://leafletjs.com/,SRC-0081,66
+INT-065,MapTiler / HERE / TomTom,GIS,various,Maps/tiles/routing,Yes,REST,API key,Commercial,Global,Low-Medium,https://www.maptiler.com/,SRC-0081,54
+INT-066,Copernicus Data Space (Sentinel),RemoteSensing,ESA,Sentinel-1/2/3 imagery,Yes,REST/OData/STAC,OAuth2/registration,Open,Global,High,https://dataspace.copernicus.eu/,SRC-0081,74
+INT-067,USGS EarthExplorer / M2M,RemoteSensing,USGS,Landsat imagery,Yes,REST (M2M),API token,Open,Global,High,https://m2m.cr.usgs.gov/,SRC-0081,70
+INT-068,Planet API,RemoteSensing,Planet Labs,Daily high-res imagery,Yes,REST,API key,Commercial,Global,Medium,https://developers.planet.com/,SRC-0081,68
+INT-069,Sentinel Hub API,RemoteSensing,Sinergise/Planet,RS processing/imagery,Yes,REST/OGC,OAuth2,Commercial,Global,Medium,https://www.sentinel-hub.com/,SRC-0081,68
+INT-070,Google Earth Engine,RemoteSensing,Google,Geospatial analysis at scale,Yes,REST/Python,OAuth2,Free-tier/Commercial,Global,Medium,https://developers.google.com/earth-engine,SRC-0081,68
+INT-071,NASA Earthdata / AppEEARS,RemoteSensing,NASA,MODIS/VIIRS/earth data access,Yes,REST,Earthdata login,Open,Global,Medium,https://www.earthdata.nasa.gov/,SRC-0081,64
+INT-072,Maxar,RemoteSensing,Maxar,Very-high-res imagery,Yes,REST,API key,Commercial,Global,Low,https://developers.maxar.com/,SRC-0081,56
+INT-073,Digital Earth Africa,RemoteSensing,DE Africa,Analysis-ready EO for Africa,Yes,STAC/OGC,None/registration,Open,Africa,High,https://www.digitalearthafrica.org/,SRC-0081,66
+INT-074,DJI SDK / FlightHub,Drone,DJI,Flight control/data management,Yes,SDK/REST,API key/OAuth2,Commercial,Global,Medium,https://developer.dji.com/,SRC-0081,62
+INT-075,Pix4D Cloud API,Drone,Pix4D,Photogrammetry processing,Yes,REST,API key,Commercial,Global,Medium,https://www.pix4d.com/,SRC-0081,60
+INT-076,DroneDeploy API,Drone,DroneDeploy,Mapping/data pipeline,Yes,REST/GraphQL,API key/OAuth2,Commercial,Global,Medium,https://www.dronedeploy.com/product/developer-tools/,SRC-0081,60
+INT-077,Agisoft Metashape,Drone,Agisoft,Photogrammetry (scripting),SDK,Python,License,Commercial,Global,Medium,https://www.agisoft.com/,SRC-0081,56
+INT-078,OpenDroneMap (NodeODM/WebODM),Drone,ODM,Open-source photogrammetry API,Yes,REST,Token,OSS,Global,High,https://www.opendronemap.org/,SRC-0081,66
+INT-079,Propeller / Esri Site Scan,Drone,various,Survey/site analytics,Yes,REST,API key,Commercial,Global,Low,https://www.propelleraero.com/,SRC-0081,50
+INT-080,LoRaWAN (LoRa Alliance),IoT,LoRa Alliance,LPWAN specification,Spec,LoRaWAN,AppKey/AppSKey,Open spec,Global,High,https://lora-alliance.org/,SRC-0110,70
+INT-081,ChirpStack,IoT,ChirpStack,LoRaWAN network server,Yes,gRPC/REST,API token,OSS,Global,High,https://www.chirpstack.io/,SRC-0110,68
+INT-082,The Things Stack,IoT,The Things Industries,LoRaWAN network (TTN),Yes,gRPC/REST/MQTT,API key,Freemium/OSS,Global,High,https://www.thethingsindustries.com/,SRC-0110,64
+INT-083,AWS IoT Core,IoT,Amazon,Device connectivity/management,Yes,MQTT/HTTPS,X.509/IAM,Commercial,Global,Medium,https://docs.aws.amazon.com/iot/,SRC-0081,64
+INT-084,Azure IoT Hub,IoT,Microsoft,Device connectivity/twins,Yes,MQTT/AMQP/HTTPS,SAS/X.509,Commercial,Global,Medium,https://learn.microsoft.com/azure/iot-hub/,SRC-0081,64
+INT-085,ThingsBoard,IoT,ThingsBoard,IoT platform/dashboards,Yes,REST/MQTT/CoAP,Token/X.509,OSS+Commercial,Global,High,https://thingsboard.io/,SRC-0081,68
+INT-086,MQTT (Mosquitto/HiveMQ),IoT,OASIS,Lightweight pub/sub messaging,Broker,MQTT,User/pass/TLS,OSS/Commercial,Global,High,https://mqtt.org/,SRC-0110,70
+INT-087,OPC-UA,IoT,OPC Foundation,Industrial interoperability,Spec/SDK,OPC-UA,Certificates,Open spec,Global,Medium,https://opcfoundation.org/,SRC-0110,58
+INT-088,CoAP,IoT,IETF,Constrained device protocol,Spec,CoAP/UDP,DTLS,Open,Global,Medium,https://coap.technology/,SRC-0110,56
+INT-089,Node-RED,IoT,OpenJS,Edge flow orchestration,Yes,HTTP/MQTT,Basic/token,OSS,Global,High,https://nodered.org/,SRC-0110,60
+INT-090,Particle / Helium,IoT,Particle/Helium,Device cloud / LoRaWAN network,Yes,REST,API key,Commercial,Global,Low-Medium,https://docs.particle.io/,SRC-0110,52
+INT-091,Africa's Talking SMS,Communication,Africa's Talking,Bulk/two-way SMS across Africa,Yes,REST,API key,Commercial,Africa,High,https://developers.africastalking.com/,SRC-0120,74
+INT-092,Africa's Talking USSD,Communication,Africa's Talking,USSD session apps (feature phones),Yes,REST/callback,API key,Commercial,Africa,High,https://developers.africastalking.com/,SRC-0120,74
+INT-093,Africa's Talking Voice/IVR,Communication,Africa's Talking,Voice call/IVR,Yes,REST/callback,API key,Commercial,Africa,High,https://developers.africastalking.com/,SRC-0120,72
+INT-094,Africa's Talking Airtime,Communication,Africa's Talking,Airtime distribution,Yes,REST,API key,Commercial,Africa,Medium,https://developers.africastalking.com/,SRC-0120,68
+INT-095,Twilio,Communication,Twilio,SMS/Voice/WhatsApp/verify,Yes,REST,API key/SID token,Commercial,Global,Medium,https://www.twilio.com/docs,SRC-0120,66
+INT-096,Infobip,Communication,Infobip,Omnichannel messaging,Yes,REST,API key,Commercial,Global,Medium,https://www.infobip.com/docs,SRC-0120,62
+INT-097,MessageBird (Bird),Communication,Bird,Omnichannel messaging,Yes,REST,API key,Commercial,Global,Low-Medium,https://docs.bird.com/,SRC-0120,56
+INT-098,Vonage,Communication,Vonage,SMS/Voice/verify,Yes,REST,API key/secret,Commercial,Global,Low,https://developer.vonage.com/,SRC-0120,54
+INT-099,Clickatell / BulkSMS,Communication,Clickatell (SA),SMS (Southern Africa strong),Yes,REST,API key,Commercial,Africa/Global,Medium,https://www.clickatell.com/,SRC-0120,58
+INT-100,WhatsApp Business Cloud API,Communication,Meta,Business messaging,Yes,REST (Graph),Token,Commercial,Global,Medium,https://developers.facebook.com/docs/whatsapp,SRC-0120,64
+INT-101,Telegram Bot API,Communication,Telegram,Bot messaging,Yes,REST,Bot token,Free,Global,Medium,https://core.telegram.org/bots/api,SRC-0120,58
+INT-102,Firebase Cloud Messaging,Communication,Google,Push notifications,Yes,REST/SDK,Server key/OAuth2,Free,Global,High,https://firebase.google.com/docs/cloud-messaging,SRC-0120,64
+INT-103,SendGrid / Mailgun / Amazon SES,Communication,Twilio/Sinch/Amazon,Transactional email,Yes,REST/SMTP,API key,Commercial,Global,Medium,https://docs.sendgrid.com/,SRC-0120,60
+INT-104,MNO USSD shortcodes (MTN/Airtel/Zamtel),Communication,MNOs (Zambia),Direct USSD/shortcode provisioning,Restricted,USSD/callback,MNO agreement,Regulated,Zambia,High,https://www.zicta.zm/,SRC-0084,60
+INT-105,OAuth 2.0,Identity,IETF,Authorization framework,Spec,OAuth2,Tokens,Open standard,Global,High,https://oauth.net/2/,SRC-0112,76
+INT-106,OpenID Connect,Identity,OpenID Foundation,Authentication layer on OAuth2,Spec,OIDC,ID tokens,Open standard,Global,High,https://openid.net/connect/,SRC-0112,76
+INT-107,SAML 2.0,Identity,OASIS,Federated SSO (enterprise),Spec,SAML/XML,Assertions,Open standard,Global,Medium,https://www.oasis-open.org/,SRC-0112,68
+INT-108,Keycloak,Identity,Keycloak,IAM (OIDC/SAML) self-host,Yes,REST/OIDC/SAML,Tokens,OSS,Global,High,https://www.keycloak.org/,SRC-0112,74
+INT-109,Microsoft Entra ID,Identity,Microsoft,Enterprise identity/SSO,Yes,REST (Graph)/OIDC,OAuth2,Commercial,Global,Medium,https://learn.microsoft.com/entra/,SRC-0112,66
+INT-110,Google Identity,Identity,Google,Sign-in/OAuth,Yes,OIDC/OAuth2,Tokens,Free/Commercial,Global,Medium,https://developers.google.com/identity,SRC-0112,66
+INT-111,Auth0 / Okta,Identity,Okta,Identity-as-a-service,Yes,OIDC/OAuth2/SAML,Tokens,Commercial,Global,Low-Medium,https://auth0.com/docs,SRC-0112,60
+INT-112,Ory,Identity,Ory,OSS identity/OAuth2,Yes,REST/OIDC,Tokens,OSS,Global,Medium,https://www.ory.sh/docs,SRC-0112,58
+INT-113,FIDO2 / WebAuthn,Identity,FIDO Alliance/W3C,Passwordless/MFA,Spec,WebAuthn,Public-key,Open standard,Global,Medium,https://fidoalliance.org/,SRC-0112,62
+INT-114,MOSIP,Identity,MOSIP,Foundational digital ID platform,Yes,REST,Tokens,OSS,Global,Low,https://mosip.io/,SRC-0084,52
+INT-115,ZamPass (national),Identity,Smart Zambia Institute,National e-gov identity/SSO,Portal,OIDC-like,ZamPass,Government,Zambia,High,https://zamportal.gov.zm/,SRC-0118,72
+INT-116,SAP APIs (OData/BAPI/RFC),ERP,SAP,ERP integration,Yes,OData/REST/RFC,OAuth2/basic,Commercial,Global,Low-Medium,https://api.sap.com/,SRC-0079,62
+INT-117,Oracle Fusion REST,ERP,Oracle,ERP integration,Yes,REST,OAuth2/basic,Commercial,Global,Low,https://docs.oracle.com/,SRC-0079,58
+INT-118,Microsoft Dynamics 365 / Dataverse,ERP,Microsoft,ERP/CRM integration,Yes,OData/REST,OAuth2,Commercial,Global,Medium,https://learn.microsoft.com/dynamics365/,SRC-0079,60
+INT-119,Odoo External API,ERP,Odoo,ERP integration,Yes,XML-RPC/JSON-RPC,API key/session,OSS+Commercial,Global,High,https://www.odoo.com/documentation/,SRC-0079,68
+INT-120,ERPNext / Frappe API,ERP,Frappe,ERP integration,Yes,REST,API key/token,OSS,Global,High,https://frappeframework.com/docs/,SRC-0079,66
+INT-121,Sage X3 / 300 API,ERP,Sage,ERP integration,Yes,REST/SOAP,OAuth2/basic,Commercial,Global/SADC,Medium,https://developer.sage.com/,SRC-0079,58
+INT-122,SYSPRO e.net,ERP,SYSPRO,ERP integration,Yes,REST/SOAP,API key,Commercial,Global/SA,Medium,https://www.syspro.com/,SRC-0079,54
+INT-123,NetSuite SuiteTalk,ERP,Oracle,ERP integration,Yes,REST/SOAP,OAuth2/TBA,Commercial,Global,Low,https://docs.oracle.com/netsuite/,SRC-0079,54
+INT-124,Salesforce APIs,ERP,Salesforce,CRM integration,Yes,REST/Bulk/SOAP,OAuth2,Commercial,Global,Low-Medium,https://developer.salesforce.com/,SRC-0079,58
+INT-125,Zoho APIs,ERP,Zoho,CRM/ERP integration,Yes,REST,OAuth2,Commercial,Global,Medium,https://www.zoho.com/developer/,SRC-0079,56
+INT-126,REST,Standards,IETF/community,Resource-oriented web APIs,Spec,HTTP/REST,varies,Open,Global,High,https://www.rfc-editor.org/,SRC-0079,78
+INT-127,GraphQL,Standards,GraphQL Foundation,Query-based API,Spec,GraphQL/HTTP,varies,Open,Global,Medium,https://graphql.org/,SRC-0079,66
+INT-128,SOAP,Standards,W3C,XML web services (legacy/enterprise),Spec,SOAP/XML,WS-Security,Open,Global,Medium,https://www.w3.org/TR/soap/,SRC-0079,60
+INT-129,gRPC,Standards,CNCF,High-performance RPC,Spec,gRPC/HTTP2,mTLS/token,Open,Global,Medium,https://grpc.io/,SRC-0079,60
+INT-130,AMQP,Standards,OASIS,Message queuing,Spec,AMQP,SASL/TLS,Open,Global,Medium,https://www.amqp.org/,SRC-0086,58
+INT-131,Apache Kafka protocol,Standards,Apache,Event streaming,Spec,Kafka/TCP,SASL/TLS,OSS,Global,Medium,https://kafka.apache.org/,SRC-0086,62
+INT-132,WebSocket,Standards,IETF,Full-duplex realtime,Spec,WS,token,Open,Global,High,https://www.rfc-editor.org/rfc/rfc6455,SRC-0079,64
+INT-133,Webhooks,Standards,community,Event callbacks,Pattern,HTTP,signature/secret,Open,Global,High,https://www.rfc-editor.org/,SRC-0120,66
+INT-134,CSV,Standards,IETF (RFC4180),Tabular data exchange,Format,file,none,Open,Global,High,https://www.rfc-editor.org/rfc/rfc4180,SRC-0079,74
+INT-135,XML,Standards,W3C,Structured data exchange,Format,file,none,Open,Global,High,https://www.w3.org/XML/,SRC-0079,72
+INT-136,JSON,Standards,ECMA/IETF,Structured data exchange,Format,file,none,Open,Global,High,https://www.json.org/,SRC-0079,78
+INT-137,GeoJSON,Standards,IETF (RFC7946),Geospatial vector exchange,Format,file,none,Open,Global,High,https://geojson.org/,SRC-0081,72
+INT-138,GPX,Standards,Topografix,GPS track/waypoint exchange,Format,file,none,Open,Global,High,https://www.topografix.com/gpx.asp,SRC-0081,66
+INT-139,KML/KMZ,Standards,OGC,Geospatial visualisation exchange,Format,file,none,Open,Global,High,https://www.ogc.org/standard/kml/,SRC-0081,66
+INT-140,IFC,Standards,buildingSMART,BIM data exchange,Format,file,none,Open (ISO 16739),Global,Medium,https://www.buildingsmart.org/,SRC-0115,64
+INT-141,OGC WMS/WFS/WCS/WMTS,Standards,OGC,Geospatial web services,Spec,HTTP/OGC,varies,Open,Global,High,https://www.ogc.org/,SRC-0081,70
+INT-142,STAC,Standards,STAC community,SpatioTemporal Asset Catalog (EO),Spec,REST/JSON,none,Open,Global,High,https://stacspec.org/,SRC-0081,64
+INT-143,ISO 19115,Standards,ISO,Geographic metadata,Spec,metadata,none,Open standard,Global,Medium,https://www.iso.org/standard/53798.html,SRC-0081,58
+INT-144,ISO 8601,Standards,ISO,Date/time representation,Spec,format,none,Open standard,Global,High,https://www.iso.org/iso-8601-date-and-time-format.html,SRC-0079,72
+INT-145,ISO 20022,Standards,ISO,Financial messaging,Spec,XML/JSON,varies,Open standard,Global,Medium,https://www.iso20022.org/,SRC-0084,60
+INT-146,EDIFACT,Standards,UN,EDI trade documents,Spec,EDI,varies,Open standard,Global,Low-Medium,https://unece.org/trade/uncefact,SRC-0086,52
+INT-147,EPCIS / GS1,Standards,GS1,Supply-chain traceability/identifiers,Spec,REST/XML,varies,Open standard,Global,Medium,https://www.gs1.org/standards/epcis,SRC-0086,56
+INT-148,OpenAPI / Swagger,Standards,OpenAPI Initiative,API description,Spec,YAML/JSON,none,Open,Global,High,https://www.openapis.org/,SRC-0079,68
+INT-149,OAuth2 Token/JWT (RFC7519),Standards,IETF,Token format,Spec,JWT,signature,Open,Global,High,https://www.rfc-editor.org/rfc/rfc7519,SRC-0112,68
+INT-150,SFTP / AS2 file transfer,Standards,IETF,Secure file exchange (B2B),Spec,SFTP/AS2,keys/certs,Open,Global,Medium,https://www.rfc-editor.org/,SRC-0086,56

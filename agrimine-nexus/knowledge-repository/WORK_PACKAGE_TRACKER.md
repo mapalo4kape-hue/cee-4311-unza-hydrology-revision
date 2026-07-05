@@ -5,7 +5,7 @@ Tracks execution of every MREP work package and its progress through the 8 QA ga
 **Legend:** ☐ not started · ◐ in progress · ☑ passed · — n/a
 **QA Gates:** G1 Scope · G2 Source validation · G3 Evidence quality · G4 Cross-reference · G5 Requirement extraction · G6 Architecture relevance · G7 Business impact · G8 Executive/final review.
 
-_Last updated: 2026-07-05 (WP4 product & competitor intelligence — ACT-015; catalogue extended to 248 products + Zambia/SADC market analysis; 117 total evidence sources; awaiting review)_
+_Last updated: 2026-07-05 (WP4.3 integration & digital ecosystem intelligence — ACT-016; 150 integration entries across 11 domains incl. Zambia e-gov backbone; 121 total evidence sources; awaiting review)_
 
 ---
 
@@ -43,7 +43,7 @@ _Last updated: 2026-07-05 (WP4 product & competitor intelligence — ACT-015; ca
 |----|------|------------------|--------|----|----|----|----|----|----|----|----|
 | 4.1 | Competitor Analysis | Competitor Encyclopedia · Feature Comparison Matrix | ACT-011 (153 products) + ACT-015 (extended to 248 products, coverage matrices, Zambia/SADC market analysis); quantity floors partial; awaiting review | ◐ | ◐ | ◐ | ◐ | ☐ | ☐ | ☐ | ☐ |
 | 4.2 | Product Feature Library | Master Feature Catalogue · Functional Requirement Register | Not started | ☐ | ☐ | ☐ | ☐ | ☐ | ☐ | ☐ | ☐ |
-| 4.3 | Integration Research | Integration Catalogue · API Opportunity Register | Not started | ☐ | ☐ | ☐ | ☐ | ☐ | ☐ | ☐ | ☐ |
+| 4.3 | Integration Research | Integration Catalogue · API Opportunity Register | Ecosystem inventory done — ACT-016 (150 integration entries, 11 domains, Zambia e-gov backbone); no integration/API design; awaiting review | ◐ | ◐ | ◐ | ◐ | ☐ | ☐ | ☐ | ☐ |
 
 ## Stage 5 — Business Strategy & Implementation
 

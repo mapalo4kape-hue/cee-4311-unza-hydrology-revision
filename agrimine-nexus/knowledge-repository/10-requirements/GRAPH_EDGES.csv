@@ -178,3 +178,13 @@ E-0176,CMP-CAT-LOG,TECH-IOT,USES,SRC-0116,72,logistics telematics uses IoT/GPS
 E-0177,CMP-0197,CMP-CAT-SADC,MEMBER_OF,SRC-0115,74,RIB Candy is Southern African vendor (construction)
 E-0178,CMP-0215,CMP-CAT-SADC,MEMBER_OF,SRC-0086,74,Cartrack is Southern African vendor (telematics)
 E-0179,CMP-0247,ORG-MOA,OPERATED_BY,SRC-0045,74,ZIAMIS operated by Ministry of Agriculture
+E-0180,INT-ZAMPORTAL,ORG-SMARTZM,OPERATED_BY,SRC-0118,80,ZamPortal operated by Smart Zambia Institute
+E-0181,INT-CADASTRE,ORG-MMMD,OPERATED_BY,SRC-0119,78,Mining Cadastre operated by Ministry of Mines
+E-0182,INT-CADASTRE,INT-GSB,INTEGRATES_WITH,SRC-0119,76,Mining Cadastre launched on Government Service Bus
+E-0183,INT-ZAMPAY,INT-ZAMPORTAL,PART_OF,SRC-0118,76,ZamPay payment gateway part of ZamPortal ecosystem
+E-0184,INT-ZAMPASS,INT-ZAMPORTAL,PART_OF,SRC-0118,76,ZamPass authentication part of ZamPortal ecosystem
+E-0185,INT-AT,WF-029,SUPPORTS,SRC-0120,72,Africa's Talking supports sales/advisory comms workflows
+E-0186,INT-MOMO,WF-032,SUPPORTS,SRC-0084,72,mobile money APIs support payment workflows
+E-0187,INT-EO,WF-025,SUPPORTS,SRC-0081,72,open EO APIs support crop monitoring workflow
+E-0188,INT-ZAMPASS,TECH-IAM,IMPLEMENTED_BY,SRC-0118,70,ZamPass is an identity/IAM integration
+E-0189,INT-CADASTRE,REG-0009,ADDRESSES,SRC-0119,72,cadastre addresses mining licensing regulation
