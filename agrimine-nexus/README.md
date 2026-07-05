@@ -40,7 +40,13 @@ The project follows a strict order: **Governance → Research Engine → Researc
 | [ACT-005](activity-log/2026-07-05_ACT-005_repository-migration-and-evidence-acquisition-prep.md) | 2026-07-05 | Repository migration prep + WP1.1 evidence-acquisition system | Stage 1 · execution prep | Complete |
 | [ACT-006](activity-log/2026-07-05_ACT-006_wp1.1-phase1-authoritative-evidence-acquisition.md) | 2026-07-05 | WP1.1 Phase 1 authoritative evidence acquisition (Zambia national baseline) | Stage 1 · collection | Complete |
 | [ACT-007](activity-log/2026-07-05_ACT-007_wp1.1-phase2-economic-digital-infrastructure-baseline.md) | 2026-07-05 | WP1.1 Phase 2 economic/population/infrastructure/financial/digital/logistics/climate baseline | Stage 1 · collection | Complete |
-| [ACT-008](activity-log/2026-07-05_ACT-008_wp2.1-phase1-agricultural-operations-intelligence.md) | 2026-07-05 | WP2.1 Phase 1 agricultural operations intelligence (41 workflows, 20 stakeholders) | Stage 2 · operations | Complete (awaiting review) |
+| [ACT-008](activity-log/2026-07-05_ACT-008_wp2.1-phase1-agricultural-operations-intelligence.md) | 2026-07-05 | WP2.1 Phase 1 agricultural operations intelligence (41 workflows, 20 stakeholders) | Stage 2 · operations | Complete |
+| [ACT-009](activity-log/2026-07-05_ACT-009_wp2.1-phase2-agricultural-information-intelligence.md) | 2026-07-05 | WP2.1 Phase 2 agricultural information/data/document intelligence | Stage 2 · information | Complete |
+| [ACT-010](activity-log/2026-07-05_ACT-010_cross-industry-research-sprint.md) | 2026-07-05 | Cross-industry breadth-first sprint: Mining, Construction, Environmental + Comparative Analysis | Stage 2 · breadth-first | Complete |
+| [ACT-011](activity-log/2026-07-05_ACT-011_global-product-competitor-intelligence.md) | 2026-07-05 | Global product & competitor intelligence (153 products, 12 deliverables) | Stage 4 · competitors | Complete |
+| [ACT-011.1](activity-log/2026-07-05_ACT-011.1_wp2.5-logistics-supply-chain-intelligence.md) | 2026-07-05 | WP2.5 Logistics & Supply Chain operations intelligence (26 workflows linking all industries) | Stage 2 · logistics | Complete |
+| [ACT-012](activity-log/2026-07-05_ACT-012_wp1.2-policy-regulatory-landscape.md) | 2026-07-05 | WP1.2 Policy & Regulatory Landscape (~37 instruments, ~21 authorities) | Stage 1 · regulatory | Complete |
+| [ACT-013](activity-log/2026-07-05_ACT-013_wp1.3-stakeholder-mapping-ecosystem-intelligence.md) | 2026-07-05 | WP1.3 Stakeholder Mapping & Ecosystem Intelligence (75 stakeholders) | Stage 1 · stakeholders | Complete (awaiting review) |
 
 ## Evidence-acquisition system (ACT-005, WP1.1)
 
@@ -55,7 +61,9 @@ The project follows a strict order: **Governance → Research Engine → Researc
 
 ## Current position
 
-**WP1.1 complete** (Phase 1 national baseline + Phase 2 operational baseline; ACT-006/007) and **WP2.1 Phase 1 (Agricultural Operations Intelligence, ACT-008) complete** — **57 cited authoritative sources** total. WP2.1 documented **41 end-to-end agricultural workflows** and **20 stakeholders** with decision, information, document, asset, KPI, pain-point, and risk registers: [`knowledge-repository/06-industries/agriculture/WP2.1-phase1-operations/`](knowledge-repository/06-industries/agriculture/WP2.1-phase1-operations/). Operational intelligence only — no crop research, software requirements, features, competitors, or AI analysis. **STOP condition active: awaiting review.** Repository migration to `agrimine-nexus-research` remains prepared/validated; the final create-repo/rename/push needs GitHub write access ([`MIGRATION_REPORT.md`](MIGRATION_REPORT.md)). Status: [`knowledge-repository/WORK_PACKAGE_TRACKER.md`](knowledge-repository/WORK_PACKAGE_TRACKER.md).
+Operational model for all target industries (WP2.1–2.5 + comparative), the **global competitor landscape** (WP4.1), the **regulatory landscape** (WP1.2 — ~37 instruments, ~21 authorities: [`knowledge-repository/08-regulations/WP1.2-regulatory-landscape/`](knowledge-repository/08-regulations/WP1.2-regulatory-landscape/)), and the **stakeholder ecosystem** (WP1.3 — 75 stakeholders across 10 categories: [`knowledge-repository/01-research/WP1.3-stakeholder-mapping/`](knowledge-repository/01-research/WP1.3-stakeholder-mapping/)). **107 evidence sources** total. Every workflow now maps to regulations and stakeholders — the operational + regulatory + actor model is complete. Evidence-first — **no software, schemas, APIs, UML, features, requirements, business strategy, or AI**. **STOP condition active: awaiting review before Stage 3 (Technology Research).** Repository migration to `agrimine-nexus-research` remains prepared/validated ([`MIGRATION_REPORT.md`](MIGRATION_REPORT.md)). Status: [`knowledge-repository/WORK_PACKAGE_TRACKER.md`](knowledge-repository/WORK_PACKAGE_TRACKER.md).
+
+> Note: this work lives on branch `cursor/agrimine-rom-internalisation-9a65` and is under review in **PR #5** (PR #4 was merged early with only ACT-001).
 
 ## How to add a new activity record
 

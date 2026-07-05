@@ -5,7 +5,7 @@ Tracks execution of every MREP work package and its progress through the 8 QA ga
 **Legend:** ☐ not started · ◐ in progress · ☑ passed · — n/a
 **QA Gates:** G1 Scope · G2 Source validation · G3 Evidence quality · G4 Cross-reference · G5 Requirement extraction · G6 Architecture relevance · G7 Business impact · G8 Executive/final review.
 
-_Last updated: 2026-07-05 (WP2.1 Phase 1 agricultural operations intelligence — ACT-008; 57 total sources; awaiting review)_
+_Last updated: 2026-07-05 (WP3 technology intelligence — ACT-014; 150 technologies catalogued across 7 domains; 113 total evidence sources; awaiting review before Stage 4)_
 
 ---
 
@@ -14,34 +14,34 @@ _Last updated: 2026-07-05 (WP2.1 Phase 1 agricultural operations intelligence �
 | WP | Name | Key deliverables | Status | G1 | G2 | G3 | G4 | G5 | G6 | G7 | G8 |
 |----|------|------------------|--------|----|----|----|----|----|----|----|----|
 | 1.1 | National Intelligence | Zambia Country Profile · Economic Analysis · Infrastructure Map · Digital Readiness Report | Phase 1 (baseline) + Phase 2 (economy/pop/infra/finance/digital/logistics/climate) done — 44 sources; awaiting review | ☑ | ◐ | ◐ | ◐ | ☐ | ☐ | ☐ | ☐ |
-| 1.2 | Policy & Regulatory Landscape | Regulatory Matrix · Compliance Handbook · Legal Requirement Catalogue | Not started | ☐ | ☐ | ☐ | ☐ | ☐ | ☐ | ☐ | ☐ |
-| 1.3 | Stakeholder Mapping | Stakeholder Register · Influence Map · Decision-Maker Matrix | Not started | ☐ | ☐ | ☐ | ☐ | ☐ | ☐ | ☐ | ☐ |
+| 1.2 | Policy & Regulatory Landscape | Regulatory Matrix · Compliance Handbook · Legal Requirement Catalogue | Done — ACT-012 (~37 instruments, ~21 authorities); awaiting review | ◐ | ◐ | ◐ | ◐ | ☐ | ☐ | ☐ | ☐ |
+| 1.3 | Stakeholder Mapping | Stakeholder Register · Influence Map · Decision-Maker Matrix | Done — ACT-013 (75 stakeholders, 10 categories); awaiting review | ◐ | ◐ | ◐ | ◐ | ☐ | ☐ | ☐ | ☐ |
 
 ## Stage 2 — Industry Research
 
 | WP | Name | Key deliverables | Status | G1 | G2 | G3 | G4 | G5 | G6 | G7 | G8 |
 |----|------|------------------|--------|----|----|----|----|----|----|----|----|
-| 2.1 | Agriculture | Agriculture Encyclopedia · Crop Value Chain Maps · Farm Workflow Models · Pain Point Matrix · Feature Requirement Catalogue | Phase 1 operations intelligence done (41 workflows, 20 stakeholders, 13 sources); awaiting review | ◐ | ◐ | ◐ | ◐ | ☐ | ☐ | ☐ | ☐ |
-| 2.2 | Mining | Mining Operations Handbook · Mining Workflow Library · Procurement Analysis · Compliance Matrix · AI Opportunity Report | Not started | ☐ | ☐ | ☐ | ☐ | ☐ | ☐ | ☐ | ☐ |
-| 2.3 | Construction | Construction Process Library · BOQ Knowledge Base · Site Workflow Models · Digital Construction Opportunity Report | Not started | ☐ | ☐ | ☐ | ☐ | ☐ | ☐ | ☐ | ☐ |
-| 2.4 | Environmental Engineering | Environmental Operations Guide · Compliance Matrix · Monitoring Framework | Not started | ☐ | ☐ | ☐ | ☐ | ☐ | ☐ | ☐ | ☐ |
-| 2.5 | Logistics & Supply Chains | Supply Chain Blueprint · Logistics Workflow Models | Not started | ☐ | ☐ | ☐ | ☐ | ☐ | ☐ | ☐ | ☐ |
+| 2.1 | Agriculture | Agriculture Encyclopedia · Crop Value Chain Maps · Farm Workflow Models · Pain Point Matrix · Feature Requirement Catalogue | Phase 1 operations + Phase 2 information intelligence done (41 workflows, full information ecosystem; 19 sources); awaiting review | ◐ | ◐ | ◐ | ◐ | ☐ | ☐ | ☐ | ☐ |
+| 2.2 | Mining | Mining Operations Handbook · Mining Workflow Library · Procurement Analysis · Compliance Matrix · AI Opportunity Report | Phase 1 (breadth-first) ops intelligence done — ACT-010; awaiting review | ◐ | ◐ | ◐ | ☐ | ☐ | ☐ | ☐ | ☐ |
+| 2.3 | Construction | Construction Process Library · BOQ Knowledge Base · Site Workflow Models · Digital Construction Opportunity Report | Phase 1 (breadth-first) ops intelligence done — ACT-010; awaiting review | ◐ | ◐ | ◐ | ☐ | ☐ | ☐ | ☐ | ☐ |
+| 2.4 | Environmental Engineering | Environmental Operations Guide · Compliance Matrix · Monitoring Framework | Phase 1 (breadth-first) ops intelligence done — ACT-010; awaiting review | ◐ | ◐ | ◐ | ☐ | ☐ | ☐ | ☐ | ☐ |
+| 2.5 | Logistics & Supply Chains | Supply Chain Blueprint · Logistics Workflow Models | Phase 1 ops intelligence done — ACT-011.1 (26 workflows linking all industries); awaiting review | ◐ | ◐ | ◐ | ☐ | ☐ | ☐ | ☐ | ☐ |
 
 ## Stage 3 — Technology Research
 
 | WP | Name | Key deliverables | Status | G1 | G2 | G3 | G4 | G5 | G6 | G7 | G8 |
 |----|------|------------------|--------|----|----|----|----|----|----|----|----|
-| 3.1 | Artificial Intelligence | AI Capability Catalogue · AI Use Case Matrix · Model Selection Guide | Not started | ☐ | ☐ | ☐ | ☐ | ☐ | ☐ | ☐ | ☐ |
-| 3.2 | GIS & Remote Sensing | GIS Architecture Guide · Spatial Data Catalogue | Not started | ☐ | ☐ | ☐ | ☐ | ☐ | ☐ | ☐ | ☐ |
-| 3.3 | IoT & Edge Computing | Sensor Catalogue · IoT Integration Guide | Not started | ☐ | ☐ | ☐ | ☐ | ☐ | ☐ | ☐ | ☐ |
-| 3.4 | Drone Systems | Drone Integration Guide · Drone Data Pipeline | Not started | ☐ | ☐ | ☐ | ☐ | ☐ | ☐ | ☐ | ☐ |
-| 3.5 | Cloud & Enterprise Architecture | Technology Blueprint · Enterprise Architecture Draft | Not started | ☐ | ☐ | ☐ | ☐ | ☐ | ☐ | ☐ | ☐ |
+| 3.1 | Artificial Intelligence | AI Capability Catalogue · AI Use Case Matrix · Model Selection Guide | Landscape done — ACT-014 (46 AI technologies; use-case mapping only, no model recommendations); awaiting review | ◐ | ◐ | ◐ | ◐ | ☐ | ☐ | ☐ | ☐ |
+| 3.2 | GIS & Remote Sensing | GIS Architecture Guide · Spatial Data Catalogue | Landscape done — ACT-014 (GIS+RS technologies, free EO data); no architecture; awaiting review | ◐ | ◐ | ◐ | ◐ | ☐ | ☐ | ☐ | ☐ |
+| 3.3 | IoT & Edge Computing | Sensor Catalogue · IoT Integration Guide | Landscape done — ACT-014 (IoT connectivity + sensors + edge); no integration design; awaiting review | ◐ | ◐ | ◐ | ◐ | ☐ | ☐ | ☐ | ☐ |
+| 3.4 | Drone Systems | Drone Integration Guide · Drone Data Pipeline | Landscape done — ACT-014 (drone platforms/payloads/software); no pipeline design; awaiting review | ◐ | ◐ | ◐ | ◐ | ☐ | ☐ | ☐ | ☐ |
+| 3.5 | Cloud & Enterprise Architecture | Technology Blueprint · Enterprise Architecture Draft | Landscape done — ACT-014 (enterprise platforms + cybersecurity); no blueprint/architecture (deferred per stop condition); awaiting review | ◐ | ◐ | ◐ | ◐ | ☐ | ☐ | ☐ | ☐ |
 
 ## Stage 4 — Product & Competitor Research
 
 | WP | Name | Key deliverables | Status | G1 | G2 | G3 | G4 | G5 | G6 | G7 | G8 |
 |----|------|------------------|--------|----|----|----|----|----|----|----|----|
-| 4.1 | Competitor Analysis | Competitor Encyclopedia · Feature Comparison Matrix | Not started | ☐ | ☐ | ☐ | ☐ | ☐ | ☐ | ☐ | ☐ |
+| 4.1 | Competitor Analysis | Competitor Encyclopedia · Feature Comparison Matrix | Phase 1 done — ACT-011 (153 products, 12 deliverables); verification depth partial; awaiting review | ◐ | ◐ | ◐ | ☐ | ☐ | ☐ | ☐ | ☐ |
 | 4.2 | Product Feature Library | Master Feature Catalogue · Functional Requirement Register | Not started | ☐ | ☐ | ☐ | ☐ | ☐ | ☐ | ☐ | ☐ |
 | 4.3 | Integration Research | Integration Catalogue · API Opportunity Register | Not started | ☐ | ☐ | ☐ | ☐ | ☐ | ☐ | ☐ | ☐ |
 

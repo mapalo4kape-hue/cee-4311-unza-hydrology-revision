@@ -1,0 +1,8 @@
+persistent_id,title,publisher,publication_date,retrieval_date,url,theme,document_type,coverage,geographic_resolution,update_frequency,format,license,confidence,validation_status
+SRC-0087,Regional infrastructure & rail corridors,JICA,2019,2026-07-05,https://openjicareport.jica.go.jp/pdf/11991007_02.pdf,Logistics-corridors,Report,National/Regional,National,One-off,PDF,Open,80,verified
+SRC-0088,Special Economic Zones,ZDA,2024,2026-07-05,https://zda.org.zm/special-economic-zones/,Logistics-SEZ,Official page,National,Zone,Periodic,HTML,Official,84,verified
+SRC-0089,MFEZ progress (World Bank),World Bank,2016,2026-07-05,https://documents1.worldbank.org/curated/en/720981495115586647/,Logistics-MFEZ,Report,National,Zone,One-off,PDF,Open,80,verified
+SRC-0090,ASYCUDA World customs,ZRA,2024,2026-07-05,https://www.zra.org.zm/importation-of-goods/,Logistics-customs,Official page,National,National,Periodic,HTML,Official,86,verified
+SRC-0091,Import requirements & permits,trade.gov (ITA),2024,2026-07-05,https://www.trade.gov/country-commercial-guides/zambia-import-requirements-documentation,Logistics-permits,Guide,National,National,Periodic,HTML,Open,80,verified
+SRC-0092,Chirundu OSBP assessment,WFP Logistics Cluster,2024,2026-07-05,https://www.lca.logcluster.org/2317-zambia-border-crossing-chirundu,Logistics-border,Assessment,National/Border,Border,Periodic,HTML,Open,80,verified
+SRC-0093,Zambian logistics operators,Operator websites,2024,2026-07-05,https://www.multiportlogistics.com/,Logistics-operators,Corporate,National,National,Periodic,HTML,Corporate,70,corroborated
