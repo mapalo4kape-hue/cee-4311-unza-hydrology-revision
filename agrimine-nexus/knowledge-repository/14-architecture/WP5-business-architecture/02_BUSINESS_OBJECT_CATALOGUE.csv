@@ -1,0 +1,31 @@
+bo_id,name,owning_domain,description,key_business_attributes,lifecycle_events,stakeholders,evidence
+BO-001,Farm,DOM-AGRI,A farming enterprise/holding,name;owner;location;size,registered;profiled;updated,STK-028;STK-029,F-0053
+BO-002,Plot/Field,DOM-AGRI,A cultivated land parcel,boundary;area;crop;soil,mapped;planted;harvested,STK-028;STK-034,F-0075
+BO-003,Crop,DOM-AGRI,A crop under cultivation,type;variety;season;stage,planned;planted;monitored;harvested,STK-028,F-0053
+BO-004,Livestock/Herd,DOM-AGRI,Animals or herd under management,species;count;health,registered;vaccinated;moved,STK-028;STK-035,F-0053
+BO-005,Mine/Operation,DOM-MINE,A mining operation,name;commodity;method;licence,licensed;planned;operating;closed,STK-039,F-0056
+BO-006,Deposit/Resource,DOM-MINE,A mineral resource/reserve,commodity;grade;tonnage,explored;modelled;estimated,STK-047,F-0056
+BO-007,Project,DOM-CONS,A construction project,name;client;value;duration,initiated;planned;executed;handed-over,STK-048;STK-052,F-0060
+BO-008,Site,DOM-CONS,A physical work/operation site,location;type;status,established;operating;closed,STK-039;STK-048,F-0060
+BO-009,Asset/Equipment,DOM-INV,A physical asset or machine,type;serial;location;status,acquired;maintained;retired,STK-039;STK-041,F-0057
+BO-010,Vehicle,DOM-LOG,A transport vehicle,plate;type;capacity,registered;dispatched;maintained,STK-055,F-0068
+BO-011,Person,DOM-IAM,A natural person (farmer/worker/user),name;ID;role;contact,registered;verified;deactivated,STK-028;STK-058,F-0077
+BO-012,Organisation,DOM-IAM,A legal entity/organisation,name;registration;type,registered;verified;updated,STK-029;STK-039,F-0079
+BO-013,Cooperative,DOM-AGRI,A farmer cooperative/association,name;members;registration,registered;aggregating,STK-031,F-0053
+BO-014,Permit/Licence,DOM-CMP,An authorisation from a regulator,type;authority;validity,applied;granted;renewed;revoked,STK-009;STK-010,F-0073;F-0085
+BO-015,Inventory/Stock,DOM-INV,Held stock/spares/commodities,item;quantity;location,received;moved;issued,STK-039;STK-055,F-0067
+BO-016,Order,DOM-TRADE,A purchase/sales/transport order,type;items;parties;status,created;fulfilled;closed,STK-030;STK-055,F-0054;F-0067
+BO-017,WarehouseReceipt,DOM-TRADE,A receipt for stored commodities,commodity;quantity;holder,issued;pledged;redeemed,STK-031;STK-060,F-0067
+BO-018,Shipment/Consignment,DOM-LOG,Goods in transit,origin;destination;contents;status,planned;dispatched;delivered,STK-055;STK-030,F-0069
+BO-019,Invoice,DOM-FIN,A billing document,parties;amount;currency;terms,issued;paid;reconciled,STK-030;STK-060,F-0079
+BO-020,Payment,DOM-FIN,A movement of funds,amount;method;parties;status,initiated;settled;reconciled,STK-062;STK-060,F-0086
+BO-021,Inspection,DOM-CMP,A quality/safety/regulatory inspection,type;checklist;result,scheduled;conducted;closed,STK-018;STK-048,F-0058;F-0060
+BO-022,Incident,DOM-CMP,A safety/environmental/operational incident,type;severity;date,reported;investigated;closed,STK-018;STK-039,F-0058
+BO-023,MonitoringReading,DOM-ENV,An environmental/sensor measurement,parameter;value;location;time,captured;validated;flagged,STK-010;STK-039,F-0059
+BO-024,Sample,DOM-ENV,A laboratory sample,type;source;result,collected;analysed;reported,STK-036;STK-047,F-0056;F-0059
+BO-025,Report,DOM-ANALYTICS,A generated report/return,type;period;audience,generated;submitted;archived,STK-001;STK-029,F-0079
+BO-026,Document,DOM-DOC,A managed document/record,type;version;owner,created;versioned;retained,STK-029;STK-048,F-0079
+BO-027,Contract,DOM-PROC,A contractual agreement,parties;value;obligations,drafted;signed;executed;closed,STK-042;STK-050,F-0079
+BO-028,MinePlan,DOM-MINE,A mine design/plan artefact,horizon;design;schedule,drafted;approved;revised,STK-047;STK-039,F-0056
+BO-029,BOQ,DOM-CONS,A bill of quantities,items;quantities;rates,prepared;priced;revised,STK-050;STK-048,F-0060
+BO-030,User/Account,DOM-IAM,A system access account,identity;roles;credentials,provisioned;authenticated;deactivated,STK-029,F-0077

@@ -203,3 +203,11 @@ E-0201,BR-SET,REG-0024,DERIVED_FROM,F-0073,70,business rules derived from regula
 E-0202,REQ-SET-FRS,WF-032,TRACES_TO,F-0090,70,requirements trace to workflows
 E-0203,REQ-SET-NFR,REG-0024,ADDRESSES,F-0077,70,NFRs address privacy/security regulation
 E-0204,F-0090,F-0088,SYNTHESISES,F-0088,72,requirements repository synthesises capability model
+E-0205,DOM-CORE-SET,CAP-DOM-AGRI,REALISES,F-0092,72,core domains realise capability domains
+E-0206,DOM-CORE-SET,REQ-SET-FRS,REALISES,F-0092,72,domains realise functional requirements
+E-0207,DOM-GEN-SET,DOM-CORE-SET,SUPPORTS,F-0093,72,generic domains support all cores
+E-0208,DOM-SUP-SET,DOM-CORE-SET,SUPPORTS,F-0092,72,supporting domains support cores
+E-0209,BO-SET,DOM-CORE-SET,OWNED_BY,F-0092,70,business objects owned by domains
+E-0210,EVT-SET,DOM-CORE-SET,EMITTED_BY,F-0092,70,business events emitted by domains
+E-0211,F-0092,F-0090,SYNTHESISES,F-0090,72,business architecture synthesises requirements
+E-0212,DOM-CORE-SET,REG-0024,GOVERNED_BY,F-0077,70,domains governed by data protection where personal data

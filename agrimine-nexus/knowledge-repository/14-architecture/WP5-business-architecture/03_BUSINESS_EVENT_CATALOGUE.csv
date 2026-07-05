@@ -1,0 +1,36 @@
+evt_id,name,domain,trigger,actor,result,business_objects,evidence
+EVT-001,FarmerRegistered,DOM-AGRI,New farmer enrolled,Extension officer/farmer,Farmer profile created,BO-001;BO-011,F-0053
+EVT-002,PlotMapped,DOM-GEO,Field boundary captured,Field agent,Plot spatial record created,BO-002,F-0075
+EVT-003,CropPlanted,DOM-AGRI,Planting performed,Farmer,Planting activity recorded,BO-003,F-0033
+EVT-004,InputIssued,DOM-AGRI,Inputs supplied/redeemed,Agro-dealer,Input/subsidy transaction recorded,BO-015;BO-020,F-0053
+EVT-005,PestDetected,DOM-AGRI,Pest/disease observed,Farmer/agronomist,Observation logged; advisory triggered,BO-003,F-0075
+EVT-006,Harvested,DOM-AGRI,Harvest completed,Farmer,Harvest quantity recorded,BO-003,F-0033
+EVT-007,WarehouseReceiptIssued,DOM-TRADE,Commodity stored & verified,Warehouse operator,Warehouse receipt issued,BO-017;BO-015,F-0067
+EVT-008,CommodityListed,DOM-TRADE,Seller lists commodity,Seller/cooperative,Marketplace listing created,BO-016,F-0054
+EVT-009,TradeMatched,DOM-TRADE,Buyer matched to seller,Exchange/marketplace,Trade recorded,BO-016,F-0054
+EVT-010,PaymentDisbursed,DOM-FIN,Payment initiated,Payer/system,Funds disbursed & reconciled,BO-020;BO-019,F-0086
+EVT-011,LoanIssued,DOM-FIN,Credit approved,Lender,Loan and repayment schedule created,BO-020,F-0054
+EVT-012,LicenceApplied,DOM-CMP,Applicant submits application,Operator,Application lodged with regulator,BO-014,F-0085
+EVT-013,LicenceGranted,DOM-CMP,Regulator approves,Regulator,Permit/licence issued,BO-014,F-0073
+EVT-014,ExplorationLogged,DOM-MINE,Drilling/sampling done,Geologist,Exploration/assay data recorded,BO-006;BO-024,F-0056
+EVT-015,MinePlanApproved,DOM-MINE,Plan reviewed,Mine engineer,Approved mine plan versioned,BO-028,F-0056
+EVT-016,MaterialDispatched,DOM-MINE,Haulage assigned,Dispatcher,Fleet dispatch/haul cycle recorded,BO-009;BO-010,F-0057
+EVT-017,MaintenancePerformed,DOM-INV,Work order executed,Maintenance team,Asset maintenance recorded,BO-009,F-0057
+EVT-018,SafetyIncidentReported,DOM-CMP,Incident occurs,Worker/supervisor,Incident logged & actioned,BO-022,F-0058
+EVT-019,EnvReadingCaptured,DOM-ENV,Sensor/manual measurement,Monitoring officer/sensor,Monitoring reading stored,BO-023,F-0059
+EVT-020,ExceedanceDetected,DOM-ENV,Reading breaches limit,System,Exceedance flagged for reporting,BO-023,F-0059
+EVT-021,ComplianceSubmitted,DOM-CMP,Reporting period due,Compliance officer,Statutory report submitted,BO-025;BO-014,F-0073
+EVT-022,EIAApproved,DOM-ENV,EIA reviewed,ZEMA,EIA/ESMP approved,BO-014,F-0059
+EVT-023,ProjectStarted,DOM-CONS,Project mobilised,Contractor,Project & WBS created,BO-007;BO-008,F-0060
+EVT-024,ProgressReported,DOM-CONS,Site progress captured,Site engineer,Progress/daily report recorded,BO-008,F-0060
+EVT-025,ValuationCertified,DOM-CONS,Work measured,Quantity surveyor,Valuation/IPC issued,BO-029;BO-019,F-0060
+EVT-026,TransportOrderCreated,DOM-LOG,Transport requested,Shipper,Transport order created,BO-016,F-0067
+EVT-027,ShipmentDispatched,DOM-LOG,Load dispatched,Dispatcher,Shipment in transit,BO-018;BO-010,F-0068
+EVT-028,DeliveryConfirmed,DOM-LOG,Goods delivered,Driver/recipient,Proof of delivery captured,BO-018,F-0068
+EVT-029,GoodsReceived,DOM-INV,Stock received,Warehouse operator,Inventory receipt recorded,BO-015,F-0067
+EVT-030,InvoiceIssued,DOM-FIN,Billing event,Seller/system,Invoice created,BO-019,F-0079
+EVT-031,InspectionCompleted,DOM-CMP,Inspection conducted,Inspector,Inspection result recorded,BO-021,F-0060
+EVT-032,BorderCleared,DOM-LOG,Customs processed,Customs/agent,Cross-border clearance recorded,BO-018;BO-026,F-0069
+EVT-033,UserAuthenticated,DOM-IAM,Login/access attempt,User,Authentication result logged,BO-030,F-0077
+EVT-034,ConsentCaptured,DOM-IAM,Data-subject consents,Data subject,Consent recorded,BO-011,F-0077
+EVT-035,NotificationSent,DOM-NOTIF,Trigger condition met,System,Message delivered with report,BO-011,F-0086

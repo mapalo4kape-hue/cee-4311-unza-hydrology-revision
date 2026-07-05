@@ -5,7 +5,12 @@
 | Prefix | Object | Next | Notes |
 |--------|--------|------|-------|
 | `SRC-` | Evidence/source | 0122 | ...0114-117 WP4 products; 0118-121 WP4.3 integrations |
-| `F-` | Finding | 0092 | ...0088-0089 WP4.2 capabilities; 0090-0091 WP5 requirements |
+| `F-` | Finding | 0094 | ...0090-0091 WP5 requirements; 0092-0093 WP5 business architecture |
+| `DOM-` | Business domain | (mnemonic) | 24 domains allocated (Enterprise Domain Catalogue, WP5); mnemonic IDs |
+| `BO-` | Business object | 031 | 001-030 allocated (Business Object Catalogue, WP5) |
+| `EVT-` | Business event | 036 | 001-035 allocated (Business Event Catalogue, WP5) |
+| `DRK-` | Domain risk | 13 | 01-12 allocated (WP5) |
+| `DCON-` | Domain constraint | 11 | 01-10 allocated (WP5) |
 | `INT-` | Integration entry | 0151 | 001-150 allocated (Master Integration Catalogue, WP4.3) |
 | `GAP-I` | Integration gap | I11 | I01-I10 allocated (WP4.3) |
 | `CAP-` | Business capability | 0171 | 001-170 allocated (Master Enterprise Capability Catalogue, WP4.2) |
