@@ -154,3 +154,15 @@ E-0152,ORG-DPC,ORG-MOA,GOVERNED_BY,SRC-0012,88,DPC regulates data holders incl M
 E-0153,ORG-ZPPA,ENT-PROJECT,GOVERNED_BY,SRC-0102,84,ZPPA governs public procurement of projects (regulates)
 E-0154,ENT-CFAGENT,ORG-ZRA,GOVERNED_BY,SRC-0092,82,C&F agents licensed by/report to ZRA (reports_to)
 E-0155,ENT-WAREHOUSE-L,ORG-BOZ,GOVERNED_BY,SRC-0062,78,WRS finance under BoZ/FIC supervision (info flow)
+E-0156,F-0075,SRC-0108,DERIVED_FROM,SRC-0081;SRC-0108;SRC-0109,74,AI/spatial landscape
+E-0157,F-0076,SRC-0110,DERIVED_FROM,SRC-0110;SRC-0111;SRC-0079,74,IoT/enterprise landscape
+E-0158,F-0077,SRC-0112,DERIVED_FROM,SRC-0112,74,cyber landscape
+E-0159,F-0078,SRC-0108,DERIVED_FROM,SRC-0108;SRC-0110,74,Zambia tech readiness
+E-0160,TECH-CV,WF-013,IMPLEMENTED_BY,SRC-0108,72,vision supports scouting/pest (workflow map)
+E-0161,TECH-GIS,WF-003,IMPLEMENTED_BY,SRC-0081,74,GIS supports field mapping/mine planning
+E-0162,TECH-RS,WF-025,IMPLEMENTED_BY,SRC-0081,74,remote sensing supports yield/monitoring
+E-0163,TECH-IOT,WF-012,IMPLEMENTED_BY,SRC-0110,72,IoT supports irrigation/weather/cold-chain
+E-0164,TECH-OFFLINE,WF-033,IMPLEMENTED_BY,SRC-0059,72,offline sync supports field records
+E-0165,TECH-MMO,WF-029,IMPLEMENTED_BY,SRC-0084,74,mobile money supports sales/payments
+E-0166,TECH-IAM,REG-0024,GOVERNED_BY,SRC-0112,74,cyber controls satisfy Data Protection Act
+E-0167,TECH-IOT,REG-0017,GOVERNED_BY,SRC-0110,70,environmental IoT monitoring under EMA

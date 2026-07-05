@@ -5,7 +5,7 @@ Tracks execution of every MREP work package and its progress through the 8 QA ga
 **Legend:** ☐ not started · ◐ in progress · ☑ passed · — n/a
 **QA Gates:** G1 Scope · G2 Source validation · G3 Evidence quality · G4 Cross-reference · G5 Requirement extraction · G6 Architecture relevance · G7 Business impact · G8 Executive/final review.
 
-_Last updated: 2026-07-05 (WP1.2 regulatory + WP1.3 stakeholders — ACT-012/013; ~37 instruments, 75 stakeholders; 107 total evidence sources; awaiting review before Stage 3)_
+_Last updated: 2026-07-05 (WP3 technology intelligence — ACT-014; 150 technologies catalogued across 7 domains; 113 total evidence sources; awaiting review before Stage 4)_
 
 ---
 
@@ -31,11 +31,11 @@ _Last updated: 2026-07-05 (WP1.2 regulatory + WP1.3 stakeholders — ACT-012/013
 
 | WP | Name | Key deliverables | Status | G1 | G2 | G3 | G4 | G5 | G6 | G7 | G8 |
 |----|------|------------------|--------|----|----|----|----|----|----|----|----|
-| 3.1 | Artificial Intelligence | AI Capability Catalogue · AI Use Case Matrix · Model Selection Guide | Not started | ☐ | ☐ | ☐ | ☐ | ☐ | ☐ | ☐ | ☐ |
-| 3.2 | GIS & Remote Sensing | GIS Architecture Guide · Spatial Data Catalogue | Not started | ☐ | ☐ | ☐ | ☐ | ☐ | ☐ | ☐ | ☐ |
-| 3.3 | IoT & Edge Computing | Sensor Catalogue · IoT Integration Guide | Not started | ☐ | ☐ | ☐ | ☐ | ☐ | ☐ | ☐ | ☐ |
-| 3.4 | Drone Systems | Drone Integration Guide · Drone Data Pipeline | Not started | ☐ | ☐ | ☐ | ☐ | ☐ | ☐ | ☐ | ☐ |
-| 3.5 | Cloud & Enterprise Architecture | Technology Blueprint · Enterprise Architecture Draft | Not started | ☐ | ☐ | ☐ | ☐ | ☐ | ☐ | ☐ | ☐ |
+| 3.1 | Artificial Intelligence | AI Capability Catalogue · AI Use Case Matrix · Model Selection Guide | Landscape done — ACT-014 (46 AI technologies; use-case mapping only, no model recommendations); awaiting review | ◐ | ◐ | ◐ | ◐ | ☐ | ☐ | ☐ | ☐ |
+| 3.2 | GIS & Remote Sensing | GIS Architecture Guide · Spatial Data Catalogue | Landscape done — ACT-014 (GIS+RS technologies, free EO data); no architecture; awaiting review | ◐ | ◐ | ◐ | ◐ | ☐ | ☐ | ☐ | ☐ |
+| 3.3 | IoT & Edge Computing | Sensor Catalogue · IoT Integration Guide | Landscape done — ACT-014 (IoT connectivity + sensors + edge); no integration design; awaiting review | ◐ | ◐ | ◐ | ◐ | ☐ | ☐ | ☐ | ☐ |
+| 3.4 | Drone Systems | Drone Integration Guide · Drone Data Pipeline | Landscape done — ACT-014 (drone platforms/payloads/software); no pipeline design; awaiting review | ◐ | ◐ | ◐ | ◐ | ☐ | ☐ | ☐ | ☐ |
+| 3.5 | Cloud & Enterprise Architecture | Technology Blueprint · Enterprise Architecture Draft | Landscape done — ACT-014 (enterprise platforms + cybersecurity); no blueprint/architecture (deferred per stop condition); awaiting review | ◐ | ◐ | ◐ | ◐ | ☐ | ☐ | ☐ | ☐ |
 
 ## Stage 4 — Product & Competitor Research
 

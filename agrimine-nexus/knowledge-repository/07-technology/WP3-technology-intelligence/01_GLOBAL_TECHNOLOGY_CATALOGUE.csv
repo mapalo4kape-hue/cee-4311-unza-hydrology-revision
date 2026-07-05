@@ -1,0 +1,151 @@
+tech_id,name,domain,category,maturity,zambia_applicability,offline_capable,connectivity,licensing,vendors_or_oss,industries,workflows_supported,evidence,confidence
+TECH-001,Llama 4 (Scout/Maverick),AI,LLM (MoE multimodal),Growing,Medium,P,online/edge,OSS (Meta license),Meta / self-host vLLM,X,advisory/IDP/RAG,SRC-0109,74
+TECH-002,Mistral / Mixtral,AI,LLM (MoE),Mature,Medium,P,online/edge,OSS (Apache 2.0)+commercial,Mistral AI,X,advisory/RAG,SRC-0109,74
+TECH-003,Qwen (incl. Qwen-VL),AI,LLM (multilingual/VL),Growing,Medium,P,online/edge,OSS,Alibaba,X,advisory/vision,SRC-0109,72
+TECH-004,DeepSeek,AI,LLM (reasoning),Growing,Medium,N,online,OSS,DeepSeek,X,advisory,SRC-0109,70
+TECH-005,Gemma,AI,SLM (on-device),Growing,High,Y,edge,OSS,Google,X,on-device advisory,SRC-0109,74
+TECH-006,Phi,AI,SLM (on-device),Growing,High,Y,edge,OSS,Microsoft,X,on-device advisory,SRC-0109,74
+TECH-007,Command R,AI,LLM (RAG-optimised),Growing,Low,N,online,Commercial+some OSS,Cohere,X,knowledge assistant,SRC-0109,68
+TECH-008,vLLM,AI,Inference serving,Mature,Medium,P,self-host,OSS,vLLM,X,model serving,SRC-0108,74
+TECH-009,Ollama,AI,Local inference,Growing,High,Y,offline,OSS,Ollama,X,on-device LLM,SRC-0108,74
+TECH-010,Hugging Face TGI,AI,Inference serving,Mature,Medium,P,self-host,OSS,Hugging Face,X,model serving,SRC-0108,70
+TECH-011,NVIDIA Triton,AI,Inference serving,Mature,Low,P,self-host,OSS,NVIDIA,X,model serving,SRC-0108,68
+TECH-012,LangGraph,AI,Agent framework,Growing,Medium,N,online,OSS,LangChain,X,multi-agent workflows,SRC-0108,70
+TECH-013,CrewAI,AI,Multi-agent framework,Emerging,Low,N,online,OSS,CrewAI,X,multi-agent,SRC-0108,66
+TECH-014,Microsoft Agent Framework,AI,Agent framework,Emerging,Low,N,online,OSS/Commercial,Microsoft,X,enterprise agents,SRC-0108,64
+TECH-015,YOLO (v8-v12),AI,Computer vision (detection),Mature,High,Y,edge,OSS,Ultralytics,A/M/C/E,scouting/inspection/pest,SRC-0108,76
+TECH-016,Segment Anything (SAM),AI,Computer vision (segmentation),Growing,Medium,P,edge/cloud,OSS,Meta,A/E,image segmentation,SRC-0108,68
+TECH-017,OpenCV,AI,Computer vision library,Mature,High,Y,offline,OSS,OpenCV,X,image processing,SRC-0081,74
+TECH-018,Tesseract OCR,AI,OCR,Mature,High,Y,offline,OSS,Tesseract,X,document capture (GIN/permits),SRC-0108,72
+TECH-019,PaddleOCR,AI,OCR,Growing,High,Y,offline,OSS,Baidu,X,document capture,SRC-0108,70
+TECH-020,AWS Textract / Azure Doc Intelligence,AI,Intelligent Document Processing,Mature,Low,N,online,Commercial,AWS/Microsoft,X,IDP (invoices/forms),SRC-0108,70
+TECH-021,Whisper,AI,Speech recognition (ASR),Mature,High,Y,edge,OSS,OpenAI,X,voice advisory (local languages),SRC-0108,72
+TECH-022,Vosk,AI,ASR (offline),Growing,High,Y,offline,OSS,Alpha Cephei,X,offline voice,SRC-0108,68
+TECH-023,Coqui / Piper TTS,AI,Speech synthesis,Growing,High,Y,offline,OSS,community,X,voice output,SRC-0108,66
+TECH-024,scikit-learn,AI,Predictive analytics (ML),Mature,High,Y,offline,OSS,community,X,yield/credit prediction,SRC-0108,74
+TECH-025,XGBoost / LightGBM,AI,Gradient boosting,Mature,High,Y,offline,OSS,community,X,forecasting/scoring,SRC-0108,74
+TECH-026,Prophet / statsmodels,AI,Time-series forecasting,Mature,High,Y,offline,OSS,Meta/community,A/L,demand/price/weather forecast,SRC-0108,72
+TECH-027,Nixtla / TimeGPT,AI,Time-series (foundation),Emerging,Low,N,online,Commercial+OSS,Nixtla,A/L,forecasting,SRC-0108,64
+TECH-028,Recommender systems,AI,Recommendation,Mature,Medium,P,cloud,OSS/Commercial,various,A/X,input/advisory recommendation,SRC-0108,64
+TECH-029,Google OR-Tools,AI,Optimization,Mature,Medium,Y,offline,OSS,Google,L/M/C,routing/scheduling,SRC-0108,70
+TECH-030,Gurobi / CPLEX,AI,Optimization (commercial),Mature,Low,Y,offline,Commercial,Gurobi/IBM,L/M,optimisation,SRC-0108,64
+TECH-031,Stable-Baselines3 / RLlib,AI,Reinforcement learning,Growing,Low,P,offline,OSS,community/Anyscale,M,control/optimisation,SRC-0108,60
+TECH-032,Neo4j GDS / GraphRAG,AI,Knowledge-graph AI,Growing,Medium,P,self-host,OSS+commercial,Neo4j/Microsoft,X,knowledge graph,SRC-0108,66
+TECH-033,LlamaIndex,AI,RAG framework,Growing,Medium,P,self-host,OSS,LlamaIndex,X,retrieval augmentation,SRC-0108,72
+TECH-034,Haystack,AI,RAG framework,Growing,Medium,P,self-host,OSS,deepset,X,retrieval,SRC-0108,70
+TECH-035,LangChain,AI,LLM app framework,Mature,Medium,P,self-host,OSS,LangChain,X,LLM apps,SRC-0108,70
+TECH-036,pgvector,AI,Vector database,Mature,High,Y,self-host,OSS,PostgreSQL,X,RAG/search,SRC-0108,74
+TECH-037,Qdrant,AI,Vector database,Growing,Medium,Y,self-host/edge,OSS,Qdrant,X,RAG/agents,SRC-0108,72
+TECH-038,Milvus,AI,Vector database (scale),Growing,Low,P,self-host,OSS,Zilliz,X,billion-scale RAG,SRC-0108,68
+TECH-039,Weaviate / Chroma / Pinecone,AI,Vector database,Growing,Medium,P,cloud/self-host,OSS+Commercial,various,X,RAG,SRC-0108,66
+TECH-040,NVIDIA Jetson + TensorRT,AI,Edge AI hardware/runtime,Mature,Medium,Y,edge,Commercial,NVIDIA,A/M/E,edge inference,SRC-0108,70
+TECH-041,ONNX Runtime,AI,Edge inference runtime,Mature,High,Y,edge,OSS,Microsoft,X,portable inference,SRC-0108,70
+TECH-042,TensorFlow Lite / LiteRT,AI,On-device ML,Mature,High,Y,offline,OSS,Google,X,mobile ML,SRC-0108,72
+TECH-043,OpenVINO,AI,Edge inference (Intel),Mature,Low,Y,edge,OSS,Intel,X,edge inference,SRC-0108,62
+TECH-044,Flower / TensorFlow Federated,AI,Federated learning,Emerging,Low,P,distributed,OSS,community/Google,X,privacy-preserving ML,SRC-0108,60
+TECH-045,Azure Digital Twins / Eclipse Ditto,AI,Digital twins,Growing,Low,P,cloud,Commercial/OSS,Microsoft/Eclipse,M/C,asset digital twin,SRC-0108,62
+TECH-046,NVIDIA Omniverse,AI,Digital twin / simulation,Growing,Low,N,cloud/workstation,Commercial,NVIDIA,M/C,simulation,SRC-0108,58
+TECH-047,PostGIS,GIS,Spatial database,Mature,High,Y,self-host,OSS,PostgreSQL,X,spatial data,SRC-0081,76
+TECH-048,ArcGIS,GIS,Enterprise GIS,Mature,Medium,Y,cloud/on-prem,Commercial,Esri,X,mapping/analytics,SRC-0081,80
+TECH-049,QGIS,GIS,Desktop GIS,Mature,High,Y,offline,OSS,QGIS.org,X,mapping/analysis,SRC-0081,80
+TECH-050,GeoServer,GIS,Web GIS server,Mature,High,Y,self-host,OSS,OSGeo,X,web mapping,SRC-0081,72
+TECH-051,MapServer,GIS,Web map server,Mature,Medium,Y,self-host,OSS,OSGeo,X,web mapping,SRC-0081,66
+TECH-052,Leaflet / OpenLayers,GIS,Web map client,Mature,High,P,offline-capable,OSS,community,X,map UI,SRC-0081,72
+TECH-053,Mapbox,GIS,Mapping platform,Mature,Medium,P,cloud,Commercial,Mapbox,X,maps/routing,SRC-0081,70
+TECH-054,CARTO,GIS,Spatial analytics cloud,Growing,Low,N,cloud,Commercial,CARTO,X,spatial analytics,SRC-0081,62
+TECH-055,Google Earth Engine,GIS/RS,Geospatial analysis cloud,Mature,Medium,N,cloud,Commercial/free-tier,Google,A/E,RS analysis,SRC-0081,72
+TECH-056,GDAL/OGR,GIS,Geospatial data library,Mature,High,Y,offline,OSS,OSGeo,X,data conversion,SRC-0081,74
+TECH-057,GRASS GIS,GIS,GIS analysis,Mature,Medium,Y,offline,OSS,OSGeo,X,terrain/hydrology,SRC-0081,66
+TECH-058,pgRouting / OSRM / Valhalla,GIS,Routing engines,Mature,Medium,Y,self-host,OSS,community,L,route optimisation,SRC-0081,70
+TECH-059,SRTM / Copernicus DEM,GIS/RS,Digital elevation model,Mature,High,Y,download,Open,NASA/ESA,A/M/C/E,terrain/hydrology,SRC-0081,74
+TECH-060,Sentinel-2,RS,Multispectral imagery,Mature,High,N,download/API,Open,ESA/Copernicus,A/E,crop/land monitoring,SRC-0081,78
+TECH-061,Sentinel-1,RS,SAR imagery,Mature,Medium,N,download/API,Open,ESA,A/E,all-weather monitoring,SRC-0081,72
+TECH-062,Landsat 8/9,RS,Multispectral imagery,Mature,High,N,download,Open,NASA/USGS,A/E,land/change,SRC-0081,74
+TECH-063,MODIS,RS,Coarse imagery,Mature,Medium,N,download,Open,NASA,A/E,regional monitoring,SRC-0081,68
+TECH-064,Planet,RS,Daily high-res imagery,Mature,Medium,N,API,Commercial,Planet Labs,A/M/E,daily monitoring,SRC-0081,72
+TECH-065,Maxar,RS,Very-high-res imagery,Mature,Low,N,API,Commercial,Maxar,C/M,high-res mapping,SRC-0081,64
+TECH-066,Sentinel Hub,RS,RS processing API,Growing,Medium,N,API,Commercial,Sinergise/Planet,A/E,imagery API,SRC-0081,72
+TECH-067,ESA SNAP,RS,RS processing toolbox,Mature,Medium,Y,offline,OSS,ESA,A/E,SAR/optical processing,SRC-0081,66
+TECH-068,Orfeo Toolbox,RS,RS processing,Mature,Medium,Y,offline,OSS,CNES,A/E,image analysis,SRC-0081,64
+TECH-069,rasterio / rioxarray,RS,RS Python libraries,Mature,High,Y,offline,OSS,community,A/E,raster processing,SRC-0081,70
+TECH-070,NDVI,RS,Vegetation index,Mature,High,Y,derived,Open,method,A,crop health,SRC-0081,74
+TECH-071,NDWI,RS,Water index,Mature,High,Y,derived,Open,method,A/E,water monitoring,SRC-0081,72
+TECH-072,Change detection,RS,Analysis method,Mature,Medium,Y,derived,Open/Commercial,various,E/M,land-use change,SRC-0081,66
+TECH-073,DJI (Mavic/Matrice/Agras),Drone,UAV platforms,Mature,Medium,Y,onboard,Commercial,DJI,A/M/C/E,survey/spray/inspection,SRC-0081,74
+TECH-074,senseFly eBee / Wingtra,Drone,Fixed-wing survey UAV,Mature,Low,Y,onboard,Commercial,AgEagle/Wingtra,C/M,large-area survey,SRC-0081,62
+TECH-075,DroneDeploy,Drone,Drone mapping platform,Mature,Medium,P,cloud,Commercial,DroneDeploy,A/M/C,mapping/site AI,SRC-0081,74
+TECH-076,Pix4D,Drone,Photogrammetry,Mature,Medium,P,desktop/cloud,Commercial,Pix4D,C/M,3D/photogrammetry,SRC-0081,74
+TECH-077,DJI Terra,Drone,Mapping (DJI),Growing,Medium,Y,desktop,Commercial,DJI,C/M,reconstruction,SRC-0081,70
+TECH-078,Agisoft Metashape,Drone,Photogrammetry,Mature,Medium,Y,desktop,Commercial,Agisoft,C/M,3D modelling,SRC-0081,66
+TECH-079,OpenDroneMap,Drone,Photogrammetry (OSS),Growing,High,Y,self-host,OSS,ODM,A/C/M,mapping,SRC-0081,68
+TECH-080,ArduPilot / PX4,Drone,Autopilot firmware,Mature,Medium,Y,onboard,OSS,community,A/M/C/E,flight control,SRC-0081,64
+TECH-081,LiDAR payloads,Drone,Sensor,Mature,Low,Y,onboard,Commercial,various,C/M,terrain/volume,SRC-0081,62
+TECH-082,Multispectral payloads (MicaSense/Sentera),Drone,Sensor,Mature,Medium,Y,onboard,Commercial,AgEagle/Sentera,A,crop health,SRC-0081,66
+TECH-083,Thermal payloads,Drone,Sensor,Mature,Low,Y,onboard,Commercial,FLIR,E/M,thermal inspection,SRC-0081,60
+TECH-084,LoRaWAN,IoT,LPWAN connectivity,Mature,High,Y,LPWAN,OSS stack (ChirpStack),LoRa Alliance,A/E/L,sensor telemetry,SRC-0110,76
+TECH-085,NB-IoT,IoT,Cellular LPWAN,Mature,High,Y,cellular,Commercial (MNO),3GPP/MNOs,A/E/L,metering/monitoring,SRC-0110,74
+TECH-086,LTE-M,IoT,Cellular LPWAN,Mature,Medium,Y,cellular,Commercial (MNO),3GPP/MNOs,L/M,moving-asset tracking,SRC-0110,72
+TECH-087,5G RedCap,IoT,Mid-tier cellular,Emerging,Low,P,cellular,Commercial,MNOs,M/C,industrial wearables,SRC-0111,60
+TECH-088,Satellite IoT (NTN / Swarm / Iridium),IoT,Satellite connectivity,Growing,High,Y,satellite,Commercial,SpaceX/Iridium/Kineis,A/M/L,remote/dead-zone assets,SRC-0110,70
+TECH-089,Sigfox,IoT,LPWAN,Mature,Low,Y,LPWAN,Commercial,Sigfox/UnaBiz,L,low-data tracking,SRC-0110,58
+TECH-090,ChirpStack,IoT,LoRaWAN network server,Mature,High,Y,self-host,OSS,ChirpStack,A/E,LoRaWAN backend,SRC-0110,66
+TECH-091,ThingsBoard,IoT,IoT platform,Mature,High,P,self-host/cloud,OSS+Commercial,ThingsBoard,X,device mgmt/dashboards,SRC-0081,74
+TECH-092,AWS IoT Core,IoT,IoT platform (cloud),Mature,Low,N,cloud,Commercial,Amazon,X,device connectivity,SRC-0081,68
+TECH-093,Azure IoT Hub,IoT,IoT platform (cloud),Mature,Low,N,cloud,Commercial,Microsoft,X,device+twins,SRC-0081,68
+TECH-094,Particle / Losant / Kaa,IoT,IoT platforms,Growing,Low,P,cloud,Commercial/OSS,various,X,IoT apps,SRC-0081,60
+TECH-095,MQTT,IoT,Messaging protocol,Mature,High,Y,any,OSS (Mosquitto),OASIS,X,telemetry transport,SRC-0110,72
+TECH-096,Node-RED,IoT,Edge flow orchestration,Mature,High,Y,edge,OSS,OpenJS,X,edge integration,SRC-0110,66
+TECH-097,Weather station (AWS),IoT,Sensor,Mature,High,Y,LPWAN/cellular,Commercial,various,A,weather monitoring,SRC-0043,70
+TECH-098,Soil moisture sensor,IoT,Sensor,Mature,High,Y,LPWAN,Commercial,various,A,irrigation,SRC-0031,70
+TECH-099,Water level/quality sensor,IoT,Sensor,Mature,High,Y,LPWAN,Commercial,various,E/A,water monitoring,SRC-0070,68
+TECH-100,Air quality sensor,IoT,Sensor,Mature,Medium,Y,LPWAN,Commercial,various,E,emissions monitoring,SRC-0070,66
+TECH-101,GPS tracker,IoT,Sensor,Mature,High,Y,cellular/sat,Commercial,various,L/M,fleet/asset tracking,SRC-0093,72
+TECH-102,RFID / BLE,IoT,Identification,Mature,High,Y,local,Commercial/OSS,various,L,inventory/warehouse,SRC-0086,66
+TECH-103,Cold-chain logger,IoT,Sensor,Mature,Medium,Y,LPWAN,Commercial,various,A/L,cold chain,SRC-0111,64
+TECH-104,Equipment telemetry,IoT,Sensor/telematics,Mature,Medium,Y,cellular,Commercial,OEM,M/A/L,machine health,SRC-0066,66
+TECH-105,SAP S/4HANA,Enterprise,ERP,Mature,Low,N,cloud/on-prem,Commercial,SAP,X,enterprise ops,SRC-0079,70
+TECH-106,Oracle NetSuite / Fusion,Enterprise,Cloud ERP,Mature,Low,N,cloud,Commercial,Oracle,X,ERP,SRC-0086,66
+TECH-107,Microsoft Dynamics 365,Enterprise,ERP/CRM,Mature,Medium,P,cloud,Commercial,Microsoft,X,ERP/CRM,SRC-0079,68
+TECH-108,Odoo,Enterprise,ERP (open-core),Mature,High,P,cloud/self-host,OSS+Commercial,Odoo,X,SME ERP,SRC-0084,72
+TECH-109,ERPNext / Frappe,Enterprise,ERP (OSS),Growing,High,Y,self-host,OSS,Frappe,X,SME ERP,SRC-0079,68
+TECH-110,SYSPRO,Enterprise,Manufacturing ERP,Mature,Medium,P,on-prem/cloud,Commercial,SYSPRO,M/C,manufacturing ERP,SRC-0086,60
+TECH-111,Salesforce / HubSpot,Enterprise,CRM,Mature,Low,N,cloud,Commercial,Salesforce/HubSpot,X,CRM,SRC-0079,62
+TECH-112,SuiteCRM / Odoo CRM,Enterprise,CRM (OSS),Growing,Medium,P,self-host,OSS,SalesAgility/Odoo,X,CRM,SRC-0079,60
+TECH-113,Camunda / Flowable,Enterprise,BPM/workflow engine,Mature,Medium,Y,self-host,OSS+Commercial,Camunda,X,workflow automation,SRC-0079,66
+TECH-114,Temporal,Enterprise,Workflow orchestration,Growing,Medium,P,self-host,OSS+Commercial,Temporal,X,durable workflows,SRC-0079,64
+TECH-115,Apache Airflow,Enterprise,Data orchestration,Mature,Medium,Y,self-host,OSS,Apache,X,pipelines,SRC-0079,66
+TECH-116,n8n,Enterprise,Workflow automation,Growing,High,Y,self-host,OSS+Commercial,n8n,X,integration automation,SRC-0079,66
+TECH-117,Alfresco / Nextcloud,Enterprise,ECM/content,Mature,High,Y,self-host,OSS+Commercial,Hyland/Nextcloud,X,document management,SRC-0079,66
+TECH-118,Snowflake / BigQuery / Redshift,Enterprise,Cloud data warehouse,Mature,Low,N,cloud,Commercial,various,X,analytics,SRC-0079,64
+TECH-119,Databricks / Delta Lake / Iceberg,Enterprise,Data lakehouse,Growing,Low,P,cloud,Commercial+OSS,Databricks/Apache,X,big data,SRC-0079,62
+TECH-120,ClickHouse / DuckDB,Enterprise,Analytical database,Growing,High,Y,self-host/embedded,OSS,ClickHouse/DuckDB,X,analytics,SRC-0079,66
+TECH-121,Elasticsearch / OpenSearch,Enterprise,Search engine,Mature,Medium,Y,self-host,OSS+Commercial,Elastic/AWS,X,search/logs,SRC-0079,68
+TECH-122,Meilisearch / Typesense,Enterprise,Search engine,Growing,High,Y,self-host,OSS,community,X,search,SRC-0079,64
+TECH-123,Metabase / Apache Superset,Enterprise,BI platform,Mature,High,Y,self-host,OSS,Metabase/Apache,X,dashboards,SRC-0079,70
+TECH-124,Power BI / Tableau / Looker,Enterprise,BI platform,Mature,Medium,P,cloud/desktop,Commercial,Microsoft/Salesforce/Google,X,BI,SRC-0079,64
+TECH-125,Apache Kafka / Redpanda,Enterprise,Event streaming,Mature,Medium,Y,self-host,OSS+Commercial,Apache/Redpanda,X,event streaming,SRC-0086,66
+TECH-126,RabbitMQ / NATS,Enterprise,Messaging,Mature,High,Y,self-host,OSS,VMware/CNCF,X,messaging,SRC-0086,66
+TECH-127,CouchDB / PouchDB,Enterprise,Offline-first sync DB,Mature,High,Y,offline-sync,OSS,Apache,X,offline data sync,SRC-0059,70
+TECH-128,ElectricSQL / RxDB / WatermelonDB,Enterprise,Offline-first sync,Growing,High,Y,offline-sync,OSS,various,X,offline mobile sync,SRC-0059,66
+TECH-129,CRDTs (Yjs/Automerge),Enterprise,Conflict-free sync,Growing,High,Y,offline,OSS,community,X,collaborative offline,SRC-0059,62
+TECH-130,PostgreSQL,Enterprise,Relational database,Mature,High,Y,self-host,OSS,PostgreSQL,X,core data,SRC-0079,78
+TECH-131,SQLite,Enterprise,Embedded database,Mature,High,Y,offline,OSS,SQLite,X,on-device data,SRC-0059,76
+TECH-132,MongoDB,Enterprise,Document database,Mature,Medium,Y,self-host,OSS+Commercial,MongoDB,X,document data,SRC-0079,64
+TECH-133,Docker / Kubernetes / K3s,Enterprise,Containers/orchestration,Mature,Medium,Y,self-host/edge,OSS,CNCF,X,deployment,SRC-0079,68
+TECH-134,KubeEdge / Balena,Enterprise,Edge computing,Growing,Medium,Y,edge,OSS+Commercial,CNCF/Balena,A/M,edge deployment,SRC-0110,62
+TECH-135,AWS / Azure / GCP,Enterprise,Cloud platform,Mature,Medium,N,cloud,Commercial,Amazon/Microsoft/Google,X,hosting,SRC-0079,66
+TECH-136,Keycloak,Cyber,Identity & access mgmt,Mature,High,Y,self-host,OSS,Keycloak,X,authN/authZ (OIDC/SAML),SRC-0112,74
+TECH-137,Okta / Auth0 / Ory,Cyber,IAM,Mature,Medium,P,cloud/self-host,Commercial+OSS,Okta/Ory,X,identity,SRC-0112,64
+TECH-138,MFA (TOTP/FIDO2/WebAuthn),Cyber,Multi-factor auth,Mature,High,Y,any,OSS+Commercial,various,X,access security,SRC-0112,72
+TECH-139,RBAC / ABAC (OPA),Cyber,Authorization,Mature,High,Y,self-host,OSS,CNCF,X,access control,SRC-0112,68
+TECH-140,TLS 1.3 / AES,Cyber,Encryption,Mature,High,Y,any,OSS (OpenSSL),IETF,X,transport/data encryption,SRC-0110,74
+TECH-141,PKI / X.509,Cyber,Certificate identity,Mature,High,Y,any,OSS,IETF,X,device/user identity,SRC-0112,70
+TECH-142,HashiCorp Vault / SOPS,Cyber,Secrets management,Mature,Medium,Y,self-host,OSS+Commercial,HashiCorp/Mozilla,X,secrets,SRC-0112,66
+TECH-143,Wazuh / Elastic Security,Cyber,SIEM / audit logging,Mature,High,Y,self-host,OSS+Commercial,Wazuh/Elastic,X,audit/monitoring,SRC-0112,66
+TECH-144,ZTNA,Cyber,Zero-trust network access,Growing,Medium,P,cloud/self-host,Commercial+OSS,various,X,secure remote access,SRC-0112,66
+TECH-145,PAM,Cyber,Privileged access mgmt,Mature,Low,P,self-host,Commercial,various,M,privileged access,SRC-0112,58
+TECH-146,TPM / Secure Element,Cyber,Hardware root of trust,Mature,Medium,Y,device,Commercial,various,X,device identity,SRC-0110,66
+TECH-147,Nozomi / Claroty / Defender for IoT,Cyber,OT security,Growing,Low,P,on-prem,Commercial,various,M,OT/ICS monitoring,SRC-0112,58
+TECH-148,IEC 62443,Cyber,OT security standard,Mature,Medium,n/a,n/a,Standard,IEC,M/E,OT security framework,SRC-0110,68
+TECH-149,MDM (device management),Cyber,Mobile device mgmt,Mature,Medium,P,cloud,Commercial+OSS,various,X,field-device management,SRC-0112,60
+TECH-150,USSD / SMS gateways,Enterprise,Feature-phone channel,Mature,High,Y,cellular,Commercial (MNO/aggregator),Africa's Talking/Twilio,X,offline farmer channel,SRC-0045,72
