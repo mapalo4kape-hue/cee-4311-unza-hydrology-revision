@@ -43,7 +43,8 @@ The project follows a strict order: **Governance → Research Engine → Researc
 | [ACT-008](activity-log/2026-07-05_ACT-008_wp2.1-phase1-agricultural-operations-intelligence.md) | 2026-07-05 | WP2.1 Phase 1 agricultural operations intelligence (41 workflows, 20 stakeholders) | Stage 2 · operations | Complete |
 | [ACT-009](activity-log/2026-07-05_ACT-009_wp2.1-phase2-agricultural-information-intelligence.md) | 2026-07-05 | WP2.1 Phase 2 agricultural information/data/document intelligence | Stage 2 · information | Complete |
 | [ACT-010](activity-log/2026-07-05_ACT-010_cross-industry-research-sprint.md) | 2026-07-05 | Cross-industry breadth-first sprint: Mining, Construction, Environmental + Comparative Analysis | Stage 2 · breadth-first | Complete |
-| [ACT-011](activity-log/2026-07-05_ACT-011_global-product-competitor-intelligence.md) | 2026-07-05 | Global product & competitor intelligence (153 products, 12 deliverables) | Stage 4 · competitors | Complete (awaiting review) |
+| [ACT-011](activity-log/2026-07-05_ACT-011_global-product-competitor-intelligence.md) | 2026-07-05 | Global product & competitor intelligence (153 products, 12 deliverables) | Stage 4 · competitors | Complete |
+| [ACT-011.1](activity-log/2026-07-05_ACT-011.1_wp2.5-logistics-supply-chain-intelligence.md) | 2026-07-05 | WP2.5 Logistics & Supply Chain operations intelligence (26 workflows linking all industries) | Stage 2 · logistics | Complete (awaiting review) |
 
 ## Evidence-acquisition system (ACT-005, WP1.1)
 
@@ -58,7 +59,7 @@ The project follows a strict order: **Governance → Research Engine → Researc
 
 ## Current position
 
-**WP1.1** complete (ACT-006/007); **WP2.1 Agriculture** Phases 1 & 2 (ACT-008/009); **cross-industry sprint** WP2.2/2.3/2.4 + comparative (ACT-010); and **WP4.1 Global Competitor Intelligence (ACT-011)** — **153 products catalogued** across 28 categories/8 regions with feature/pricing/technology/integration matrices, UX patterns, pain points, feature-gap analysis, and market/innovation opportunity registers: [`knowledge-repository/09-competitors/`](knowledge-repository/09-competitors/). **86 evidence sources** total. Landscape + evidence-backed market gaps only — **no solution recommendations, no AgriMine Nexus design**. (Verification depth partial — see the competitor Executive Summary for an honest assessment vs. targets.) **STOP condition active: awaiting review.** Repository migration to `agrimine-nexus-research` remains prepared/validated ([`MIGRATION_REPORT.md`](MIGRATION_REPORT.md)). Status: [`knowledge-repository/WORK_PACKAGE_TRACKER.md`](knowledge-repository/WORK_PACKAGE_TRACKER.md).
+**WP1.1** (ACT-006/007); **WP2.1 Agriculture** Phases 1 & 2 (ACT-008/009); **cross-industry sprint** WP2.2/2.3/2.4 + comparative (ACT-010); **WP4.1 Global Competitor Intelligence** — 153 products (ACT-011); and **WP2.5 Logistics & Supply Chain** (ACT-011.1) — 26 logistics workflows linking all industries: [`knowledge-repository/06-industries/logistics/`](knowledge-repository/06-industries/logistics/). **93 evidence sources** total. With logistics complete, the repository now holds the **complete operational model for all target industries**. Operational/information/competitor intelligence only — **no software, schemas, APIs, UML, features, requirements, or AI**. **STOP condition active: awaiting review.** Repository migration to `agrimine-nexus-research` remains prepared/validated ([`MIGRATION_REPORT.md`](MIGRATION_REPORT.md)). Status: [`knowledge-repository/WORK_PACKAGE_TRACKER.md`](knowledge-repository/WORK_PACKAGE_TRACKER.md).
 
 > Note: this work lives on branch `cursor/agrimine-rom-internalisation-9a65` and is under review in **PR #5** (PR #4 was merged early with only ACT-001).
 

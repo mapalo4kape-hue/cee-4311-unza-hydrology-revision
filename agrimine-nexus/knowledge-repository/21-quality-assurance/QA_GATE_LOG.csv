@@ -20,3 +20,6 @@ QA-0018,WP2.2-2.4,XIND,2,Source validation,in-progress,self,2026-07-05,"7 source
 QA-0019,WP4.1,WP4.1-P1,1,Scope completeness,pass,self,2026-07-05,"ACT-011: 153 products across all 28 categories & 8 regions; 50+ African, 25+ Zambia-relevant."
 QA-0020,WP4.1,WP4.1-P1,2,Source validation,partial,self,2026-07-05,"~26 products/segments web-verified (V); remainder catalog-known (K) requiring independent verification; 16 sources registered; 500+ per-product citation target NOT met - flagged as follow-on."
 QA-0021,WP4.1,WP4.1-P1,3,Evidence quality review,in-progress,self,2026-07-05,"Verification status per catalogue row; review-platform evidence treated as Tier 3-4 signal; honest gap noted in exec summary."
+QA-0022,WP2.5,WP2.5-P1,1,Scope completeness,pass,self,2026-07-05,"ACT-011.1: 15 outputs; 26 logistics workflows linked to industry workflows; national network/fleet/warehouse/supply-chain/cross-border covered."
+QA-0023,WP2.5,WP2.5-P1,2,Source validation,partial,self,2026-07-05,"7 net-new sources (SRC-0087..0093, govt/regulator preferred: ZRA/ZDA/JICA/WB/LogCluster) + reuse of WP1.1/WP2.x; 100-net-new target NOT met (GAP-210) - flagged."
+QA-0024,WP2.5,WP2.5-P1,4,Cross-reference verification,in-progress,self,2026-07-05,"Every logistics workflow linked upstream/downstream to WF-*/WF-M*/WF-C*/WF-E*; graph edges E-0116..E-0131 added."
