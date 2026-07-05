@@ -4,8 +4,9 @@
 
 | Prefix | Object | Next | Notes |
 |--------|--------|------|-------|
-| `SRC-` | Evidence/source | 0058 | 0001-02 gov; 0003-22 WP1.1-P1; 0023-44 WP1.1-P2; 0045-57 WP2.1-P1 |
-| `F-` | Finding | 0053 | 0001-46 WP1.1; 0047-0052 WP2.1-P1 |
+| `SRC-` | Evidence/source | 0064 | 0001-02 gov; 0003-44 WP1.1; 0045-57 WP2.1-P1; 0058-63 WP2.1-P2 |
+| `F-` | Finding | 0056 | 0001-46 WP1.1; 0047-52 WP2.1-P1; 0053-55 WP2.1-P2 |
+| `TX-/EV-/MS-/MD-/DC-/REL-` | Ag info objects | see catalogues | WP2.1-P2 information ecosystem |
 | `WF-` | Workflow | 042 | 001-041 allocated (WP2.1 agriculture) |
 | `LOC-` | Location instance | ZM + ZM01-ZM10 used | Zambia + 10 provinces in graph |
 | `ENT-` | Knowledge entity | see Master Entity Catalogue | uses mnemonic ids (e.g. ENT-FARM) |
