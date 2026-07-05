@@ -1,0 +1,175 @@
+rq_id,theme,rq_text,required_evidence,potential_source_ids,collection_method,validation_method,expected_output,kg_entities,requirement_candidates
+RQ-DEMO-01,Demographics,Total national population + reference date,Census total population figure + date,MSR-001;MSR-022;MSR-024,PORTAL/PDF/CSV,xref>=2;tier1-pref;recent;log-contra,table,ENT-LOCATION,reference-data
+RQ-DEMO-02,Demographics,Population by province,Population per 10 provinces,MSR-001;MSR-037;MSR-036,PORTAL/PDF/CSV,xref>=2;tier1-pref;geo-consistency,table;map,ENT-LOCATION,reference-data;GIS-baselayer
+RQ-DEMO-03,Demographics,Population by district,Population per district,MSR-001;MSR-037;MSR-036,PORTAL/PDF/CSV,xref>=2;tier1-pref;geo-consistency,table;map,ENT-LOCATION,reference-data;GIS-baselayer
+RQ-DEMO-04,Demographics,Population density by province & district,Density values by admin unit,MSR-001;MSR-037;MSR-038,PORTAL/CSV/GIS,geo-consistency;tier1-pref,table;map,ENT-LOCATION,GIS-baselayer
+RQ-DEMO-05,Demographics,Urban vs rural split national & province,Urban/rural shares,MSR-001;MSR-022;MSR-024,PORTAL/PDF/CSV,xref>=2;recent,table;chart,ENT-LOCATION,reference-data
+RQ-DEMO-06,Demographics,Population growth rate + 10yr trend,Annual growth % time series,MSR-001;MSR-022,PORTAL/CSV/API,trend-check;xref>=2,chart,ENT-LOCATION,analytics-KPI
+RQ-DEMO-07,Demographics,Age structure / population pyramid,Age-band distribution,MSR-001;MSR-024;MSR-037,PORTAL/CSV,xref>=2;recent,chart,ENT-LOCATION,reference-data
+RQ-DEMO-08,Demographics,Median age national & province,Median age values,MSR-001;MSR-024,PORTAL/PDF,xref>=2,table,ENT-LOCATION,reference-data
+RQ-DEMO-09,Demographics,Sex ratio by province,Sex ratio per province,MSR-001,PORTAL/CSV,geo-consistency,table,ENT-LOCATION,reference-data
+RQ-DEMO-10,Demographics,Household count & avg size by province,Households + mean size,MSR-001,PORTAL/CSV,xref>=2,table,ENT-LOCATION,reference-data
+RQ-DEMO-11,Demographics,Fertility rate & trend,TFR time series,MSR-001;MSR-027;MSR-024,PORTAL/CSV,trend-check;xref>=2,chart,ENT-LOCATION,analytics-KPI
+RQ-DEMO-12,Demographics,Life expectancy national & province,Life expectancy values,MSR-001;MSR-034;MSR-024,PORTAL/CSV,xref>=2,table,ENT-LOCATION,reference-data
+RQ-DEMO-13,Demographics,Migration patterns,Rural-urban/internal/cross-border migration,MSR-001;MSR-024,PDF/PORTAL,xref>=2;log-contra,table;map,ENT-LOCATION,reference-data
+RQ-DEMO-14,Demographics,Literacy rate by province & sex,Literacy % by province and sex,MSR-001;MSR-021;MSR-024,PORTAL/PDF,xref>=2,table;chart,ENT-LOCATION,reference-data;multi-language
+RQ-DEMO-15,Demographics,Educational attainment distribution,Attainment levels distribution,MSR-001;MSR-021,PORTAL/PDF,xref>=2,chart,ENT-STAKEHOLDER,digital-skills-signal
+RQ-DEMO-16,Demographics,Language distribution by province,Dominant languages per province,MSR-001,PDF/PORTAL,geo-consistency,table;map,ENT-LOCATION,multi-language
+RQ-DEMO-17,Demographics,Labour force size & participation rate,LFS totals & participation %,MSR-001;MSR-022,PORTAL/PDF/CSV,xref>=2;recent,table;chart,ENT-STAKEHOLDER,analytics-KPI
+RQ-DEMO-18,Demographics,Employment by sector,Sector employment shares,MSR-001;MSR-022,PORTAL/CSV,xref>=2,chart,ENT-STAKEHOLDER,analytics-KPI
+RQ-DEMO-19,Demographics,Formal vs informal employment share,Formal/informal split,MSR-001;MSR-022,PORTAL/PDF,xref>=2;log-contra,chart,ENT-STAKEHOLDER,analytics-KPI
+RQ-DEMO-20,Demographics,Youth unemployment rate,Youth unemployment %,MSR-001;MSR-022;MSR-024,PORTAL/CSV,xref>=2,table,ENT-STAKEHOLDER,analytics-KPI
+RQ-DEMO-21,Demographics,Poverty headcount national & province,Poverty ratio rural/urban by province,MSR-001;MSR-022;MSR-024,PORTAL/PDF/CSV,xref>=2;tier1-pref,table;map,ENT-LOCATION,analytics-KPI;GIS-baselayer
+RQ-DEMO-22,Demographics,Population projections 5-10yr,Projected population national/provincial,MSR-001;MSR-022;MSR-037,PORTAL/CSV,method-note;xref>=2,chart,ENT-LOCATION,analytics-KPI
+RQ-ECON-01,Economy-national,Nominal & real GDP + reference year,GDP values & base year,MSR-001;MSR-002;MSR-022;MSR-023,PORTAL/CSV/API,xref>=2;units-normalise,table,ENT-LOCATION,analytics-KPI
+RQ-ECON-02,Economy-national,GDP growth rate + 10yr trend,Real growth % series,MSR-001;MSR-022;MSR-023,PORTAL/CSV/API,trend-check;xref>=2,chart,ENT-LOCATION,analytics-KPI
+RQ-ECON-03,Economy-national,GDP per capita + trend,GDP/capita series,MSR-001;MSR-022,PORTAL/CSV,trend-check,chart,ENT-LOCATION,analytics-KPI
+RQ-ECON-04,Economy-national,GDP composition by sector,Sector value-added shares,MSR-001;MSR-022,PORTAL/CSV,xref>=2,chart,ENT-ORG,analytics-KPI
+RQ-ECON-05,Economy-national,Agriculture contribution to GDP,Agri % and value,MSR-001;MSR-025;MSR-022,PORTAL/CSV,xref>=2,table,ENT-ORG,analytics-KPI
+RQ-ECON-06,Economy-national,Mining contribution to GDP,Mining % and value,MSR-001;MSR-019;MSR-022,PORTAL/CSV,xref>=2,table,ENT-ORG,analytics-KPI
+RQ-ECON-07,Economy-national,Construction contribution to GDP,Construction % and value,MSR-001;MSR-022,PORTAL/CSV,xref>=2,table,ENT-ORG,analytics-KPI
+RQ-ECON-08,Economy-national,Logistics/transport contribution to GDP,Transport % and value,MSR-001;MSR-022,PORTAL/CSV,xref>=2,table,ENT-ORG,analytics-KPI
+RQ-ECON-09,Economy-national,GDP by province,Provincial GDP where published,MSR-001;MSR-014,PDF/PORTAL,geo-consistency;log-gaps,table;map,ENT-LOCATION,GIS-baselayer
+RQ-ECON-10,Economy-national,GDP by district,District GDP or estimate,MSR-001,PDF/PORTAL,log-gaps;method-note,table;map,ENT-LOCATION,GIS-baselayer
+RQ-ECON-11,Economy-national,Inflation headline/food/non-food + trend,CPI series,MSR-001;MSR-002,PORTAL/CSV,trend-check;xref>=2,chart,ENT-LOCATION,analytics-KPI
+RQ-ECON-12,Economy-national,Policy interest rate,Policy rate series,MSR-002,PORTAL/CSV,recent,chart,ENT-ORG,analytics-KPI
+RQ-ECON-13,Economy-national,Exchange rate ZMW/USD + volatility,FX series,MSR-002;MSR-023,PORTAL/CSV/API,trend-check,chart,ENT-ORG,analytics-KPI
+RQ-ECON-14,Economy-national,Govt budget revenue & expenditure,Budget breakdown,MSR-003;MSR-023,PDF/CSV,xref>=2,table,ENT-ORG,analytics-KPI
+RQ-ECON-15,Economy-national,Public debt & debt-to-GDP,Debt stock & ratio,MSR-003;MSR-023,PDF/CSV,xref>=2;log-contra,table,ENT-ORG,analytics-KPI
+RQ-ECON-16,Economy-national,Tax revenue composition,Revenue by tax type,MSR-016;MSR-003,PDF/CSV,xref>=2,chart,ENT-TRANSACTION,analytics-KPI
+RQ-ECON-17,Economy-national,FDI inflows by sector & origin,FDI values,MSR-014;MSR-002;MSR-022,PDF/CSV,xref>=2,table,ENT-ORG,analytics-KPI
+RQ-ECON-18,Economy-national,Key exports value & mix,Export composition,MSR-016;MSR-002;MSR-022,PORTAL/CSV,xref>=2,chart,ENT-SHIPMENT,analytics-KPI
+RQ-ECON-19,Economy-national,Key imports value & categories,Import composition,MSR-016;MSR-002;MSR-022,PORTAL/CSV,xref>=2,chart,ENT-SHIPMENT,analytics-KPI
+RQ-ECON-20,Economy-national,Trade balance & current account,Trade & CA balances,MSR-002;MSR-023,CSV/API,xref>=2,chart,ENT-LOCATION,analytics-KPI
+RQ-ECON-21,Economy-national,Sectoral growth forecasts 5yr,Forecast figures by source,MSR-023;MSR-022;MSR-028,PDF/CSV,method-note;log-contra,table,ENT-ORG,analytics-KPI
+RQ-ECON-22,Economy-national,Informal economy size estimate,Informal sector % estimate,MSR-022;MSR-001,PDF,method-note;log-contra,table,ENT-ORG,analytics-KPI
+RQ-ECON-23,Economy-national,Cost of doing business indicators,Business environment metrics,MSR-022;MSR-014,PDF,xref>=2,table,ENT-ORG,analytics-KPI
+RQ-ECON-24,Economy-national,Access to finance for enterprises,SME credit availability,MSR-002;MSR-031;MSR-022,PDF,xref>=2,table,ENT-ORG,mobile-money-integration
+RQ-ECON-25,Economy-national,Economic corridors & growth poles,Corridor/pole locations,MSR-014;MSR-008;MSR-028,PDF/GIS,geo-consistency,map;table,ENT-LOCATION,GIS-baselayer
+RQ-ECONP-01,Economy-provincial,Dominant economic activity per province,Provincial activity profile,MSR-001;MSR-014;MSR-033,PDF/PORTAL,geo-consistency,table;map,ENT-LOCATION,GIS-baselayer
+RQ-ECONP-02,Economy-provincial,Dominant economic activity per district,District activity profile,MSR-001;MSR-017,PDF,log-gaps,table;map,ENT-LOCATION,GIS-baselayer
+RQ-ECONP-03,Economy-provincial,Agricultural output/value by province,Crop/livestock output by province,MSR-018;MSR-025;MSR-033,PDF/CSV,xref>=2;geo-consistency,table;map,ENT-LOCATION,GIS-baselayer
+RQ-ECONP-04,Economy-provincial,Mining activity & mineral type by province/district,Mining sites & minerals,MSR-019;MSR-014,PDF/GIS,geo-consistency,map;table,ENT-LOCATION,GIS-baselayer
+RQ-ECONP-05,Economy-provincial,Construction activity concentration by province,Construction indicators by province,MSR-001;MSR-014,PDF,log-gaps,table,ENT-LOCATION,GIS-baselayer
+RQ-ECONP-06,Economy-provincial,Provincial contribution to national exports,Export share by province,MSR-016;MSR-014,PDF,log-gaps,table,ENT-LOCATION,analytics-KPI
+RQ-ECONP-07,Economy-provincial,Provincial poverty vs output correlation,Poverty & output by province,MSR-001;MSR-022,CSV,geo-consistency,table;chart,ENT-LOCATION,analytics-KPI
+RQ-ECONP-08,Economy-provincial,Location of markets/industrial areas/MFEZ,Site locations,MSR-014;MSR-035,GIS/PDF,geo-consistency,map,ENT-LOCATION,GIS-baselayer
+RQ-ECONP-09,Economy-provincial,Provincial GDP per capita disparities,Provincial GDP/capita,MSR-001;MSR-014,PDF/CSV,log-gaps,table;map,ENT-LOCATION,GIS-baselayer
+RQ-ECONP-10,Economy-provincial,Cross-border trade hubs by province,Border-hub locations & flows,MSR-016;MSR-008,PDF/GIS,geo-consistency,map;table,ENT-LOCATION,logistics-module
+RQ-INFRAT-01,Infrastructure-transport,Total road network length paved vs unpaved,Road length by surface,MSR-008;MSR-035,PDF/GIS,xref>=2,table,ENT-ROUTE,GIS-baselayer
+RQ-INFRAT-02,Infrastructure-transport,Road network by province & condition,Road km & condition by province,MSR-008;MSR-035,PDF/GIS,geo-consistency,map;table,ENT-ROUTE,GIS-baselayer
+RQ-INFRAT-03,Infrastructure-transport,Road classification & coverage,Trunk/main/district/feeder coverage,MSR-008,PDF/GIS,geo-consistency,map;table,ENT-ROUTE,GIS-baselayer
+RQ-INFRAT-04,Infrastructure-transport,Rail network extent/operators/condition,Rail lines & operators,MSR-008;MSR-035;MSR-036,PDF/GIS,xref>=2,map;table,ENT-ROUTE;ENT-ASSET,GIS-baselayer
+RQ-INFRAT-05,Infrastructure-transport,Major airports & airstrips,Airport locations & capacity,MSR-035;MSR-036,GIS/PORTAL,geo-consistency,map;table,ENT-ASSET;ENT-LOCATION,GIS-baselayer
+RQ-INFRAT-06,Infrastructure-transport,Ports of entry / border posts throughput,Border-post list & throughput,MSR-016;MSR-036,PDF/GIS,xref>=2,map;table,ENT-LOCATION,logistics-module
+RQ-INFRAT-07,Infrastructure-transport,Inland water transport routes,Navigable routes,MSR-035;MSR-010,GIS,geo-consistency,map,ENT-ROUTE,GIS-baselayer
+RQ-INFRAT-08,Infrastructure-transport,Road density vs population/area by province,Density derived metric,MSR-008;MSR-037,GIS/CSV,method-note,map;table,ENT-LOCATION,GIS-baselayer
+RQ-INFRAT-09,Infrastructure-transport,Seasonal accessibility issues,Rainy-season cutoffs,MSR-008;MSR-013,PDF,log-gaps,table;map,ENT-ROUTE,offline-maps
+RQ-INFRAT-10,Infrastructure-transport,Major transport corridors,Corridor routes to ports,MSR-008;MSR-028;MSR-035,GIS/PDF,geo-consistency,map,ENT-ROUTE,logistics-module
+RQ-INFRAT-11,Infrastructure-transport,Public transport & freight logistics providers,Provider list,MSR-009;MSR-014,PDF,log-gaps,table,ENT-ORG,logistics-module
+RQ-INFRAT-12,Infrastructure-transport,Vehicle registration stats & trends,Registered vehicle series,MSR-009,PDF/CSV,trend-check,chart,ENT-VEHICLE,analytics-KPI
+RQ-ENERGY-01,Energy,Installed generation capacity by source,Capacity MW by source,MSR-005;MSR-006;MSR-028,PDF/PORTAL,xref>=2,table;chart,ENT-ASSET,analytics-KPI
+RQ-ENERGY-02,Energy,Generation mix & hydro dependence,Generation shares,MSR-005;MSR-006,PDF,xref>=2,chart,ENT-ASSET,analytics-KPI
+RQ-ENERGY-03,Energy,National electrification rate urban/rural,Access %,MSR-005;MSR-007;MSR-022,PDF/CSV,xref>=2,table,ENT-LOCATION,analytics-KPI
+RQ-ENERGY-04,Energy,Electrification by province/district,Access % by admin unit,MSR-007;MSR-001,PDF/CSV,geo-consistency,map;table,ENT-LOCATION,GIS-baselayer
+RQ-ENERGY-05,Energy,Grid coverage & T&D network extent,Grid lines & coverage,MSR-006;MSR-005,GIS/PDF,geo-consistency,map,ENT-ASSET;ENT-ROUTE,GIS-baselayer
+RQ-ENERGY-06,Energy,Reliability metrics load-shedding,Outage frequency/duration,MSR-006;MSR-005,PDF,log-contra,table,ENT-ASSET,IoT-energy
+RQ-ENERGY-07,Energy,Tariffs by customer class,Tariff schedule,MSR-005;MSR-006,PDF,recent,table,ENT-TRANSACTION,analytics-KPI
+RQ-ENERGY-08,Energy,Off-grid/mini-grid/solar-home penetration,Off-grid stats,MSR-007;MSR-005,PDF,log-gaps,table,ENT-ASSET,IoT-energy
+RQ-ENERGY-09,Energy,Rural electrification targets & progress,Targets vs actual,MSR-007,PDF,xref>=2,table,ENT-LOCATION,analytics-KPI
+RQ-ENERGY-10,Energy,Petroleum/diesel supply chain & pricing,Fuel price & supply,MSR-005;MSR-002,PDF,recent,table,ENT-TRANSACTION,logistics-module
+RQ-ENERGY-11,Energy,Cooking fuel mix,Fuel-use shares,MSR-001;MSR-005,CSV,xref>=2,chart,ENT-LOCATION,analytics-KPI
+RQ-ENERGY-12,Energy,Energy demand growth & forecasts,Demand series & forecast,MSR-005;MSR-028,PDF,method-note,chart,ENT-LOCATION,analytics-KPI
+RQ-ENERGY-13,Energy,Key generation assets & locations,Plant list & coordinates,MSR-006;MSR-005;MSR-035,GIS/PDF,geo-consistency,map;table,ENT-ASSET,GIS-baselayer
+RQ-ENERGY-14,Energy,Renewable pipeline & policy incentives,Project pipeline & incentives,MSR-005;MSR-003;MSR-014,PDF,log-gaps,table,ENT-ASSET,analytics-KPI
+RQ-WATER-01,Water,Access to improved water national/urban/rural,Access %,MSR-011;MSR-027;MSR-022,PDF/CSV,xref>=2,table,ENT-LOCATION,analytics-KPI
+RQ-WATER-02,Water,Water access by province/district,Access % by admin unit,MSR-011;MSR-001,PDF/CSV,geo-consistency,map;table,ENT-LOCATION,GIS-baselayer
+RQ-WATER-03,Water,Access to improved sanitation,Sanitation access %,MSR-011;MSR-027,PDF/CSV,xref>=2,table,ENT-LOCATION,analytics-KPI
+RQ-WATER-04,Water,Major water utilities & service areas,Utility list & areas,MSR-011,PDF/GIS,geo-consistency,map;table,ENT-ORG,GIS-baselayer
+RQ-WATER-05,Water,Borehole/groundwater reliance,Groundwater use stats,MSR-010;MSR-011,PDF,log-gaps,table,ENT-ASSET,IoT-water
+RQ-WATER-06,Water,Major rivers/lakes/reservoirs,Water body geometries,MSR-010;MSR-035;MSR-041,GIS,geo-consistency,map,ENT-LOCATION,GIS-hydrology
+RQ-WATER-07,Water,Water resource availability & stress by basin,Basin water balance,MSR-010;MSR-025,PDF/GIS,method-note,map;table,ENT-LOCATION,GIS-hydrology
+RQ-WATER-08,Water,Irrigation infrastructure & irrigated area,Irrigated hectares,MSR-018;MSR-025;MSR-040,PDF/SATELLITE,xref>=2,map;table,ENT-ASSET,GIS-hydrology
+RQ-WATER-09,Water,Dam infrastructure,Dam list & purpose,MSR-006;MSR-010;MSR-035,GIS/PDF,geo-consistency,map;table,ENT-ASSET,GIS-baselayer
+RQ-WATER-10,Water,Water quality monitoring coverage,Monitoring points,MSR-012;MSR-010,PDF/GIS,log-gaps,map;table,ENT-ENVSAMPLE;ENT-SENSOR,IoT-water
+RQ-WATER-11,Water,Flood/drought-prone areas by province,Hazard zones,MSR-012;MSR-013;MSR-042,GIS/SATELLITE,geo-consistency,map,ENT-LOCATION,GIS-climate-layers
+RQ-WATER-12,Water,Transboundary water agreements,Agreement list,MSR-010,PDF,xref>=2,table,ENT-REGULATION,compliance-alignment
+RQ-TELCO-01,Telecoms,Mobile-cellular subscriptions & penetration,Subscriptions & %,MSR-004;MSR-029;MSR-030,PDF/CSV,xref>=2;log-contra,table;chart,ENT-ORG,offline-first
+RQ-TELCO-02,Telecoms,Number & market share of MNOs,Operator shares,MSR-004;MSR-030,PDF,xref>=2,chart,ENT-ORG,integration-signal
+RQ-TELCO-03,Telecoms,Mobile broadband coverage by pop/geo,3G/4G/5G coverage,MSR-004;MSR-030,PDF/GIS,geo-consistency,map;table,ENT-LOCATION,offline-first;GIS-coverage
+RQ-TELCO-04,Telecoms,Internet penetration,Individuals using internet %,MSR-004;MSR-029,PDF/CSV,xref>=2,chart,ENT-LOCATION,offline-first
+RQ-TELCO-05,Telecoms,Fixed broadband subscriptions,Fixed BB count,MSR-004;MSR-029,CSV,xref>=2,table,ENT-ORG,analytics-KPI
+RQ-TELCO-06,Telecoms,Smartphone vs feature-phone split,Device-type shares,MSR-030;MSR-004,PDF,log-gaps,chart,ENT-STAKEHOLDER,USSD-featurephone
+RQ-TELCO-07,Telecoms,Mobile/internet penetration by province urban/rural,Penetration by admin unit,MSR-004,PDF/CSV,geo-consistency,map;table,ENT-LOCATION,offline-first;GIS-coverage
+RQ-TELCO-08,Telecoms,Avg mobile data prices & affordability,Price per GB & % income,MSR-030;MSR-029,PDF,xref>=2,table,ENT-TRANSACTION,offline-first
+RQ-TELCO-09,Telecoms,Coverage gaps / not-spots by province,Uncovered areas,MSR-004;MSR-030,GIS,geo-consistency,map,ENT-LOCATION,offline-first;GIS-coverage
+RQ-TELCO-10,Telecoms,Data centre & fibre backbone,Backbone routes & facilities,MSR-004;MSR-035,GIS/PDF,geo-consistency,map;table,ENT-ASSET;ENT-ROUTE,GIS-baselayer
+RQ-TELCO-11,Telecoms,SIM registration & unique-subscriber estimates,Unique subscribers,MSR-004;MSR-030,PDF,log-contra,table,ENT-STAKEHOLDER,analytics-KPI
+RQ-TELCO-12,Telecoms,Quality-of-service metrics,QoS indicators,MSR-004,PDF,recent,table,ENT-ORG,analytics-KPI
+RQ-TELCO-13,Telecoms,Spectrum allocation & regulatory environment,Spectrum & rules,MSR-004,PDF,xref>=2,table,ENT-REGULATION,compliance-alignment
+RQ-FININC-01,Financial-inclusion,% adults with formal account,Account ownership %,MSR-031;MSR-002;MSR-022,PDF/XLSX,xref>=2,table;chart,ENT-STAKEHOLDER,mobile-money-integration
+RQ-FININC-02,Financial-inclusion,Mobile money penetration & active-user rate,MM accounts & active %,MSR-031;MSR-030;MSR-002,PDF/XLSX,xref>=2;log-contra,table;chart,ENT-ORG,mobile-money-integration
+RQ-FININC-03,Financial-inclusion,Mobile money agent network size/distribution,Agent counts & locations,MSR-002;MSR-030,PDF/GIS,geo-consistency,map;table,ENT-ORG;ENT-LOCATION,mobile-money-integration
+RQ-FININC-04,Financial-inclusion,Financial inclusion by province/sex/rural-urban,Inclusion breakdown,MSR-031,PDF/XLSX,geo-consistency,map;table,ENT-LOCATION,mobile-money-integration
+RQ-FININC-05,Financial-inclusion,Bank branch & ATM density by province,Branch/ATM per admin unit,MSR-002;MSR-031,PDF/GIS,geo-consistency,map;table,ENT-ASSET;ENT-LOCATION,GIS-baselayer
+RQ-FININC-06,Financial-inclusion,Access to credit individuals & SMEs,Credit access indicators,MSR-002;MSR-031;MSR-022,PDF,xref>=2,table,ENT-ORG,analytics-KPI
+RQ-FININC-07,Financial-inclusion,Insurance penetration incl agricultural,Insurance uptake %,MSR-031;MSR-002,PDF,log-gaps,table,ENT-ORG,insurance-integration
+RQ-FININC-08,Financial-inclusion,Savings-group/cooperative membership,Group membership prevalence,MSR-031;MSR-033,PDF,log-gaps,table,ENT-STAKEHOLDER,cooperative-module
+RQ-FININC-09,Financial-inclusion,Payment-system infrastructure interoperability,Switch & interoperability,MSR-002,PDF,xref>=2,table,ENT-ORG,mobile-money-integration
+RQ-FININC-10,Financial-inclusion,Digital-payment adoption trend,Digital-payment series,MSR-002;MSR-031,PDF/CSV,trend-check,chart,ENT-TRANSACTION,mobile-money-integration
+RQ-FININC-11,Financial-inclusion,Remittance flows domestic & international,Remittance values,MSR-002;MSR-022,CSV/API,xref>=2,table,ENT-TRANSACTION,mobile-money-integration
+RQ-FININC-12,Financial-inclusion,Barriers to financial inclusion,Barrier categories,MSR-031,PDF,log-gaps,table,ENT-STAKEHOLDER,offline-first
+RQ-DIGITAL-01,Digital-maturity,National digital strategy & targets,Strategy & KPIs,MSR-003;MSR-004,PDF,xref>=2,table,ENT-REGULATION,e-gov-integration
+RQ-DIGITAL-02,Digital-maturity,E-gov services & maturity,Service inventory,MSR-003;MSR-004,PDF/PORTAL,log-gaps,table,ENT-ORG,e-gov-integration
+RQ-DIGITAL-03,Digital-maturity,National digital ID status & coverage,Digital-ID coverage,MSR-003;MSR-017,PDF,xref>=2,table,ENT-REGULATION,digital-ID
+RQ-DIGITAL-04,Digital-maturity,Digital-skills levels,Skills indicators,MSR-021;MSR-029,PDF,log-gaps,table,ENT-STAKEHOLDER,digital-skills-signal
+RQ-DIGITAL-05,Digital-maturity,ICT contribution to GDP,ICT sector value,MSR-004;MSR-001,PDF,xref>=2,table,ENT-ORG,analytics-KPI
+RQ-DIGITAL-06,Digital-maturity,Tech/startup ecosystem,Hubs & incubators,MSR-014;MSR-032,PDF,log-gaps,table,ENT-ORG,integration-signal
+RQ-DIGITAL-07,Digital-maturity,Govt open-data portals,Portal inventory & coverage,MSR-003;MSR-036,PORTAL,geo-consistency,data-catalogue,ENT-DOCUMENT,data-ingestion-pipeline
+RQ-DIGITAL-08,Digital-maturity,Data-protection & cybersecurity maturity,Laws & posture,MSR-003;MSR-004,PDF,xref>=2,table,ENT-REGULATION,data-protection
+RQ-DIGITAL-09,Digital-maturity,Enterprise software adoption by sector,Adoption levels,MSR-030;MSR-014,PDF,log-gaps,table,ENT-ORG,integration-signal
+RQ-DIGITAL-10,Digital-maturity,Paper vs digital processes,Process digitisation signal,MSR-030;MSR-032,PDF,log-gaps,table,ENT-WORKFLOW,offline-first
+RQ-DIGITAL-11,Digital-maturity,Cloud adoption & localisation requirements,Cloud & data-residency rules,MSR-004;MSR-003,PDF,xref>=2,table,ENT-REGULATION,data-residency
+RQ-DIGITAL-12,Digital-maturity,Digital divide indicators,Divide by gender/rural/income,MSR-004;MSR-029;MSR-031,PDF,geo-consistency,chart,ENT-STAKEHOLDER,offline-first
+RQ-TRADE-01,Trade-logistics,Major trading partners,Partner shares,MSR-016;MSR-022,CSV/API,xref>=2,chart,ENT-LOCATION,logistics-module
+RQ-TRADE-02,Trade-logistics,Border-post throughput & dwell times,Throughput & dwell,MSR-016;MSR-008,PDF,log-gaps,table,ENT-LOCATION,logistics-module
+RQ-TRADE-03,Trade-logistics,Logistics-performance indicators,LPI scores,MSR-022,PDF/CSV,recent,table,ENT-LOCATION,analytics-KPI
+RQ-TRADE-04,Trade-logistics,Warehousing & cold-chain capacity/location,Facility list & capacity,MSR-014;MSR-025,PDF/GIS,geo-consistency,map;table,ENT-WAREHOUSE,logistics-module
+RQ-TRADE-05,Trade-logistics,Key commodity flows & corridors,Flow volumes & corridors,MSR-016;MSR-008,PDF/GIS,geo-consistency,map;table,ENT-SHIPMENT;ENT-ROUTE,logistics-module
+RQ-TRADE-06,Trade-logistics,Customs procedures & digitisation,Procedure & system status,MSR-016,PDF,xref>=2,table,ENT-WORKFLOW,customs-integration
+RQ-TRADE-07,Trade-logistics,Trade bloc memberships COMESA/SADC/AfCFTA,Membership & implications,MSR-003;MSR-016,PDF,xref>=2,table,ENT-REGULATION,compliance-alignment
+RQ-TRADE-08,Trade-logistics,Freight cost structures & transit dependencies,Cost & routing,MSR-008;MSR-028,PDF,log-gaps,table,ENT-ROUTE,logistics-module
+RQ-TRADE-09,Trade-logistics,Fuel & input supply-chain chokepoints,Chokepoint list,MSR-005;MSR-008,PDF,log-gaps,table,ENT-ROUTE,logistics-module
+RQ-TRADE-10,Trade-logistics,Post-harvest loss estimates,Loss % estimates,MSR-025;MSR-018;MSR-026,PDF,method-note;log-contra,table,ENT-INVENTORY,analytics-KPI
+RQ-CLIMATE-01,Climate-environment,Rainfall patterns & agro-ecological zones,Zone map & rainfall bands,MSR-013;MSR-042;MSR-018,SATELLITE/GIS/PDF,geo-consistency,map;GIS-layer,ENT-WEATHER;ENT-LOCATION,GIS-climate-layers
+RQ-CLIMATE-02,Climate-environment,Rainfall trends & variability by region,Rainfall time series,MSR-042;MSR-013;MSR-044,API/SATELLITE,trend-check,time-series;map,ENT-WEATHER,weather-integration
+RQ-CLIMATE-03,Climate-environment,Temperature ranges & trends,Temperature series,MSR-043;MSR-044;MSR-013,API,trend-check,time-series,ENT-WEATHER,weather-integration
+RQ-CLIMATE-04,Climate-environment,Growing seasons & seasonal calendars,Season definitions by zone,MSR-018;MSR-025;MSR-013,PDF,xref>=2,table,ENT-LOCATION,agri-calendar-signal
+RQ-CLIMATE-05,Climate-environment,Drought frequency & regions,Drought events & zones,MSR-013;MSR-026;MSR-042,GIS/PDF,geo-consistency,map,ENT-LOCATION,GIS-climate-layers
+RQ-CLIMATE-06,Climate-environment,Flood frequency & regions,Flood events & zones,MSR-012;MSR-036;MSR-041,GIS/SATELLITE,geo-consistency,map,ENT-LOCATION,GIS-climate-layers
+RQ-CLIMATE-07,Climate-environment,Climate-change projections agri/water,Projection scenarios,MSR-044;MSR-028,PDF/API,method-note,table;chart,ENT-WEATHER,analytics-KPI
+RQ-CLIMATE-08,Climate-environment,Land-cover & land-use distribution,Land-cover raster,MSR-040;MSR-041,SATELLITE/GIS,geo-consistency,GIS-layer;map,ENT-LOCATION,GIS-climate-layers
+RQ-CLIMATE-09,Climate-environment,Soil types & fertility by region,Soil maps,MSR-025;MSR-041,GIS,geo-consistency,map;GIS-layer,ENT-LOCATION,GIS-baselayer
+RQ-CLIMATE-10,Climate-environment,Protected areas/forests/biodiversity,Protected-area boundaries,MSR-012;MSR-036,GIS,geo-consistency,map,ENT-LOCATION,GIS-baselayer
+RQ-CLIMATE-11,Climate-environment,Environmental degradation hotspots,Degradation areas,MSR-012;MSR-040,SATELLITE/GIS,geo-consistency,map,ENT-LOCATION,GIS-climate-layers
+RQ-CLIMATE-12,Climate-environment,Availability of weather-station & satellite data,Data source inventory,MSR-013;MSR-043;MSR-042;MSR-044,API/PORTAL,log-gaps,data-catalogue,ENT-DOCUMENT,weather-integration
+RQ-POLICY-01,Policy,Current NDP pillars & targets,8NDP pillars & targets,MSR-003,PDF,xref>=2,table,ENT-REGULATION,compliance-alignment
+RQ-POLICY-02,Policy,Vision 2030 long-term goals,Vision goals,MSR-003,PDF,xref>=2,table,ENT-REGULATION,compliance-alignment
+RQ-POLICY-03,Policy,Sector strategies agri/mining/energy/digital,Sector strategy docs,MSR-018;MSR-019;MSR-005;MSR-004,PDF,log-gaps,table,ENT-REGULATION,compliance-alignment
+RQ-POLICY-04,Policy,National priorities for digitisation & industry,Priority statements,MSR-003;MSR-004,PDF,xref>=2,table,ENT-REGULATION,e-gov-integration
+RQ-POLICY-05,Policy,Govt reform programmes & flagship projects,Programme list,MSR-003;MSR-014,PDF,log-gaps,table,ENT-ORG,analytics-KPI
+RQ-POLICY-06,Policy,Alignment with SDGs & Agenda 2063,Framework mapping,MSR-024;MSR-028,PDF,xref>=2,table,ENT-REGULATION,compliance-alignment
+RQ-POLICY-07,Policy,Decentralisation policy & data implications,Policy & admin data impact,MSR-017;MSR-003,PDF,xref>=2,table,ENT-REGULATION,reference-data
+RQ-POLICY-08,Policy,Investment-promotion priorities & incentives,Incentive schemes,MSR-014,PDF,recent,table,ENT-ORG,analytics-KPI
+RQ-POLICY-09,Policy,Public-sector digitisation commitments,Commitments & targets,MSR-003;MSR-004,PDF,log-gaps,table,ENT-REGULATION,e-gov-integration
+RQ-POLICY-10,Policy,Policy gaps/contradictions,Identified gaps,MSR-003;MSR-032,PDF,log-contra,table,ENT-REGULATION,analytics-KPI
+RQ-DATA-01,Data-landscape,Which institutions publish authoritative stats & currency,Source inventory & recency,MSR-001;MSR-022;MSR-003,PORTAL/PDF,log-gaps,data-catalogue,ENT-DOCUMENT,data-ingestion-pipeline
+RQ-DATA-02,Data-landscape,Which open-data portals exist & coverage,Portal inventory,MSR-036;MSR-003;MSR-022,PORTAL/API,log-gaps,data-catalogue,ENT-DOCUMENT,data-ingestion-pipeline
+RQ-DATA-03,Data-landscape,Free geospatial/GIS datasets (boundaries/roads/land use),GIS dataset inventory,MSR-035;MSR-036;MSR-038;MSR-039,PORTAL/API/GIS,geo-consistency,data-catalogue;GIS-layer,ENT-DOCUMENT,GIS-baselayer
+RQ-DATA-04,Data-landscape,Satellite/remote-sensing data for Zambia,EO dataset inventory,MSR-040;MSR-041,API/SATELLITE,log-gaps,data-catalogue,ENT-DOCUMENT,data-ingestion-pipeline
+RQ-DATA-05,Data-landscape,Weather/climate datasets & APIs,Climate dataset inventory,MSR-042;MSR-043;MSR-044;MSR-013,API,log-gaps,data-catalogue,ENT-DOCUMENT,weather-integration
+RQ-DATA-06,Data-landscape,Data licensing & usage restrictions,Licence terms per source,MSR-035;MSR-022;MSR-040,PORTAL/PDF,verify-licence,data-catalogue,ENT-DOCUMENT,data-governance
+RQ-DATA-07,Data-landscape,Biggest data gaps theme x geography,Gap matrix,MSR-001;MSR-036,DERIVED,log-gaps,data-catalogue,ENT-DOCUMENT,data-ingestion-pipeline
+RQ-DATA-08,Data-landscape,Update frequency per key dataset,Cadence per dataset,MSR-001;MSR-022;MSR-042,PORTAL,recent,data-catalogue,ENT-DOCUMENT,data-ingestion-pipeline
+RQ-DATA-09,Data-landscape,Smallest reliable geographic unit per dataset,Granularity per dataset,MSR-001;MSR-037;MSR-038,PORTAL/GIS,geo-consistency,data-catalogue,ENT-DOCUMENT,reference-data
+RQ-DATA-10,Data-landscape,Datasets ingestable directly vs manual,Ingestion method per dataset,MSR-022;MSR-036;MSR-043,API/PORTAL,method-note,data-catalogue,ENT-DOCUMENT,data-ingestion-pipeline

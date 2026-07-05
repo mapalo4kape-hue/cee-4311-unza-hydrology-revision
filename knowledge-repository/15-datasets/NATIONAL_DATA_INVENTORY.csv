@@ -1,0 +1,33 @@
+dataset_id,dataset,owner_source_id,availability,format,resolution,temporal_coverage,spatial_coverage,update_frequency,licensing,quality_issues,expected_uses
+DS-001,Population (census),MSR-001,Public (confirm),PDF/XLSX,Person/household,2022 + prior censuses,National/Province/District,Decennial,Official-open (confirm),Inter-census gaps; district boundary changes,Demographics tables; province/district profiles; KG ENT-LOCATION
+DS-002,Population (gridded),MSR-037,Public,GeoTIFF,~100m grid,Annual estimates,National gridded,Periodic,CC-BY-4.0,Modelled estimates not census,Density maps; small-area analysis
+DS-003,GDP & national accounts,MSR-001;MSR-022,Public,XLSX/CSV/API,National (some provincial),Multi-year series,National,Annual,Open (confirm),Provincial GDP sparse; rebasing,Economic profile; trends; KPIs
+DS-004,Employment & labour force,MSR-001,Public (confirm),PDF/XLSX,National/Province,Survey years,National/Province,Periodic,Official (confirm),Informal sector undercount,Employment analysis
+DS-005,Poverty (LCMS),MSR-001;MSR-022,Public,PDF/CSV,National/Province,Survey years,National/Province,Periodic,Open (confirm),Survey timing gaps,Poverty maps; equity analysis
+DS-006,Inflation / CPI,MSR-001;MSR-002,Public,XLSX/CSV,National,Monthly series,National,Monthly,Open (confirm),Basket changes,Macro trend charts
+DS-007,Exchange & monetary,MSR-002,Public,CSV/API,National,Daily/monthly,National,Daily,Open (confirm),None major,FX & rate charts
+DS-008,Rainfall,MSR-042;MSR-013,Public,GeoTIFF/NetCDF,~5km grid,1981-present,National gridded,Frequent,Open,Station sparsity; satellite bias,Agro-zones; drought maps; KG ENT-WEATHER
+DS-009,Temperature & weather,MSR-043;MSR-044,Public,CSV/NetCDF,Point/grid,Multi-decade,National/Global grid,Daily,Open,Reanalysis vs station diff,Climate profiles; weather integration
+DS-010,Roads,MSR-008;MSR-035,Public (OSM) / confirm (RDA),SHP/GeoJSON/PBF,Vector,Current,National,Continuous (OSM),ODbL (OSM),OSM completeness varies rurally,Transport maps; road density
+DS-011,Rail,MSR-035;MSR-008,Public,GeoJSON/SHP,Vector,Current,National,Periodic,ODbL/confirm,Condition data limited,Rail network map
+DS-012,Airports & airstrips,MSR-035;MSR-036,Public,GeoJSON/CSV,Point,Current,National,Periodic,Open,Minor airstrips incomplete,Air transport map
+DS-013,Water infrastructure,MSR-010;MSR-011,Confirm,PDF/GIS,Vector/tabular,Current,National/Utility,Periodic,Official (confirm),Coverage gaps,Water access maps; utilities
+DS-014,Mobile coverage,MSR-004;MSR-030,Partial,PDF/GIS,Vector polygons,Recent,National/Province,Annual,Mixed (confirm),Operator self-report bias,Coverage maps; not-spots
+DS-015,Internet penetration,MSR-004;MSR-029,Public,CSV/PDF,National/Province,Annual series,National,Annual,Open (confirm),Definition differences,Digital readiness
+DS-016,Electricity / grid,MSR-006;MSR-005;MSR-007,Confirm,PDF/GIS,Vector/tabular,Current,National/Province,Periodic,Official (confirm),Grid GIS access limited,Electrification maps; energy profile
+DS-017,Agriculture (crop forecast),MSR-018;MSR-025,Public,PDF/CSV,National/Province,Annual,National/Province,Annual,Open (confirm),Methodology changes,Provincial economy context
+DS-018,Mining statistics,MSR-019;MSR-014,Confirm,PDF,National/Province,Annual,National/Province,Periodic,Official (confirm),Aggregation level,Provincial economy context
+DS-019,Construction indicators,MSR-001;MSR-014,Confirm,PDF,National,Annual,National,Annual,Official (confirm),Sparse subnational,Sector profile
+DS-020,Education statistics,MSR-021,Public,PDF/XLSX,National/District,Annual,National/District,Annual,Official (confirm),Reporting lags,Skills & literacy context
+DS-021,Health facilities & HMIS,MSR-020;MSR-036,Partial,CSV/GeoJSON,Facility point,Recent,National/District,Periodic,Open (confirm),Facility geocoding gaps,Social infrastructure context
+DS-022,Financial inclusion (FinScope),MSR-031,Public,PDF/XLSX,National/Province,Survey years,National/Province,Periodic,Open (confirm),Survey-year gaps,Financial inclusion profile
+DS-023,Mobile money metrics,MSR-002;MSR-030,Partial,PDF/CSV,National,Recent series,National,Periodic,Mixed (confirm),Provider aggregation,Digital payments profile
+DS-024,Trade & customs,MSR-016;MSR-022,Public,CSV/API,National (partner-level),Multi-year,National,Annual,Open (confirm),Classification harmonisation,Trade profile
+DS-025,Climate zones / agro-ecological,MSR-018;MSR-013,Confirm,GIS/PDF,Vector,Static/periodic,National,Rare,Official (confirm),Zone boundary versions,Agro-zone map
+DS-026,Administrative boundaries,MSR-038;MSR-039;MSR-036,Public,GeoJSON/SHP/GPKG,ADM0-ADM3,Current,National,Periodic,CC-BY/ODbL (confirm),District count/version drift,Base map; all joins; KG ENT-LOCATION
+DS-027,Satellite imagery (optical),MSR-040;MSR-041,Public,GeoTIFF/SAFE,10-30m,Continuous,National,Continuous,Open,Cloud cover; storage size,Land use; NDVI; environment
+DS-028,Elevation (DEM),MSR-041,Public,GeoTIFF,30m (SRTM),Static,National,One-off,Open,Voids in steep terrain,Hydrology; terrain
+DS-029,Land cover,MSR-040;MSR-041,Public,GeoTIFF,10-100m,Recent,National,Periodic,Open,Class accuracy varies,Environment; land-use layer
+DS-030,Soil,MSR-025,Public,GIS,Coarse,Static,National/Global,Rare,Open (confirm),Low resolution,Agriculture context
+DS-031,Border posts,MSR-016;MSR-036,Partial,GeoJSON/PDF,Point,Current,National,Periodic,Open (confirm),Throughput data sparse,Logistics; trade corridors
+DS-032,GIS layers (composite),MSR-035;MSR-036;MSR-038,Public,GeoJSON/SHP,Vector,Current,National,Varies,Mixed (confirm),Provenance varies,National GIS baselayer inventory
