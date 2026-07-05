@@ -34,10 +34,11 @@ The working rule (from the project directive): **read and internalise the ROM, a
 | [ACT-001](activity-log/2026-07-05_ACT-001_read-and-internalise-rom.md) | 2026-07-05 | Read & internalise the ROM | Planning (governance intake) | Complete |
 | [ACT-002](activity-log/2026-07-05_ACT-002_internalise-mrep-and-add-citation-standard.md) | 2026-07-05 | Internalise the MREP, scaffold knowledge repo, add Citation Standard | Planning (governance intake) | Complete |
 | [ACT-003](activity-log/2026-07-05_ACT-003_build-research-engine.md) | 2026-07-05 | Build the Research Engine (REIS v1.0) — 10 components, 12 deliverables | Engine build (pre-Stage 1) | Complete |
+| [ACT-004](activity-log/2026-07-05_ACT-004_wp1.1-project-initiation-package.md) | 2026-07-05 | Open WP1.1 & produce the Project Initiation Package (PIP) | Stage 1 · initiation | Complete (PIP in Gate 1 review) |
 
 ## Current position
 
-Governance intake **and** research-engine build complete (ROM + MREP + Citation Standard + Research Engine). **Next:** Stage 1 · WP 1.1 National Intelligence (**ACT-004**), authored entirely through the Research Engine. Execution status is tracked in [`knowledge-repository/WORK_PACKAGE_TRACKER.md`](knowledge-repository/WORK_PACKAGE_TRACKER.md).
+Now operating in **research-consultant mode**. WP1.1 is **open**: the [Project Initiation Package](knowledge-repository/01-research/WP1.1_project-initiation-package_v01.md) (objectives, scope, ~250 research questions, deliverables, sources, stakeholders, outputs, risks, acceptance criteria, activity plan) is submitted for **QA Gate 1**. **No data collection begins until the PIP is approved.** Next: ACT-005 (planning refinement). Status tracked in [`knowledge-repository/WORK_PACKAGE_TRACKER.md`](knowledge-repository/WORK_PACKAGE_TRACKER.md).
 
 ## How to add a new activity record
 
