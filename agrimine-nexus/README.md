@@ -12,12 +12,18 @@ The working rule (from the project directive): **read and internalise the ROM, a
 | [`MREP_Internalisation.md`](MREP_Internalisation.md) | The **MREP** — *what* gets researched, *in what order*, and *what each work package produces* (5 stages, 19 work packages, 8 QA gates, 28 deliverables). |
 | [`CITATION_STANDARD.md`](CITATION_STANDARD.md) | Mandatory **Citation & Evidence-Traceability Standard** — every factual claim is cited (org, publication date, confidence, retrieval date) and every recommendation traces back to evidence. |
 
+## The Research Engine (ACT-003)
+
+| Path | What it is |
+|------|-----------|
+| [`research-engine/`](research-engine/) | The internal research system (REIS v1.0): architecture, repository blueprint, master taxonomy, knowledge-graph spec, metadata standard, requirement-traceability framework, evidence-register standard, master entity catalogue, template library, quality-dashboard spec, and validation report. Guarantees traceability from **Evidence → Finding → Knowledge → Requirement → Architecture → Module → Database → API → UI → Business Value**. |
+
 ## Working materials
 
 | Path | What it is |
 |------|-----------|
-| [`knowledge-repository/`](knowledge-repository/) | Version-controlled knowledge base (MREP §6): 18 document categories + work-package/QA-gate tracker. |
-| [`templates/ACTIVITY_RECORD_TEMPLATE.md`](templates/ACTIVITY_RECORD_TEMPLATE.md) | Reusable template for documenting how each research activity was carried out (enforces the Citation Standard). |
+| [`knowledge-repository/`](knowledge-repository/) | Version-controlled knowledge base (23-folder REIS hierarchy) + live registers (evidence, requirements/RTM, knowledge graph, integrations, QA gates) + work-package/QA-gate tracker. |
+| [`templates/`](templates/) | Reusable authoring templates (19 types) — all enforce the Citation Standard. |
 | [`activity-log/`](activity-log/) | Dated records of every research activity performed. |
 | [`source/`](source/) | Primary source documents, kept in-repo for traceability (Evidence First). |
 
@@ -27,10 +33,11 @@ The working rule (from the project directive): **read and internalise the ROM, a
 |----|------|----------|-----------|--------|
 | [ACT-001](activity-log/2026-07-05_ACT-001_read-and-internalise-rom.md) | 2026-07-05 | Read & internalise the ROM | Planning (governance intake) | Complete |
 | [ACT-002](activity-log/2026-07-05_ACT-002_internalise-mrep-and-add-citation-standard.md) | 2026-07-05 | Internalise the MREP, scaffold knowledge repo, add Citation Standard | Planning (governance intake) | Complete |
+| [ACT-003](activity-log/2026-07-05_ACT-003_build-research-engine.md) | 2026-07-05 | Build the Research Engine (REIS v1.0) — 10 components, 12 deliverables | Engine build (pre-Stage 1) | Complete |
 
 ## Current position
 
-Governance intake complete (ROM + MREP + Citation Standard). **Next:** Stage 1 · WP 1.1 National Intelligence (ACT-003). Execution status is tracked in [`knowledge-repository/WORK_PACKAGE_TRACKER.md`](knowledge-repository/WORK_PACKAGE_TRACKER.md).
+Governance intake **and** research-engine build complete (ROM + MREP + Citation Standard + Research Engine). **Next:** Stage 1 · WP 1.1 National Intelligence (**ACT-004**), authored entirely through the Research Engine. Execution status is tracked in [`knowledge-repository/WORK_PACKAGE_TRACKER.md`](knowledge-repository/WORK_PACKAGE_TRACKER.md).
 
 ## How to add a new activity record
 
