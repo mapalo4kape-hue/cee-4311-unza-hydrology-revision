@@ -1,0 +1,33 @@
+req_id,category,statement,acceptance_criteria,evidence,capability,technologies,regulations,verification,priority,confidence
+REQ-N-001,Offline capability,The system shall allow core field data capture without network connectivity,Field forms usable offline for >=72h; queued records retained until sync,F-0078,CAP-160;CAP-161,TECH-127;TECH-131,,Test,Must,72
+REQ-N-002,Offline capability,The system shall synchronise offline data with deterministic conflict resolution,No data loss on sync; conflicts flagged/resolved by defined policy,F-0078,CAP-161,TECH-127;TECH-129,,Test,Must,66
+REQ-N-003,Performance,Interactive operations shall respond within acceptable latency on low bandwidth,Core screens usable at <=2 Mbps; key actions ack <3s server-side,F-0084,CAP-160,,,Test,Should,56
+REQ-N-004,Performance,USSD/SMS interactions shall complete within session limits,USSD menu step responds <5s to avoid session timeout,F-0086,CAP-149,TECH-150,,Test,Should,58
+REQ-N-005,Availability,The platform shall target high availability for core services,Monthly availability target documented (e.g. >=99.5%) and measured,F-0079,CAP-166,,,Analysis,Should,52
+REQ-N-006,Reliability,The system shall not lose committed transactions,Zero committed-transaction loss under normal operation; verified by test,F-0079,CAP-121,TECH-130,,Test,Must,58
+REQ-N-007,Scalability,The system shall scale to national user and record volumes,Horizontal scaling demonstrated for growing tenants/records,F-0079,CAP-159,TECH-133,,Analysis,Should,50
+REQ-N-008,Security,Data in transit shall be encrypted,All traffic uses TLS 1.3; no plaintext endpoints,F-0077,CAP-156,TECH-140,REG-0024;REG-0025,Test,Must,66
+REQ-N-009,Security,Data at rest shall be encrypted,Sensitive stores encrypted (AES-256 or equivalent),F-0077,CAP-153,TECH-140,REG-0024,Test,Must,62
+REQ-N-010,Security,Access shall follow least privilege via RBAC,Roles enforce least-privilege; access reviews supported,F-0077,CAP-157,TECH-139,REG-0024,Test,Must,62
+REQ-N-011,Security,Privileged access shall require MFA,MFA enforced for admin/privileged roles,F-0077,CAP-158,TECH-138,REG-0024,Test,Must,60
+REQ-N-012,Security,Secrets shall be managed securely,No secrets in code; secrets stored in a managed vault,F-0077,CAP-156,TECH-142,REG-0025,Inspection,Must,56
+REQ-N-013,Privacy,Personal data processing shall comply with the Data Protection Act,Consent captured; data-subject rights supported; DPA lawful basis documented,F-0077,CAP-170,TECH-140,REG-0024,Audit,Must,60
+REQ-N-014,Privacy,Data residency requirements shall be configurable,Deployment can meet local data-residency where required,F-0077,CAP-159,TECH-135,REG-0024,Analysis,Should,50
+REQ-N-015,Accessibility,Interfaces shall be usable on low-end devices and by low-literacy users,Feature-phone (USSD/SMS) path exists; simple flows for key tasks,F-0078,CAP-169,TECH-150,,Test,Should,58
+REQ-N-016,Disaster recovery,The system shall support recovery within defined objectives,RPO/RTO targets documented and tested,F-0079,CAP-153,,,Test,Should,48
+REQ-N-017,Backup,Data shall be backed up regularly and restorable,Automated backups with periodic restore verification,F-0079,CAP-144,,,Test,Must,54
+REQ-N-018,Monitoring,System health and usage shall be observable,Metrics/logs/traces collected; alerting configured,F-0079,CAP-166,TECH-143,,Inspection,Should,54
+REQ-N-019,Logging,Security-relevant events shall be logged immutably,Audit log tamper-evident and retained per policy,F-0077,CAP-153,TECH-143,REG-0024,Test,Must,60
+REQ-N-020,Maintainability,The system shall be modular and documented for maintenance,Components independently deployable/updatable; docs maintained,F-0079,CAP-163,TECH-133,,Inspection,Should,50
+REQ-N-021,Configurability,Business rules and reference data shall be configurable without code change,Admins configure rules/lists via configuration,F-0079,CAP-163,,,Test,Should,52
+REQ-N-022,Internationalisation,The system shall support multiple languages and locale formats,Locale-aware dates/numbers; local-language content supported,F-0078,CAP-169,TECH-021,,Test,Should,54
+REQ-N-023,Regulatory compliance,The system shall support evidence for regulatory audits,Compliance reports and audit trails exportable to regulators,F-0073,CAP-154,TECH-123,REG-0017;REG-0024,Audit,Must,58
+REQ-N-024,Interoperability,The system shall exchange data via open standards,Supports REST/JSON/CSV/GeoJSON/OGC as applicable,F-0086,CAP-148,TECH-136;TECH-137,,Test,Must,60
+REQ-N-025,Interoperability,The system shall integrate with mobile-money and comms providers,Documented integration with at least MNO money + SMS/USSD,F-0086,CAP-125;CAP-149,TECH-150,REG-0031,Test,Must,60
+REQ-N-026,Portability,The system shall be deployable across cloud and on-prem/edge,Deployable via containers to cloud and local infrastructure,F-0078,CAP-159,TECH-133,,Analysis,Should,52
+REQ-N-027,Data quality,The system shall validate data at capture,Mandatory/format validation enforced at entry,F-0079,CAP-163,,,Test,Should,56
+REQ-N-028,Auditability,Configuration and permission changes shall be traceable,Change history retained for config/permissions,F-0077,CAP-153,TECH-143,REG-0024,Test,Should,54
+REQ-N-029,Resilience (connectivity),The system shall degrade gracefully under intermittent connectivity,Core tasks continue offline; user informed of sync state,F-0078,CAP-160;CAP-161,TECH-127,,Test,Must,60
+REQ-N-030,Performance (bulk),Batch/reporting jobs shall complete within operational windows,Defined batch windows met for reporting workloads,F-0079,CAP-147,TECH-123,,Test,Could,48
+REQ-N-031,Security (device),Field devices shall support secure identity and updates,Device identity + signed updates where hardware permits,F-0076,CAP-156,TECH-146,REG-0024,Analysis,Should,50
+REQ-N-032,Interoperability (spatial),The system shall support standard spatial data exchange,Import/export GeoJSON/KML/GPX and OGC services,F-0075,CAP-162,TECH-047,,Test,Should,54

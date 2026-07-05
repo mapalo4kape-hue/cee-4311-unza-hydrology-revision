@@ -197,3 +197,9 @@ E-0195,CAP-DOM-ENT,WF-032,DERIVED_FROM,F-0079,72,enterprise capabilities derived
 E-0196,CAP-DOM-ENT,TECH-MMO,ENABLED_BY,F-0086,72,enterprise commons enabled by mobile-money/USSD rails
 E-0197,CAP-DOM-AGRI,CMP-CAT-SADC,SUPPORTED_BY,F-0084,68,agri capabilities supported by regional/African products
 E-0198,F-0088,F-0053,SYNTHESISES,F-0053;F-0079,72,capability model synthesises prior findings
+E-0199,REQ-SET-FRS,CAP-DOM-ENT,DERIVED_FROM,F-0090,72,functional requirements derived from capabilities
+E-0200,REQ-SET-NFR,TECH-OFFLINE,DERIVED_FROM,F-0078,72,NFRs derived from tech/infrastructure constraints
+E-0201,BR-SET,REG-0024,DERIVED_FROM,F-0073,70,business rules derived from regulations
+E-0202,REQ-SET-FRS,WF-032,TRACES_TO,F-0090,70,requirements trace to workflows
+E-0203,REQ-SET-NFR,REG-0024,ADDRESSES,F-0077,70,NFRs address privacy/security regulation
+E-0204,F-0090,F-0088,SYNTHESISES,F-0088,72,requirements repository synthesises capability model

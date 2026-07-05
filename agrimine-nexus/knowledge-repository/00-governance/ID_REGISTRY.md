@@ -5,7 +5,7 @@
 | Prefix | Object | Next | Notes |
 |--------|--------|------|-------|
 | `SRC-` | Evidence/source | 0122 | ...0114-117 WP4 products; 0118-121 WP4.3 integrations |
-| `F-` | Finding | 0090 | ...0085-0087 WP4.3 integrations; 0088-0089 WP4.2 capabilities |
+| `F-` | Finding | 0092 | ...0088-0089 WP4.2 capabilities; 0090-0091 WP5 requirements |
 | `INT-` | Integration entry | 0151 | 001-150 allocated (Master Integration Catalogue, WP4.3) |
 | `GAP-I` | Integration gap | I11 | I01-I10 allocated (WP4.3) |
 | `CAP-` | Business capability | 0171 | 001-170 allocated (Master Enterprise Capability Catalogue, WP4.2) |
@@ -25,8 +25,15 @@
 | `ENT-` | Knowledge entity | see Master Entity Catalogue | uses mnemonic ids (e.g. ENT-FARM) |
 | `TAX-` | Taxonomy node | per facet | see Master Taxonomy |
 | `BR-` | Business requirement | 001 | |
-| `FR-` | Functional requirement | 001 | |
-| `NFR-` | Non-functional requirement | 001 | |
+| `REQ-F-` | Functional requirement | 107 | 001-106 allocated (FRS, WP5) |
+| `REQ-N-` | Non-functional requirement | 033 | 001-032 allocated (NFR, WP5) |
+| `BR-` | Business rule | 021 | 001-020 allocated (WP5) |
+| `CON-` | Constraint | 013 | 001-012 allocated (WP5) |
+| `ASM-` | Assumption | 011 | 001-010 allocated (WP5) |
+| `RSK-R` | Requirement risk | R11 | R01-R10 allocated (WP5) |
+| `GAP-RQ` | Requirement gap | RQ-09 | RQ-01..08 allocated (WP5) |
+| `FR-` | Functional requirement (legacy) | 001 | superseded by REQ-F- |
+| `NFR-` | Non-functional requirement (legacy) | 001 | superseded by REQ-N- |
 | `US-` | User story | 001 | |
 | `AC-` | Acceptance criterion | derived from US | |
 | `DB-` | Database entity | mnemonic | |

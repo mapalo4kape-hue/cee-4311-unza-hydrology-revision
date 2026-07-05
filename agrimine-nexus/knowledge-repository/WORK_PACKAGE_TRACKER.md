@@ -5,7 +5,7 @@ Tracks execution of every MREP work package and its progress through the 8 QA ga
 **Legend:** ☐ not started · ◐ in progress · ☑ passed · — n/a
 **QA Gates:** G1 Scope · G2 Source validation · G3 Evidence quality · G4 Cross-reference · G5 Requirement extraction · G6 Architecture relevance · G7 Business impact · G8 Executive/final review.
 
-_Last updated: 2026-07-05 (WP4.2 enterprise capability synthesis — ACT-017; 170 traceable capabilities across 6 domains; 121 total evidence sources; awaiting review before ACT-018 requirements engineering)_
+_Last updated: 2026-07-05 (WP5 enterprise requirements engineering — ACT-018; 138 traceable requirements (106 FR + 32 NFR) + rules/constraints/assumptions/V&V; 121 total evidence sources; awaiting review before ACT-019 enterprise architecture)_
 
 ---
 

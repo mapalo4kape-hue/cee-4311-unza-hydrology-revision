@@ -228,3 +228,8 @@ CAP-DOM-CONS,Construction capabilities,CAPABILITY-DOMAIN,TAX-IND,21 capabilities
 CAP-DOM-ENV,Environmental capabilities,CAPABILITY-DOMAIN,TAX-IND,13 capabilities CAP-089..101,F-0059,70,3,environmental,WP4.2,reviewed,v01,consultant,2026-07-05,2026-07-05,,,,
 CAP-DOM-LOG,Logistics capabilities,CAPABILITY-DOMAIN,TAX-IND,19 capabilities CAP-102..120,F-0067,70,3,logistics,WP4.2,reviewed,v01,consultant,2026-07-05,2026-07-05,,,,
 CAP-DOM-ENT,Enterprise/common capabilities,CAPABILITY-DOMAIN,TAX-IND,50 capabilities CAP-121..170,F-0079,72,3,cross-industry,WP4.2,reviewed,v01,consultant,2026-07-05,2026-07-05,,,,
+F-0090,Enterprise Requirements Repository built: 106 functional + 32 non-functional requirements fully traced to capabilities/evidence,Finding,,Requirements engineering,F-0088,72,3,cross-industry,WP5,reviewed,v01,consultant,2026-07-05,2026-07-05,,,,
+F-0091,Foundational cross-cutting requirements: identity/access offline-capture/sync audit notifications underpin most domain requirements,Finding,,Requirement dependencies,F-0078;F-0077,72,3,cross-industry,WP5,reviewed,v01,consultant,2026-07-05,2026-07-05,,,,
+REQ-SET-FRS,Functional Requirements Specification,REQUIREMENT-SET,TAX-TEC,106 functional requirements REQ-F-001..106,F-0090,72,3,cross-industry,WP5,reviewed,v01,consultant,2026-07-05,2026-07-05,,,,
+REQ-SET-NFR,Non-Functional Requirements Specification,REQUIREMENT-SET,TAX-TEC,32 NFRs REQ-N-001..032,F-0090,72,3,cross-industry,WP5,reviewed,v01,consultant,2026-07-05,2026-07-05,,,,
+BR-SET,Business Rules Catalogue,REQUIREMENT-SET,TAX-TEC,20 business rules BR-001..020,F-0073,68,3,cross-industry,WP5,reviewed,v01,consultant,2026-07-05,2026-07-05,,,,
