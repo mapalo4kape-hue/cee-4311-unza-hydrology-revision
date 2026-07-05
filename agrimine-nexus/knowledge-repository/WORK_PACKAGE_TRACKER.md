@@ -5,7 +5,7 @@ Tracks execution of every MREP work package and its progress through the 8 QA ga
 **Legend:** ☐ not started · ◐ in progress · ☑ passed · — n/a
 **QA Gates:** G1 Scope · G2 Source validation · G3 Evidence quality · G4 Cross-reference · G5 Requirement extraction · G6 Architecture relevance · G7 Business impact · G8 Executive/final review.
 
-_Last updated: 2026-07-05 (WP2.5 logistics & supply-chain intelligence — ACT-011.1; 26 logistics workflows; 93 total evidence sources; awaiting review)_
+_Last updated: 2026-07-05 (WP1.2 regulatory + WP1.3 stakeholders — ACT-012/013; ~37 instruments, 75 stakeholders; 107 total evidence sources; awaiting review before Stage 3)_
 
 ---
 
@@ -15,7 +15,7 @@ _Last updated: 2026-07-05 (WP2.5 logistics & supply-chain intelligence — ACT-0
 |----|------|------------------|--------|----|----|----|----|----|----|----|----|
 | 1.1 | National Intelligence | Zambia Country Profile · Economic Analysis · Infrastructure Map · Digital Readiness Report | Phase 1 (baseline) + Phase 2 (economy/pop/infra/finance/digital/logistics/climate) done — 44 sources; awaiting review | ☑ | ◐ | ◐ | ◐ | ☐ | ☐ | ☐ | ☐ |
 | 1.2 | Policy & Regulatory Landscape | Regulatory Matrix · Compliance Handbook · Legal Requirement Catalogue | Done — ACT-012 (~37 instruments, ~21 authorities); awaiting review | ◐ | ◐ | ◐ | ◐ | ☐ | ☐ | ☐ | ☐ |
-| 1.3 | Stakeholder Mapping | Stakeholder Register · Influence Map · Decision-Maker Matrix | Not started | ☐ | ☐ | ☐ | ☐ | ☐ | ☐ | ☐ | ☐ |
+| 1.3 | Stakeholder Mapping | Stakeholder Register · Influence Map · Decision-Maker Matrix | Done — ACT-013 (75 stakeholders, 10 categories); awaiting review | ◐ | ◐ | ◐ | ◐ | ☐ | ☐ | ☐ | ☐ |
 
 ## Stage 2 — Industry Research
 

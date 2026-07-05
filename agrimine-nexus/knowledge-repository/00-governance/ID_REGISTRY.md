@@ -5,8 +5,10 @@
 | Prefix | Object | Next | Notes |
 |--------|--------|------|-------|
 | `SRC-` | Evidence/source | 0108 | ...0087-93 WP2.5; 0094-107 WP1.2 regulatory |
-| `F-` | Finding | 0074 | ...0067-72 WP2.5; 0073 WP1.2 regulatory |
+| `F-` | Finding | 0075 | ...0073 WP1.2; 0074 WP1.3 stakeholders |
 | `REG-` | Legal instrument | 0038 | 0001-0037 allocated (Legal Instrument Register) |
+| `STK-` | Stakeholder | 076 | 001-075 allocated (Master Stakeholder Register) |
+| `ORG-` | Organisation node | (mnemonic) | ORG-MOA/MRC/ZEMA/ZRA/BOZ/NCC/FRA/ZPPA/MMO/DPC in graph |
 | `WF-L-` | Logistics workflow | L27 | L01-L26 allocated (WP2.5) |
 | `CMP-` | Competitor product | 0154 | 0001-0153 allocated (Global Competitor Catalogue) |
 | `WF-M/C/E-` | Industry workflows | see handbooks | mining/construction/environmental |
@@ -32,7 +34,6 @@
 | `RISK-` | Risk | 001 | |
 | `OPP-` | Opportunity | 001 | |
 | `BO-` | Business objective | 001 | |
-| `STK-` | Stakeholder | 001 | |
 | `ORG-` | Organization | 001 | |
 | `CMP-` | Competitor profile | 0001 | |
 | `INT-` | Interview record | 0001 | |

@@ -26,3 +26,6 @@ QA-0024,WP2.5,WP2.5-P1,4,Cross-reference verification,in-progress,self,2026-07-0
 QA-0025,WP1.2,WP1.2,1,Scope completeness,pass,self,2026-07-05,"ACT-012: 18 outputs; ~37 instruments across all sectors + cross-cutting; every documented workflow mapped to >=1 regulation."
 QA-0026,WP1.2,WP1.2,2,Source validation,partial,self,2026-07-05,"14 net-new primary legal sources (SRC-0094..0107, Parliament/ZambiaLII/FAOLEX/regulators) + reuse; 200-net-new target NOT met (GAP-R10)."
 QA-0027,WP1.2,WP1.2,4,Cross-reference verification,in-progress,self,2026-07-05,"Regulation->workflow/authority edges E-0132..E-0143; SIs/penalties/fees pending primary Gazette (GAP-R01/R02)."
+QA-0028,WP1.3,WP1.3,1,Scope completeness,pass,self,2026-07-05,"ACT-013: 20 outputs; 75 stakeholders across 10 categories; every stakeholder linked to >=1 workflow."
+QA-0029,WP1.3,WP1.3,2,Source validation,partial,self,2026-07-05,"Reused established base SRC-0001..0107 (govt preferred for public bodies); 300-net-new target NOT met (GAP-S08) - flagged."
+QA-0030,WP1.3,WP1.3,4,Cross-reference verification,in-progress,self,2026-07-05,"Relationship/influence edges E-0144..E-0155; influence classifications evidence-based; named org granularity pending (GAP-S01)."
