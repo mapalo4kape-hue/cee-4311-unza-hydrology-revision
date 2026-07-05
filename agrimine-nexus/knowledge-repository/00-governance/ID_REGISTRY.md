@@ -4,15 +4,16 @@
 
 | Prefix | Object | Next | Notes |
 |--------|--------|------|-------|
-| `SRC-` | Evidence/source | 0114 | ...0094-107 WP1.2/1.3; 0108-113 WP3 technology |
-| `F-` | Finding | 0079 | ...0074 WP1.3; 0075-0078 WP3 technology |
+| `SRC-` | Evidence/source | 0118 | ...0108-113 WP3 technology; 0114-117 WP4 products |
+| `F-` | Finding | 0085 | ...0075-0078 WP3; 0079-0084 WP4 products/market |
 | `TECH-` | Technology (catalogue) | 0151 | 001-150 allocated (Global Technology Catalogue, WP3) |
 | `GAP-T` | Technology gap | T10 | T01-T09 allocated (WP3) |
+| `GAP-M` | Market/product gap | M09 | M01-M08 allocated (WP4) |
 | `REG-` | Legal instrument | 0038 | 0001-0037 allocated (Legal Instrument Register) |
 | `STK-` | Stakeholder | 076 | 001-075 allocated (Master Stakeholder Register) |
 | `ORG-` | Organisation node | (mnemonic) | ORG-MOA/MRC/ZEMA/ZRA/BOZ/NCC/FRA/ZPPA/MMO/DPC in graph |
 | `WF-L-` | Logistics workflow | L27 | L01-L26 allocated (WP2.5) |
-| `CMP-` | Competitor product | 0154 | 0001-0153 allocated (Global Competitor Catalogue) |
+| `CMP-` | Competitor product | 0249 | 0001-0248 allocated (Global Product Catalogue; 0154-0248 added WP4) |
 | `WF-M/C/E-` | Industry workflows | see handbooks | mining/construction/environmental |
 | `TX-/EV-/MS-/MD-/DC-/REL-` | Ag info objects | see catalogues | WP2.1-P2 information ecosystem |
 | `WF-` | Workflow | 042 | 001-041 allocated (WP2.1 agriculture) |

@@ -166,3 +166,15 @@ E-0164,TECH-OFFLINE,WF-033,IMPLEMENTED_BY,SRC-0059,72,offline sync supports fiel
 E-0165,TECH-MMO,WF-029,IMPLEMENTED_BY,SRC-0084,74,mobile money supports sales/payments
 E-0166,TECH-IAM,REG-0024,GOVERNED_BY,SRC-0112,74,cyber controls satisfy Data Protection Act
 E-0167,TECH-IOT,REG-0017,GOVERNED_BY,SRC-0110,70,environmental IoT monitoring under EMA
+E-0168,CMP-CAT-MINE,WF-M03,SUPPORTS,SRC-0114,72,mining software supports mine planning workflow
+E-0169,CMP-CAT-CONS,WF-C03,SUPPORTS,SRC-0115,70,construction software supports BOQ/valuation workflows
+E-0170,CMP-CAT-LOG,WF-L17,SUPPORTS,SRC-0116,72,logistics software supports warehouse workflows
+E-0171,CMP-CAT-ENV,WF-E10,SUPPORTS,SRC-0117,70,environmental/LIMS supports monitoring workflow
+E-0172,CMP-CAT-MINE,STK-039,SERVES,SRC-0114,72,mining software serves mines
+E-0173,CMP-CAT-CONS,STK-048,SERVES,SRC-0115,70,construction software serves contractors
+E-0174,CMP-CAT-LOG,STK-055,SERVES,SRC-0116,72,logistics software serves fleet operators
+E-0175,CMP-CAT-MINE,TECH-GIS,USES,SRC-0114,72,mining software uses GIS/3D
+E-0176,CMP-CAT-LOG,TECH-IOT,USES,SRC-0116,72,logistics telematics uses IoT/GPS
+E-0177,CMP-0197,CMP-CAT-SADC,MEMBER_OF,SRC-0115,74,RIB Candy is Southern African vendor (construction)
+E-0178,CMP-0215,CMP-CAT-SADC,MEMBER_OF,SRC-0086,74,Cartrack is Southern African vendor (telematics)
+E-0179,CMP-0247,ORG-MOA,OPERATED_BY,SRC-0045,74,ZIAMIS operated by Ministry of Agriculture

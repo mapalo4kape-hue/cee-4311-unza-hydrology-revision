@@ -152,3 +152,98 @@ CMP-0150,Locus Technologies,Locus,USA,North America,Environmental data managemen
 CMP-0151,GrainMate / AgriEdge,various,Africa,Africa,Farm advisory,?,Mobile,Freemium,Y,Y,N,P,N,N,P,Farmer advisory apps (to verify),K,SRC-0075
 CMP-0152,Kobo360,Kobo360,Nigeria,Africa,Logistics marketplace,2017,Mobile,Commission,Y,N,P,P,N,N,Y,Freight/logistics marketplace,K,SRC-0075
 CMP-0153,Lori Systems,Lori,Kenya,Africa,Logistics marketplace,2016,Mobile,Commission,Y,N,P,P,N,N,Y,Haulage marketplace,K,SRC-0075
+CMP-0154,Deswik Suite,Deswik (Sandvik),Australia,Oceania,Mine planning & scheduling,2007,Desktop/Cloud,License,P,Y,Y,P,N,N,P,Integrated mine design+scheduling (strong underground),K,SRC-0114
+CMP-0155,Maptek Vulcan,Maptek,Australia,Oceania,Mine planning / 3D geology,1980s,Desktop,License,N,Y,Y,P,N,N,Y,World's first 3D mining software; block modelling,K,SRC-0114
+CMP-0156,Datamine Studio (RM/OP/UG),Datamine (Constellation),UK,Europe,Geology / mine planning,1981,Desktop,License,N,Y,Y,P,N,N,P,Geostatistics + coal (MineScape),K,SRC-0114
+CMP-0157,Micromine Origin/Beyond,Micromine (Weir),Australia,Oceania,Exploration / mine design,1986,Desktop/Cloud,License,P,Y,Y,Y,N,N,P,Exploration geology + design + AI,K,SRC-0114
+CMP-0158,Hexagon MinePlan,Hexagon,Sweden/USA,Europe,Mine planning,?,Desktop/Cloud,License,P,Y,Y,P,Y,N,Y,Integrated mine planning & fleet/monitoring,K,SRC-0114
+CMP-0159,GEOVIA Surpac,Dassault Systemes,France,Europe,Mine design / geology,1985,Desktop,License,N,Y,Y,P,N,N,Y,Multi-commodity design (100+ countries),K,SRC-0114
+CMP-0160,RPMGlobal XPAC/MinePlanner,RPMGlobal,Australia,Oceania,Mine scheduling / AMT,?,Desktop/Cloud,License,P,Y,Y,P,N,N,Y,Scheduling + asset maintenance (14 countries),K,SRC-0114
+CMP-0161,Seequent Leapfrog,Seequent (Bentley),New Zealand,Oceania,Implicit geological modelling,2004,Desktop/Cloud,Subscription,P,Y,Y,P,N,N,Y,Implicit 3D geology (exploration standard),K,SRC-0114
+CMP-0162,K-MINE,K-MINE,Ukraine,Europe,Integrated mining,?,Desktop,License,P,Y,Y,P,Y,N,P,Geology-to-scheduling + fleet,K,SRC-0114
+CMP-0163,Pitram,Micromine,Australia,Oceania,Fleet mgmt / production,?,On-prem/Cloud,License,Y,P,P,Y,Y,N,Y,Underground fleet & production monitoring,K,SRC-0114
+CMP-0164,Modular Mining DISPATCH,Modular Mining (Komatsu),USA,North America,Fleet management,1979,On-prem/Cloud,License,Y,P,Y,Y,Y,N,Y,Real-time open-pit fleet dispatch,K,SRC-0076
+CMP-0165,Wenco FMS,Wenco (Hitachi),Canada,North America,Fleet management,1993,On-prem/Cloud,License,Y,P,Y,Y,Y,N,Y,Mine fleet management (OEM-agnostic),K,SRC-0076
+CMP-0166,Sandvik OptiMine/Newtrax,Sandvik,Sweden,Europe,Mine digitalisation/telemetry,?,Cloud/OT,License,Y,P,Y,Y,Y,N,Y,Underground telemetry & optimisation,K,SRC-0076
+CMP-0167,IBM Maximo,IBM,USA,North America,EAM / CMMS,?,Cloud/On-prem,License,Y,P,P,Y,Y,N,Y,Enterprise asset management (mining/utilities),K,SRC-0086
+CMP-0168,Fiix,Fiix (Rockwell),Canada,North America,CMMS,2008,Cloud,Subscription,Y,P,N,Y,Y,N,Y,Cloud maintenance management,K,SRC-0086
+CMP-0169,UpKeep,UpKeep,USA,North America,CMMS (mobile-first),2014,Cloud/Mobile,Subscription,Y,P,N,Y,Y,N,Y,Mobile-first maintenance,K,SRC-0086
+CMP-0170,MaintainX,MaintainX,USA,North America,CMMS / work orders,2018,Cloud/Mobile,Freemium,Y,Y,N,Y,Y,N,Y,Frontline work-order + procedures,K,SRC-0086
+CMP-0171,eMaint,Fluke Reliability,USA,North America,CMMS,1986,Cloud,Subscription,Y,P,N,Y,Y,N,Y,Configurable CMMS,K,SRC-0086
+CMP-0172,Cority,Cority,Canada,North America,EHS / safety mgmt,1985,Cloud,Subscription,Y,P,N,Y,N,N,Y,Enterprise EHS management,K,SRC-0080
+CMP-0173,Intelex,Intelex (Fortive),Canada,North America,EHS / quality,1992,Cloud,Subscription,Y,P,N,Y,N,N,Y,EHSQ management,K,SRC-0080
+CMP-0174,Enablon,Wolters Kluwer,France,Europe,EHS / ESG / risk,2000,Cloud,Subscription,Y,N,P,Y,Y,N,Y,Integrated EHS+ESG+ORM,K,SRC-0080
+CMP-0175,Sphera,Sphera,USA,North America,EHS / ESG / product stewardship,?,Cloud,Subscription,Y,N,P,Y,Y,N,Y,EHS & sustainability,K,SRC-0080
+CMP-0176,SafetyCulture (iAuditor),SafetyCulture,Australia,Oceania,Inspection / safety,2012,Cloud/Mobile,Freemium,Y,Y,N,Y,N,N,Y,Mobile inspections/checklists (multi-industry),K,SRC-0080
+CMP-0177,LabWare LIMS,LabWare,USA,North America,LIMS,1987,Cloud/On-prem,License,Y,P,N,Y,N,N,Y,Lab information mgmt (environmental/mining assay),K,SRC-0117
+CMP-0178,STARLIMS,STARLIMS (Abbott),USA,North America,LIMS,1986,Cloud/On-prem,License,Y,P,N,Y,N,N,Y,Enterprise LIMS,K,SRC-0117
+CMP-0179,SENAITE,SENAITE (OSS),International,Global,LIMS (open-source),2017,Self-host,Open-source,Y,P,N,Y,N,N,Y,Open-source LIMS (Plone-based),K,SRC-0117
+CMP-0180,Locus EIM,Locus Technologies,USA,North America,Environmental data mgmt,1997,Cloud,SaaS,Y,N,Y,Y,Y,N,Y,Environmental/water-quality data,K,SRC-0080
+CMP-0181,EarthSoft EQuIS,EarthSoft,USA,North America,Environmental data mgmt,1993,Cloud/On-prem,License,Y,N,Y,Y,Y,N,Y,Environmental data management standard,K,SRC-0080
+CMP-0182,Aquarius (Aquatic Informatics),Aquatic Informatics (Danaher),Canada,North America,Water data / hydrology,2003,Cloud/On-prem,License,Y,N,Y,Y,Y,N,Y,Water monitoring data management,K,SRC-0080
+CMP-0183,KISTERS WISKI,KISTERS,Germany,Europe,Hydrology / water data,?,On-prem/Cloud,License,Y,N,Y,Y,Y,N,Y,Hydrological time-series management,K,SRC-0080
+CMP-0184,Persefoni,Persefoni,USA,North America,Carbon accounting,2020,Cloud,Subscription,Y,N,N,Y,N,N,Y,Carbon management platform,K,SRC-0080
+CMP-0185,Watershed,Watershed,USA,North America,Carbon accounting,2019,Cloud,Subscription,Y,N,N,Y,N,N,Y,Enterprise carbon measurement,K,SRC-0080
+CMP-0186,SAP Sustainability Footprint Mgmt,SAP,Germany,Europe,ESG / carbon,?,Cloud,Subscription,Y,N,N,Y,N,N,Y,Corporate footprint management,K,SRC-0080
+CMP-0187,Salesforce Net Zero Cloud,Salesforce,USA,North America,ESG / carbon,2021,Cloud,Subscription,Y,N,N,Y,N,N,Y,Sustainability reporting on Salesforce,K,SRC-0080
+CMP-0188,Procore,Procore,USA,North America,Construction PM,2002,Cloud/Mobile,Subscription,Y,Y,P,Y,N,N,Y,Construction project management platform,K,SRC-0115
+CMP-0189,Autodesk Construction Cloud,Autodesk,USA,North America,Construction / BIM,?,Cloud,Subscription,Y,Y,Y,Y,N,N,Y,BIM 360 + build + docs,K,SRC-0115
+CMP-0190,Autodesk Revit,Autodesk,USA,North America,BIM authoring,2000,Desktop,Subscription,N,Y,Y,P,N,N,Y,BIM design authoring,K,SRC-0115
+CMP-0191,Bentley OpenRoads/MicroStation,Bentley Systems,USA,North America,Civil / infrastructure design,?,Desktop/Cloud,Subscription,P,Y,Y,P,N,N,Y,Infrastructure engineering (roads/rail),K,SRC-0115
+CMP-0192,Trimble Tekla,Trimble,USA,North America,Structural BIM,?,Desktop,License,N,Y,Y,P,N,N,Y,Structural steel/concrete BIM,K,SRC-0115
+CMP-0193,Oracle Primavera P6,Oracle,USA,North America,Project scheduling,?,Cloud/On-prem,License,P,Y,N,Y,N,N,Y,Enterprise project scheduling,K,SRC-0079
+CMP-0194,Oracle Aconex,Oracle,USA,North America,Construction document control,2000,Cloud,Subscription,Y,N,N,Y,N,N,Y,Project document/collaboration control,K,SRC-0115
+CMP-0195,Bluebeam Revu,Bluebeam (Nemetschek),USA,North America,Construction markup/PDF,2002,Desktop/Cloud,Subscription,Y,Y,N,P,N,N,Y,PDF markup & takeoff,K,SRC-0115
+CMP-0196,CostX,Exactal (RIB),Australia,Oceania,Quantity surveying / estimating,?,Desktop,License,N,Y,P,Y,N,N,P,BIM-based measurement & estimating,K,SRC-0115
+CMP-0197,RIB Candy,RIB Software,South Africa,Southern Africa,Estimating / project control,1980s,Desktop,License,N,Y,N,Y,N,N,P,Estimating+planning (strong Africa civils),K,SRC-0115
+CMP-0198,RIB BuildSmart,RIB Software,South Africa,Southern Africa,Construction ERP / cost,?,Cloud/On-prem,License,Y,N,N,Y,N,N,Y,Cost/accounting ERP for construction,K,SRC-0115
+CMP-0199,Fieldwire,Fieldwire (Hilti),USA,North America,Construction field mgmt,2013,Cloud/Mobile,Subscription,Y,Y,N,Y,N,N,Y,Field task/plan management,K,SRC-0115
+CMP-0200,PlanGrid,Autodesk,USA,North America,Construction field docs,2011,Cloud/Mobile,Subscription,Y,Y,N,Y,N,N,Y,Field blueprints & punch lists,K,SRC-0115
+CMP-0201,Asta Powerproject,Elecosoft,UK,Europe,Construction scheduling,?,Desktop,License,N,Y,N,Y,N,N,P,Construction planning/scheduling,K,SRC-0115
+CMP-0202,Dalux,Dalux,Denmark,Europe,BIM field / facility,2005,Cloud/Mobile,Subscription,Y,Y,Y,Y,N,N,Y,BIM viewer + field + FM,K,SRC-0115
+CMP-0203,OpenProject,OpenProject,Germany,Europe,Project management (OSS),2012,Self-host/Cloud,Open-source,Y,N,N,Y,N,N,Y,Open-source project management,K,SRC-0079
+CMP-0204,Manhattan Active WMS,Manhattan Associates,USA,North America,Warehouse management,1990,Cloud,Subscription,Y,P,N,Y,N,N,Y,Cloud-native microservices WMS,K,SRC-0116
+CMP-0205,Blue Yonder,Blue Yonder (Panasonic),USA,North America,Supply chain / WMS/TMS,1985,Cloud,Subscription,Y,N,N,Y,N,N,Y,SC planning + WMS + TMS,K,SRC-0116
+CMP-0206,SAP TM / EWM,SAP,Germany,Europe,Transportation / warehouse,?,Cloud/On-prem,License,Y,N,N,Y,N,N,Y,TM + extended warehouse on S/4HANA,K,SRC-0116
+CMP-0207,Oracle OTM / WMS Cloud,Oracle,USA,North America,Transportation / warehouse,?,Cloud,Subscription,Y,N,N,Y,N,N,Y,Gartner MQ leader TMS/WMS,K,SRC-0116
+CMP-0208,Descartes,Descartes Systems,Canada,North America,Logistics / trade,1981,Cloud,Subscription,Y,N,P,Y,N,N,Y,Logistics network + customs/trade,K,SRC-0116
+CMP-0209,project44,project44,USA,North America,Visibility / tracking,2014,Cloud,Subscription,Y,N,P,Y,Y,N,Y,Real-time transportation visibility,K,SRC-0116
+CMP-0210,FourKites,FourKites,USA,North America,Supply-chain visibility,2014,Cloud,Subscription,Y,N,P,Y,Y,N,Y,Predictive freight visibility,K,SRC-0116
+CMP-0211,Samsara,Samsara,USA,North America,Fleet telematics / IoT,2015,Cloud/IoT,Subscription,Y,P,Y,Y,Y,N,Y,Connected fleet & equipment,K,SRC-0086
+CMP-0212,Geotab,Geotab,Canada,North America,Fleet telematics,2000,Cloud/IoT,Subscription,Y,P,Y,Y,Y,N,Y,Open telematics platform,K,SRC-0086
+CMP-0213,Fleetio,Fleetio,USA,North America,Fleet maintenance,2012,Cloud/Mobile,Subscription,Y,P,N,Y,Y,N,Y,Fleet maintenance management,K,SRC-0086
+CMP-0214,Wialon,Gurtam,Lithuania,Europe,GPS tracking / telematics,2002,Cloud,Subscription,Y,P,Y,Y,Y,N,Y,GPS fleet tracking (strong EM/Africa),K,SRC-0086
+CMP-0215,Cartrack,Karooooo,South Africa,Southern Africa,Fleet telematics,2001,Cloud/IoT,Subscription,Y,P,Y,Y,Y,N,Y,Vehicle tracking & fleet (pan-African),K,SRC-0086
+CMP-0216,MiX Telematics (Powerfleet),MiX Telematics,South Africa,Southern Africa,Fleet telematics / safety,1996,Cloud/IoT,Subscription,Y,P,Y,Y,Y,N,Y,Fleet safety & telematics (mining/transport),K,SRC-0086
+CMP-0217,Loginext,Loginext,India/USA,Asia,Delivery / route optimisation,2014,Cloud/Mobile,Subscription,Y,P,Y,Y,Y,N,Y,Last-mile & route optimisation,K,SRC-0086
+CMP-0218,Shipsy,Shipsy,India,Asia,Logistics management,2015,Cloud,Subscription,Y,P,Y,Y,N,N,Y,Logistics + trade management,K,SRC-0086
+CMP-0219,Infor WMS,Infor,USA,North America,Warehouse management,?,Cloud,Subscription,Y,N,N,Y,N,N,Y,Cloud WMS (Logfire),K,SRC-0086
+CMP-0220,Korber WMS,Korber Supply Chain,Germany,Europe,Warehouse management,?,Cloud/On-prem,License,Y,N,N,Y,Y,N,Y,WMS + automation,K,SRC-0086
+CMP-0221,OpenBoxes,OpenBoxes (OSS),USA,North America,Inventory / supply chain (OSS),2011,Self-host,Open-source,Y,Y,N,Y,N,N,Y,Open-source inventory (health/humanitarian),K,SRC-0086
+CMP-0222,Sage 300 / Sage X3,Sage,UK,Europe,ERP,?,Cloud/On-prem,License,Y,N,N,Y,N,N,Y,Mid-market ERP (strong Southern Africa),K,SRC-0079
+CMP-0223,Sage Pastel / Evolution,Sage,South Africa,Southern Africa,Accounting / ERP,1989,Desktop/Cloud,License,Y,N,N,Y,N,N,Y,Dominant SME accounting in SA/Zambia,K,SRC-0079
+CMP-0224,Palladium,Palladium Software,South Africa,Southern Africa,Accounting / ERP,?,Desktop/Cloud,License,Y,N,N,Y,N,N,P,SME accounting (Southern Africa),K,SRC-0079
+CMP-0225,Omni Accounts,Omni Accounts,South Africa,Southern Africa,Accounting / ERP,1990s,Desktop/Cloud,License,Y,Y,N,Y,N,N,P,SME accounting/inventory (Southern Africa),K,SRC-0079
+CMP-0226,QuickBooks,Intuit,USA,North America,Accounting,1983,Cloud/Desktop,Subscription,Y,N,N,Y,N,N,Y,SME accounting (widely used),K,SRC-0079
+CMP-0227,Xero,Xero,New Zealand,Oceania,Accounting,2006,Cloud,Subscription,Y,N,N,Y,N,N,Y,Cloud SME accounting,K,SRC-0079
+CMP-0228,Zoho One,Zoho,India,Asia,Business suite,2005,Cloud,Subscription,Y,P,N,Y,P,N,Y,All-in-one CRM/ERP/office suite,K,SRC-0079
+CMP-0229,ServiceNow,ServiceNow,USA,North America,Workflow / ITSM,2004,Cloud,Subscription,Y,N,N,Y,Y,N,Y,Enterprise workflow platform,K,SRC-0079
+CMP-0230,Appian,Appian,USA,North America,Low-code / BPM,1999,Cloud,Subscription,Y,N,N,Y,Y,N,Y,Low-code process automation,K,SRC-0079
+CMP-0231,OutSystems,OutSystems,Portugal,Europe,Low-code,2001,Cloud,Subscription,Y,P,N,Y,Y,N,Y,Enterprise low-code,K,SRC-0079
+CMP-0232,Mendix,Mendix (Siemens),Netherlands,Europe,Low-code,2005,Cloud,Subscription,Y,P,N,Y,Y,N,Y,Enterprise low-code,K,SRC-0079
+CMP-0233,Microsoft Power Platform,Microsoft,USA,North America,Low-code / automation,2016,Cloud,Subscription,Y,P,N,Y,Y,N,Y,Power Apps/Automate/BI,K,SRC-0079
+CMP-0234,Budibase,Budibase,UK,Europe,Low-code (OSS),2019,Self-host/Cloud,Open-source,Y,P,N,Y,N,N,Y,Open-source internal-tools builder,K,SRC-0079
+CMP-0235,DocuWare,DocuWare (Ricoh),Germany,Europe,Document management,1988,Cloud/On-prem,Subscription,Y,N,N,Y,P,N,Y,ECM + workflow,K,SRC-0079
+CMP-0236,M-Files,M-Files,Finland,Europe,Document management,2005,Cloud/On-prem,Subscription,Y,N,N,Y,Y,N,Y,Metadata-driven ECM,K,SRC-0079
+CMP-0237,Workday,Workday,USA,North America,HRM / finance,2005,Cloud,Subscription,Y,N,N,Y,Y,N,Y,Enterprise HCM + finance,K,SRC-0079
+CMP-0238,SAP SuccessFactors,SAP,Germany,Europe,HRM,?,Cloud,Subscription,Y,N,N,Y,Y,N,Y,Enterprise HCM,K,SRC-0079
+CMP-0239,BambooHR,BambooHR,USA,North America,HRM (SME),2008,Cloud,Subscription,Y,N,N,Y,N,N,Y,SME HR management,K,SRC-0079
+CMP-0240,PaySpace / Sage People,various,South Africa,Southern Africa,Payroll / HRM,?,Cloud,Subscription,Y,N,N,Y,N,N,Y,African payroll/HR (multi-country tax),K,SRC-0079
+CMP-0241,Probase,Probase,Zambia,Southern Africa,Software house / fintech,2002,Cloud/On-prem,License/Service,Y,P,N,Y,N,N,P,Zambian software & payments integrator,K,SRC-0073
+CMP-0242,Lupiya,Lupiya,Zambia,Southern Africa,Digital lending,2016,Cloud/Mobile,Interest/fee,Y,N,N,P,N,N,Y,Zambian digital microlending marketplace,K,SRC-0084
+CMP-0243,PremierCredit,PremierCredit,Zambia,Southern Africa,Digital lending,2019,Mobile,Interest/fee,Y,N,N,P,N,N,Y,Zambian/Zimbabwean digital loans,K,SRC-0084
+CMP-0244,Union54 / Broadpay,various,Zambia,Southern Africa,Fintech / card issuing,2021,Cloud/API,Transaction,Y,N,N,N,N,N,Y,Zambian fintech API/card issuing,K,SRC-0084
+CMP-0245,eShandi (PayGo/Zazu),eShandi,Zambia,Southern Africa,Digital finance / SME,2016,Mobile,Transaction/credit,Y,N,N,P,N,N,Y,Zambian SME digital finance,K,SRC-0084
+CMP-0246,Infratel / SmartZambia services,GRZ/Infratel,Zambia,Southern Africa,Government ICT / data centre,?,Cloud/On-prem,Government,N,N,N,N,N,N,P,National data-centre & e-gov infrastructure,K,SRC-0068
+CMP-0247,ZIAMIS,GRZ (MoA),Zambia,Southern Africa,Agriculture subsidy mgmt,2015,Cloud,Government,Y,N,P,N,N,N,P,e-voucher/FISP farmer registry (government),K,SRC-0045
+CMP-0248,MNO agri/USSD platforms (MTN/Airtel/Zamtel),MNOs,Zambia,Southern Africa,Mobile money / USSD,?,Mobile/USSD,Transaction,Y,Y,N,P,N,N,Y,Feature-phone money & advisory rails,K,SRC-0084
