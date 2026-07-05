@@ -142,3 +142,15 @@ E-0140,WF-032,REG-0031,GOVERNED_BY,SRC-0104,86,finance workflows under FIC/AML
 E-0141,REG-0017,ENT-EIA,GOVERNED_BY,SRC-0069,86,EMA administered by ZEMA (authority link)
 E-0142,REG-0012,ENT-MININGRIGHT,GOVERNED_BY,SRC-0064,84,MRCA administers mining rights (MRC authority)
 E-0143,REG-0024,ENT-FARMER,GOVERNED_BY,SRC-0012,90,personal data (farmer registry) under DPA
+E-0144,F-0074,SRC-0020,DERIVED_FROM,SRC-0020;SRC-0064;SRC-0069,82,stakeholder ecosystem
+E-0145,ORG-MRC,ENT-MINE,GOVERNED_BY,SRC-0064,84,MRC regulates/licenses mines (regulates)
+E-0146,ORG-ZEMA,ENT-MINE,MONITORED_BY,SRC-0069,84,ZEMA audits mines (inspects/audits)
+E-0147,ORG-NCC,ENT-CONTRACTOR,GOVERNED_BY,SRC-0067,84,NCC registers/grades contractors (licenses)
+E-0148,ORG-MOA,ENT-FARMER,SATISFIES,SRC-0045,84,MoA subsidises/registers farmers (supports)
+E-0149,ORG-FRA,ENT-COMMODITY,CONSUMES,SRC-0052,82,FRA purchases commodity (purchases)
+E-0150,ORG-MMO,ENT-FARMER,SATISFIES,SRC-0084,80,mobile money pays/serves farmers (pays)
+E-0151,ORG-ZRA,ENT-SHIPMENT,GOVERNED_BY,SRC-0090,84,ZRA clears/taxes shipments (audits)
+E-0152,ORG-DPC,ORG-MOA,GOVERNED_BY,SRC-0012,88,DPC regulates data holders incl MoA/ZIAMIS (regulates)
+E-0153,ORG-ZPPA,ENT-PROJECT,GOVERNED_BY,SRC-0102,84,ZPPA governs public procurement of projects (regulates)
+E-0154,ENT-CFAGENT,ORG-ZRA,GOVERNED_BY,SRC-0092,82,C&F agents licensed by/report to ZRA (reports_to)
+E-0155,ENT-WAREHOUSE-L,ORG-BOZ,GOVERNED_BY,SRC-0062,78,WRS finance under BoZ/FIC supervision (info flow)
