@@ -5,7 +5,7 @@ Tracks execution of every MREP work package and its progress through the 8 QA ga
 **Legend:** ☐ not started · ◐ in progress · ☑ passed · — n/a
 **QA Gates:** G1 Scope · G2 Source validation · G3 Evidence quality · G4 Cross-reference · G5 Requirement extraction · G6 Architecture relevance · G7 Business impact · G8 Executive/final review.
 
-_Last updated: 2026-07-05_
+_Last updated: 2026-07-05 (WP1.1 Project Initiation Package submitted for Gate 1)_
 
 ---
 
@@ -13,7 +13,7 @@ _Last updated: 2026-07-05_
 
 | WP | Name | Key deliverables | Status | G1 | G2 | G3 | G4 | G5 | G6 | G7 | G8 |
 |----|------|------------------|--------|----|----|----|----|----|----|----|----|
-| 1.1 | National Intelligence | Zambia Country Profile · Economic Analysis · Infrastructure Map · Digital Readiness Report | Not started | ☐ | ☐ | ☐ | ☐ | ☐ | ☐ | ☐ | ☐ |
+| 1.1 | National Intelligence | Zambia Country Profile · Economic Analysis · Infrastructure Map · Digital Readiness Report | Initiation — PIP submitted (Gate 1 review) | ◐ | ☐ | ☐ | ☐ | ☐ | ☐ | ☐ | ☐ |
 | 1.2 | Policy & Regulatory Landscape | Regulatory Matrix · Compliance Handbook · Legal Requirement Catalogue | Not started | ☐ | ☐ | ☐ | ☐ | ☐ | ☐ | ☐ | ☐ |
 | 1.3 | Stakeholder Mapping | Stakeholder Register · Influence Map · Decision-Maker Matrix | Not started | ☐ | ☐ | ☐ | ☐ | ☐ | ☐ | ☐ | ☐ |
 
