@@ -1,8 +1,10 @@
-# AgriMine Nexus — Research Governance Workspace
+# AgriMine Nexus — Research Repository
 
-This folder holds the research-governance materials for the **AgriMine Nexus** project, following the *Master Research Operating Manual (ROM), Version 1.0*.
+> **Single source of truth** for the AgriMine Nexus research programme. This directory is the **root of the dedicated `agrimine-nexus-research` repository** — see [`MIGRATION_REPORT.md`](MIGRATION_REPORT.md) for the migration out of the hydrology repository (history-preserving).
 
-The working rule (from the project directive): **read and internalise the ROM, and each time an activity is carried out, produce a record of *how* it was done and save it to GitHub.**
+The working rule (from the project directive): **read and internalise the governing documents, and each time an activity is carried out, produce a record of *how* it was done and save it to GitHub.**
+
+The project follows a strict order: **Governance → Research Engine → Research Execution.** It is now in **Research Execution** (Stage 1 · WP1.1), operating in research-consultant mode.
 
 ## Governance documents (all binding)
 
@@ -34,11 +36,23 @@ The working rule (from the project directive): **read and internalise the ROM, a
 | [ACT-001](activity-log/2026-07-05_ACT-001_read-and-internalise-rom.md) | 2026-07-05 | Read & internalise the ROM | Planning (governance intake) | Complete |
 | [ACT-002](activity-log/2026-07-05_ACT-002_internalise-mrep-and-add-citation-standard.md) | 2026-07-05 | Internalise the MREP, scaffold knowledge repo, add Citation Standard | Planning (governance intake) | Complete |
 | [ACT-003](activity-log/2026-07-05_ACT-003_build-research-engine.md) | 2026-07-05 | Build the Research Engine (REIS v1.0) — 10 components, 12 deliverables | Engine build (pre-Stage 1) | Complete |
-| [ACT-004](activity-log/2026-07-05_ACT-004_wp1.1-project-initiation-package.md) | 2026-07-05 | Open WP1.1 & produce the Project Initiation Package (PIP) | Stage 1 · initiation | Complete (PIP in Gate 1 review) |
+| [ACT-004](activity-log/2026-07-05_ACT-004_wp1.1-project-initiation-package.md) | 2026-07-05 | Open WP1.1 & produce the Project Initiation Package (PIP) | Stage 1 · initiation | Complete |
+| [ACT-005](activity-log/2026-07-05_ACT-005_repository-migration-and-evidence-acquisition-prep.md) | 2026-07-05 | Repository migration prep + WP1.1 evidence-acquisition system | Stage 1 · execution prep | Complete (awaiting review) |
+
+## Evidence-acquisition system (ACT-005, WP1.1)
+
+| Artifact | Location |
+|----------|----------|
+| Master Source Register (44 sources) | [`knowledge-repository/02-evidence/MASTER_SOURCE_REGISTER.csv`](knowledge-repository/02-evidence/MASTER_SOURCE_REGISTER.csv) |
+| Research Collection Matrix (174 RQs) | [`knowledge-repository/02-evidence/RESEARCH_COLLECTION_MATRIX.csv`](knowledge-repository/02-evidence/RESEARCH_COLLECTION_MATRIX.csv) |
+| National Data Inventory (32 datasets) | [`knowledge-repository/15-datasets/NATIONAL_DATA_INVENTORY.csv`](knowledge-repository/15-datasets/NATIONAL_DATA_INVENTORY.csv) |
+| Source Validation Plan | [`knowledge-repository/02-evidence/SOURCE_VALIDATION_PLAN.md`](knowledge-repository/02-evidence/SOURCE_VALIDATION_PLAN.md) |
+| Data Collection Strategy | [`knowledge-repository/02-evidence/DATA_COLLECTION_STRATEGY.md`](knowledge-repository/02-evidence/DATA_COLLECTION_STRATEGY.md) |
+| Dashboard Snapshot | [`knowledge-repository/21-quality-assurance/DASHBOARD_SNAPSHOT.md`](knowledge-repository/21-quality-assurance/DASHBOARD_SNAPSHOT.md) |
 
 ## Current position
 
-Now operating in **research-consultant mode**. WP1.1 is **open**: the [Project Initiation Package](knowledge-repository/01-research/WP1.1_project-initiation-package_v01.md) (objectives, scope, ~250 research questions, deliverables, sources, stakeholders, outputs, risks, acceptance criteria, activity plan) is submitted for **QA Gate 1**. **No data collection begins until the PIP is approved.** Next: ACT-005 (planning refinement). Status tracked in [`knowledge-repository/WORK_PACKAGE_TRACKER.md`](knowledge-repository/WORK_PACKAGE_TRACKER.md).
+WP1.1 evidence-acquisition system is **prepared and 100% cross-mapped** (every research question maps to ≥1 source; every source maps to ≥1 question). **This is still preparation — no evidence collected, no analysis, no conclusions.** Awaiting review before collection (ACT-006). Repository migration to `agrimine-nexus-research` is prepared and validated; the final create-repo/push step needs GitHub write access (see [`MIGRATION_REPORT.md`](MIGRATION_REPORT.md)). Status tracked in [`knowledge-repository/WORK_PACKAGE_TRACKER.md`](knowledge-repository/WORK_PACKAGE_TRACKER.md).
 
 ## How to add a new activity record
 
