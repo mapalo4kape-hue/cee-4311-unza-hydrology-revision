@@ -33,6 +33,23 @@
 | **Research Gaps** | requirements with broken forward/backward chains | traceability rule check (D6 §3) |
 | **Quality Gate Status** | count of artifacts per gate result | QA gate log |
 
+## 2b. Evidence-acquisition preparation panels (added ACT-005)
+
+Computed from the Master Source Register, National Data Inventory, and Research Collection Matrix:
+
+| Panel | Metric | Computation |
+|-------|--------|-------------|
+| **Sources Identified** | count of catalogued sources | rows in `02-evidence/MASTER_SOURCE_REGISTER.csv` |
+| **Datasets Identified** | count of expected datasets | rows in `15-datasets/NATIONAL_DATA_INVENTORY.csv` |
+| **Coverage by Theme** | research questions & sources per theme | group Research Collection Matrix by `theme` |
+| **Coverage by Province** | data availability per province | join datasets/sources spatial coverage → 10 provinces |
+| **Coverage by Institution** | sources per organisation/owner | group source register by `organization` |
+| **Coverage by Research Question** | % RQs mapped to ≥1 source | matrix rows with non-empty `potential_source_ids` ÷ total RQs |
+| **Coverage by Reliability Tier** | sources per tier (1–4) | group source register by `reliability_tier` |
+| **Coverage by Data Format** | datasets per format | group data inventory by `format` |
+
+A point-in-time computation of these panels is stored in `knowledge-repository/21-quality-assurance/DASHBOARD_SNAPSHOT.md`.
+
 ## 3. Derived quality indicators
 
 - **Traceability completeness** = requirements with full evidence→value chain ÷ total requirements.
