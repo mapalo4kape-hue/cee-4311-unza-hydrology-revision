@@ -4,8 +4,9 @@
 
 | Prefix | Object | Next | Notes |
 |--------|--------|------|-------|
-| `SRC-` | Evidence/source | 0071 | 0001-63 (WP1.1/WP2.1); 0064-70 WP2.2/2.3/2.4 |
-| `F-` | Finding | 0062 | 0001-55 (WP1.1/WP2.1); 0056-61 cross-industry sprint |
+| `SRC-` | Evidence/source | 0087 | 0001-70 (WP1.1/WP2.x); 0071-86 WP4.1 competitors |
+| `F-` | Finding | 0067 | 0001-61 (WP1.1/WP2.x); 0062-66 WP4.1 competitor landscape |
+| `CMP-` | Competitor product | 0154 | 0001-0153 allocated (Global Competitor Catalogue) |
 | `WF-M/C/E-` | Industry workflows | see handbooks | mining/construction/environmental |
 | `TX-/EV-/MS-/MD-/DC-/REL-` | Ag info objects | see catalogues | WP2.1-P2 information ecosystem |
 | `WF-` | Workflow | 042 | 001-041 allocated (WP2.1 agriculture) |

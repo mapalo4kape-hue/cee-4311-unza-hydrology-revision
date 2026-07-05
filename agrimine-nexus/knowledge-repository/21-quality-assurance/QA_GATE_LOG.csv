@@ -17,3 +17,6 @@ QA-0015,WP2.2,WP2.2-P1,1,Scope completeness,pass,self,2026-07-05,"ACT-010 breadt
 QA-0016,WP2.3,WP2.3-P1,1,Scope completeness,pass,self,2026-07-05,"ACT-010 breadth-first: construction handbook covers all 9 outputs."
 QA-0017,WP2.4,WP2.4-P1,1,Scope completeness,pass,self,2026-07-05,"ACT-010 breadth-first: environmental handbook covers all 9 outputs."
 QA-0018,WP2.2-2.4,XIND,2,Source validation,in-progress,self,2026-07-05,"7 sources (SRC-0064..0070); regulators/laws from authoritative/legal sources; recent-law implementation flagged."
+QA-0019,WP4.1,WP4.1-P1,1,Scope completeness,pass,self,2026-07-05,"ACT-011: 153 products across all 28 categories & 8 regions; 50+ African, 25+ Zambia-relevant."
+QA-0020,WP4.1,WP4.1-P1,2,Source validation,partial,self,2026-07-05,"~26 products/segments web-verified (V); remainder catalog-known (K) requiring independent verification; 16 sources registered; 500+ per-product citation target NOT met - flagged as follow-on."
+QA-0021,WP4.1,WP4.1-P1,3,Evidence quality review,in-progress,self,2026-07-05,"Verification status per catalogue row; review-platform evidence treated as Tier 3-4 signal; honest gap noted in exec summary."

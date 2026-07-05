@@ -5,7 +5,7 @@ Tracks execution of every MREP work package and its progress through the 8 QA ga
 **Legend:** ☐ not started · ◐ in progress · ☑ passed · — n/a
 **QA Gates:** G1 Scope · G2 Source validation · G3 Evidence quality · G4 Cross-reference · G5 Requirement extraction · G6 Architecture relevance · G7 Business impact · G8 Executive/final review.
 
-_Last updated: 2026-07-05 (Cross-industry breadth-first sprint WP2.2/2.3/2.4 + comparative — ACT-010; 70 total sources; awaiting review)_
+_Last updated: 2026-07-05 (WP4.1 global competitor intelligence — ACT-011; 153 products catalogued; 86 total evidence sources; awaiting review)_
 
 ---
 
@@ -41,7 +41,7 @@ _Last updated: 2026-07-05 (Cross-industry breadth-first sprint WP2.2/2.3/2.4 + c
 
 | WP | Name | Key deliverables | Status | G1 | G2 | G3 | G4 | G5 | G6 | G7 | G8 |
 |----|------|------------------|--------|----|----|----|----|----|----|----|----|
-| 4.1 | Competitor Analysis | Competitor Encyclopedia · Feature Comparison Matrix | Not started | ☐ | ☐ | ☐ | ☐ | ☐ | ☐ | ☐ | ☐ |
+| 4.1 | Competitor Analysis | Competitor Encyclopedia · Feature Comparison Matrix | Phase 1 done — ACT-011 (153 products, 12 deliverables); verification depth partial; awaiting review | ◐ | ◐ | ◐ | ☐ | ☐ | ☐ | ☐ | ☐ |
 | 4.2 | Product Feature Library | Master Feature Catalogue · Functional Requirement Register | Not started | ☐ | ☐ | ☐ | ☐ | ☐ | ☐ | ☐ | ☐ |
 | 4.3 | Integration Research | Integration Catalogue · API Opportunity Register | Not started | ☐ | ☐ | ☐ | ☐ | ☐ | ☐ | ☐ | ☐ |
 
