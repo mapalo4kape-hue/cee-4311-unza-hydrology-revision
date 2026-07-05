@@ -4,8 +4,9 @@
 
 | Prefix | Object | Next | Notes |
 |--------|--------|------|-------|
-| `SRC-` | Evidence/source | 0045 | 0001-0002 governance; 0003-0022 Phase 1; 0023-0044 Phase 2 |
-| `F-` | Finding | 0047 | 0001-0021 Phase 1; 0022-0046 Phase 2 |
+| `SRC-` | Evidence/source | 0058 | 0001-02 gov; 0003-22 WP1.1-P1; 0023-44 WP1.1-P2; 0045-57 WP2.1-P1 |
+| `F-` | Finding | 0053 | 0001-46 WP1.1; 0047-0052 WP2.1-P1 |
+| `WF-` | Workflow | 042 | 001-041 allocated (WP2.1 agriculture) |
 | `LOC-` | Location instance | ZM + ZM01-ZM10 used | Zambia + 10 provinces in graph |
 | `ENT-` | Knowledge entity | see Master Entity Catalogue | uses mnemonic ids (e.g. ENT-FARM) |
 | `TAX-` | Taxonomy node | per facet | see Master Taxonomy |
@@ -17,7 +18,6 @@
 | `DB-` | Database entity | mnemonic | |
 | `API-` | API endpoint | 001 | |
 | `UI-` | UI screen | 001 | |
-| `WF-` | Workflow | 001 | |
 | `AR-` | Automation rule | 001 | |
 | `AI-` | AI model/use case | 001 | |
 | `GIS-` | GIS layer | 001 | |

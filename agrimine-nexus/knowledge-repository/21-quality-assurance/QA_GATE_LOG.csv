@@ -7,3 +7,6 @@ QA-0005,WP1.1,WP1.1-P1,4,Cross-reference verification,in-progress,self,2026-07-0
 QA-0006,WP1.1,WP1.1-P2,2,Source validation,in-progress,self,2026-07-05,"ACT-007: 22 new sources (SRC-0023..0044); government/primary preferred; integrity/checksum pending."
 QA-0007,WP1.1,WP1.1-P2,3,Evidence quality review,in-progress,self,2026-07-05,"Confidence scored; provisional (<75) items flagged (sector shares, internet penetration, insurance, agri/commodities)."
 QA-0008,WP1.1,WP1.1-P2,4,Cross-reference verification,in-progress,self,2026-07-05,"Contradictions logged: population de facto/de jure (E-0058); internet penetration ZICTA vs DataReportal (E-0049); electricity access 2023 vs 2020."
+QA-0009,WP2.1,WP2.1-P1,1,Scope completeness,pass,self,2026-07-05,"ACT-008: 41 workflows + 20 stakeholders cover the requested operational scope; crops/software/features/competitors/AI correctly excluded."
+QA-0010,WP2.1,WP2.1-P1,2,Source validation,in-progress,self,2026-07-05,"13 sources (SRC-0045..0057); government/authoritative preferred (MoA, SZI, World Bank, PARM, J-PAL)."
+QA-0011,WP2.1,WP2.1-P1,3,Evidence quality review,in-progress,self,2026-07-05,"Zambia-specific mechanisms cited; generic operational structure flagged as consultant synthesis; field-interview gaps recorded."

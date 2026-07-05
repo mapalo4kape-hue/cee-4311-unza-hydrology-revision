@@ -5,7 +5,7 @@ Tracks execution of every MREP work package and its progress through the 8 QA ga
 **Legend:** ☐ not started · ◐ in progress · ☑ passed · — n/a
 **QA Gates:** G1 Scope · G2 Source validation · G3 Evidence quality · G4 Cross-reference · G5 Requirement extraction · G6 Architecture relevance · G7 Business impact · G8 Executive/final review.
 
-_Last updated: 2026-07-05 (WP1.1 Phase 2 operational baseline acquired — ACT-007; 44 total sources; awaiting review before WP2.1)_
+_Last updated: 2026-07-05 (WP2.1 Phase 1 agricultural operations intelligence — ACT-008; 57 total sources; awaiting review)_
 
 ---
 
@@ -21,7 +21,7 @@ _Last updated: 2026-07-05 (WP1.1 Phase 2 operational baseline acquired — ACT-0
 
 | WP | Name | Key deliverables | Status | G1 | G2 | G3 | G4 | G5 | G6 | G7 | G8 |
 |----|------|------------------|--------|----|----|----|----|----|----|----|----|
-| 2.1 | Agriculture | Agriculture Encyclopedia · Crop Value Chain Maps · Farm Workflow Models · Pain Point Matrix · Feature Requirement Catalogue | Not started | ☐ | ☐ | ☐ | ☐ | ☐ | ☐ | ☐ | ☐ |
+| 2.1 | Agriculture | Agriculture Encyclopedia · Crop Value Chain Maps · Farm Workflow Models · Pain Point Matrix · Feature Requirement Catalogue | Phase 1 operations intelligence done (41 workflows, 20 stakeholders, 13 sources); awaiting review | ◐ | ◐ | ◐ | ◐ | ☐ | ☐ | ☐ | ☐ |
 | 2.2 | Mining | Mining Operations Handbook · Mining Workflow Library · Procurement Analysis · Compliance Matrix · AI Opportunity Report | Not started | ☐ | ☐ | ☐ | ☐ | ☐ | ☐ | ☐ | ☐ |
 | 2.3 | Construction | Construction Process Library · BOQ Knowledge Base · Site Workflow Models · Digital Construction Opportunity Report | Not started | ☐ | ☐ | ☐ | ☐ | ☐ | ☐ | ☐ | ☐ |
 | 2.4 | Environmental Engineering | Environmental Operations Guide · Compliance Matrix · Monitoring Framework | Not started | ☐ | ☐ | ☐ | ☐ | ☐ | ☐ | ☐ | ☐ |

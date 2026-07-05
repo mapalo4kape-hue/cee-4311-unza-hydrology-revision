@@ -39,7 +39,8 @@ The project follows a strict order: **Governance → Research Engine → Researc
 | [ACT-004](activity-log/2026-07-05_ACT-004_wp1.1-project-initiation-package.md) | 2026-07-05 | Open WP1.1 & produce the Project Initiation Package (PIP) | Stage 1 · initiation | Complete |
 | [ACT-005](activity-log/2026-07-05_ACT-005_repository-migration-and-evidence-acquisition-prep.md) | 2026-07-05 | Repository migration prep + WP1.1 evidence-acquisition system | Stage 1 · execution prep | Complete |
 | [ACT-006](activity-log/2026-07-05_ACT-006_wp1.1-phase1-authoritative-evidence-acquisition.md) | 2026-07-05 | WP1.1 Phase 1 authoritative evidence acquisition (Zambia national baseline) | Stage 1 · collection | Complete |
-| [ACT-007](activity-log/2026-07-05_ACT-007_wp1.1-phase2-economic-digital-infrastructure-baseline.md) | 2026-07-05 | WP1.1 Phase 2 economic/population/infrastructure/financial/digital/logistics/climate baseline | Stage 1 · collection | Complete (awaiting review) |
+| [ACT-007](activity-log/2026-07-05_ACT-007_wp1.1-phase2-economic-digital-infrastructure-baseline.md) | 2026-07-05 | WP1.1 Phase 2 economic/population/infrastructure/financial/digital/logistics/climate baseline | Stage 1 · collection | Complete |
+| [ACT-008](activity-log/2026-07-05_ACT-008_wp2.1-phase1-agricultural-operations-intelligence.md) | 2026-07-05 | WP2.1 Phase 1 agricultural operations intelligence (41 workflows, 20 stakeholders) | Stage 2 · operations | Complete (awaiting review) |
 
 ## Evidence-acquisition system (ACT-005, WP1.1)
 
@@ -54,7 +55,7 @@ The project follows a strict order: **Governance → Research Engine → Researc
 
 ## Current position
 
-**WP1.1 Phase 1 (national baseline, ACT-006) and Phase 2 (operational baseline, ACT-007) are complete** — **44 cited authoritative sources** in total, with findings and contradictions traced in the knowledge graph. Phase-2 outputs (economy, population, infrastructure, financial & digital ecosystems, logistics, climate): [`knowledge-repository/01-research/WP1.1-phase2-operational-baseline/`](knowledge-repository/01-research/WP1.1-phase2-operational-baseline/). Pure evidence acquisition — no analysis, recommendations, strategy, or design. **STOP condition active: awaiting review before opening WP2.1 (Agriculture).** Repository migration to `agrimine-nexus-research` remains prepared/validated; the final create-repo/rename/push step needs GitHub write access (see [`MIGRATION_REPORT.md`](MIGRATION_REPORT.md)). Status: [`knowledge-repository/WORK_PACKAGE_TRACKER.md`](knowledge-repository/WORK_PACKAGE_TRACKER.md).
+**WP1.1 complete** (Phase 1 national baseline + Phase 2 operational baseline; ACT-006/007) and **WP2.1 Phase 1 (Agricultural Operations Intelligence, ACT-008) complete** — **57 cited authoritative sources** total. WP2.1 documented **41 end-to-end agricultural workflows** and **20 stakeholders** with decision, information, document, asset, KPI, pain-point, and risk registers: [`knowledge-repository/06-industries/agriculture/WP2.1-phase1-operations/`](knowledge-repository/06-industries/agriculture/WP2.1-phase1-operations/). Operational intelligence only — no crop research, software requirements, features, competitors, or AI analysis. **STOP condition active: awaiting review.** Repository migration to `agrimine-nexus-research` remains prepared/validated; the final create-repo/rename/push needs GitHub write access ([`MIGRATION_REPORT.md`](MIGRATION_REPORT.md)). Status: [`knowledge-repository/WORK_PACKAGE_TRACKER.md`](knowledge-repository/WORK_PACKAGE_TRACKER.md).
 
 ## How to add a new activity record
 
